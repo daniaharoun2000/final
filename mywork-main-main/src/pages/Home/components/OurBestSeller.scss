@@ -1,0 +1,17 @@
+#main-home {
+
+.line{
+
+    content: "";
+    position: absolute;
+ 
+    border-bottom: 1px dashed rgba(74,85,104,0.3);
+    width: calc(100% - 103px);
+}
+ .price {
+    margin-top: 6px;
+    font-weight: 600;
+    margin-bottom: -2px;
+}
+
+}

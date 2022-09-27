@@ -1,0 +1,59 @@
+#main-home {
+    .footercover{
+   
+        content: "";
+      
+        background-size: 	385 px 751 px;
+
+        top: 0;
+        left: 0;
+        background-image: url(https://themes.pixelstrap.com/fastkart/assets/images/vegetable/footer-shape.png);
+        background-repeat: no-repeat;
+        z-index: -1;
+    
+}
+
+.service-contain .service-box {
+    
+    display: flex;
+   
+    align-items: center;
+    position: relative;
+}
+
+///////////////section2
+.logoo {
+width: calc(120px + (160 - 120) * ((100vw - 320px) / (1920 - 320)));
+}
+svgg{
+    width: 18px;
+    height: 18px;
+    stroke: #4a5568;
+}
+
+ .main-footer .footer-contain ul li {
+    display: block;
+ 
+}
+.lineundersection{
+
+    content: "";
+ 
+ 
+    border-bottom: 1px dashed rgba(74,85,104,0.3);
+    width: calc(100% - 103px);
+}
+
+////section3
+.oneshapeline {
+    content: "";
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 1px;
+    height: 50%;
+    left: -104px;
+    border: 1px dashed #c1c1c1;
+}
+}
