@@ -5,7 +5,7 @@ import "./Footer.scss"
 
 function Footer() {
   return (
-    <div className="footercover bg-cat py-4 ">
+    <div className="footercover bg-cat ">
       <section >
         <Section1 />
       </section>

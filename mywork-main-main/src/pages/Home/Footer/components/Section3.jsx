@@ -7,7 +7,7 @@ function Section3() {
   return (
     <div className="sub-footer section-small-space">
       <Container>
-        <div className="  d-lg-block d-md-none d-sm-none">
+        <div className="  d-lg-block d-md-none d-sm-none  py-4">
         <Row className="align-items-center ">
           <Col xs={4}>
             <div className="reserve">
@@ -94,15 +94,17 @@ function Section3() {
             </div>
           </Col>
         </Row></div>
-        <div className=" d-xl-none d-xxl-none d-lg-none align-items-center ">
-        <Row className="d-flex justify-content-center ">  <Col xs={4}>
+        <div className=" d-none d-xl-none d-xxl-none d-lg-none  d-md-block d-sm-block py-4 align-items-center ">
+        <Row className=" justify-content-center "> 
+         <Col md={12} xs={12} xl={12}>
             <div className="reserve">
               <h6 className="text-content">
                 ©2022 Fastkart All rights reserved
               </h6>
             </div>
           </Col></Row>
-          <Row className="d-flex justify-content-center ">  <Col xs={4}>
+          <Row className="justify-content-center "> 
+           <Col md={12} xs={12} xl={12}>
             <div className=" align-items-center">
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/images/payment/1.png"
@@ -111,7 +113,8 @@ function Section3() {
               />
             </div>
           </Col></Row>
-          <Row className="d-flex justify-content-center ">   <Col xs={4}>
+          <Row className="justify-content-center ">   
+          <Col md={12} xs={12} xl={12}>
             <div className=" d-flex align-items-center">
               <h6 className="text-content ">Stay connected :</h6>
               <ul>

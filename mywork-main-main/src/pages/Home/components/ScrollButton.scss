@@ -3,8 +3,9 @@
         width: calc(30px + (40 - 30) * ((100vw - 320px) / (1920 - 320)));
         height: calc(30px + (40 - 30) * ((100vw - 320px) / (1920 - 320)));
         border-radius: 5px;
-        z-index: 1;
-        margin-top: 12px;
+        z-index:999;
+    top: 85%;
+        
  
     }
     .iconn{

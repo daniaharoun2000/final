@@ -9,9 +9,6 @@ export default function ScrollButton() {
   return (
     <div>
     
-
-      {/* <div style={{height: '155rem'}} /> */}
-
     
       <button className='bg-primary  scroolbutton'
         onClick={() => {

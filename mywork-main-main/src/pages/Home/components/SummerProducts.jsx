@@ -1,9 +1,9 @@
 import Container from "../../../components/Container";
 import { Col, Row } from "react-bootstrap";
-
+import './SummerProducts.scss';
 import svgg from "../images/arrowright.svg";
 
-function TopSaveToday() {
+function SummerProducts() {
   return (
     <div >
    <Container>
@@ -14,9 +14,9 @@ function TopSaveToday() {
         <Col xxl={8} xl={12 } lg={8 }md={7} sm={12}>
    
                
-                                <div className="position-relative  blur-up  py-4" >
-                                    <img src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/12.jpg"  className="w-100" alt="" />
-                                    <div className=" textforimage2 position-absolute ">
+                                <div className="position-relative  blur-up  py-2" >
+                                    <img src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/12.jpg"  className="w-100 " style={{minHeight:230}}alt="" />
+                                    <div className=" textforimage2 position-absolute mt-4">
                                         <div>
                                             <h2 className=" fw-normal text-primary">Get Ready To</h2>
                                             <h3 className="mt-2 mb-3">TAKE ON THE DAY!</h3>
@@ -32,11 +32,11 @@ function TopSaveToday() {
                                 </div>
               </Col>
               <Col  xxl={4} xl={12 } lg={4} md={5} sm={12}>
-              <div className="position-relative  blur-up  py-4 ml-1" >
+              <div className="position-relative  blur-up  py-2 ml-1" >
 
                                 <a href="shop-left-sidebar.html" >
-                                    <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/13.jpg" className="bg-img w-100" alt="" />
-                                    <div className="   textforimage2 position-absolute ">
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/13.jpg" className="w-100" alt="" />
+                                    <div className="   textforimage2 position-absolute mt-5">
                                         <div>
                                             <h2 className=" fw-normal text-dd">20% Off</h2>
                                             <h3 className="mt-2 mb-2 text-primary">SUMMRY</h3>
@@ -52,4 +52,4 @@ function TopSaveToday() {
     </Container></div>
   );
 }
-export default TopSaveToday;
+export default SummerProducts;

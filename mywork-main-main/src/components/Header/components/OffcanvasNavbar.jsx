@@ -19,7 +19,7 @@ function OffcanvasNavbar() {
              />
       </Button>
 
-      <Offcanvas show={show} onHide={handleClose} className="w-25 p-3">
+      <Offcanvas show={show} onHide={handleClose} className=" p-3">
         <Offcanvas.Header closeButton className='shadow-sm zindex-fixed-nav'>
           <Offcanvas.Title><h5 className='text-primary '>Menu</h5></Offcanvas.Title>
         </Offcanvas.Header>

@@ -14,10 +14,25 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 70%;
+
     margin: 0 auto;
   }
+  .iconly-Home:before {
+    content: "\e933";
+}
+.iconly-Category:before {
+  content: "\e920";
+}
+.iconly-Search:before {
+  content: "\e94b";
+}
 
+.iconly-Heart:before {
+  content: "\e931";
+}
+.iconly-Bag-2:before {
+  content: "\e917";
+}
   .mobile-menu ul li {
     width: 100%;
     text-align: center;

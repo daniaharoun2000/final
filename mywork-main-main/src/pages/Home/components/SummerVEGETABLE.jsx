@@ -9,7 +9,7 @@ function SummerProducts() {
    <Container><div className="py-4">
     <Row><Col xl={12}>
                         <div className=" imgsummerveg position-relative d-flex justify-content-center align-items-center" >
-                            <div className="     textforimage2 position-absolute align-items-center justify-content-center d-flex">
+                            <div className="     textforimage2 mt-1 align-items-center justify-content-center d-flex">
                                 <div >
                                     <h6 className="ls-expanded  text-primary mb-1 align-items-center justify-content-center d-flex">SUMMER</h6>
                                     <h2 className="banner-title ">VEGETABLE</h2>

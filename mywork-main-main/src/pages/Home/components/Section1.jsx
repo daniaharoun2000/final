@@ -4,12 +4,12 @@ import svgg from "../images/rarrow.svg";
 import Container from "../../../components/Container";
 function Section1() {
   return (
-    <div className="  mt-4 align-items-center  ">
+    <div className="   align-items-center  ">
       <Container>
         <Row>
           <Col xl={8}>
             
-            <div className=" position-relative   imgonesectionone">
+            <div className=" position-relative   imgonesectionone mt-4">
             
               <div className="textforimage2 position-absolute">
                 <div>
@@ -36,9 +36,9 @@ function Section1() {
             </div>
           </Col>
           <Col xl={4} className="colsection1 ">
-            <Row className="gap-4">
-              <Col xl={12} md={5} lg={5}>
-                <div className=" position-relative ">
+            <Row >
+              <Col xl={12} md={5} lg={6}>
+                <div className=" position-relative mt-4 ">
                   <img
                     src=" https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/2.jpg"
                     className=" rounded border-light imgtwosectionone w-100"
@@ -59,8 +59,8 @@ function Section1() {
                   </div>
                 </div>
               </Col>
-              <Col xl={12} md={5} lg={5}>
-                <div className=" position-relative ">
+              <Col xl={12} md={5} lg={6}>
+                <div className=" position-relative mt-4 ">
                   <img
                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/3.jpg"
                     className=" rounded border-light imgtwosectionone w-100"

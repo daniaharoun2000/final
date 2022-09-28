@@ -8,16 +8,16 @@ function CashBack() {
       <Container>
         <Row>
           <Col xl={12} className="py-4">
-            <div className="imgbootstrap position-relative cashboxx d-flex justify-content-center align-items-center">
+            <div className="imgbootstrap position-relative cashboxx ">
               {/* <img
                 src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/15.jpg"
                 className="w-100  imgbootstrap "
                 alt=""
               /> */}
 
-              <div className=" textforimage2 position-absolute align-items-center justify-content-center d-flex">
+              <div className=" textforimage2 mt-1 align-items-center justify-content-center d-flex">
                 <div>
-                  <h3 className="fw-bold mb-2 cash-details d-flex justify-content-center align-items-center text-badge">
+                  <h3 className="fw-bold mb-2 cash-details text-overflow-1  text-badge">
                     Get $3 Cashback! Min Order of $30
                   </h3>
                   <div className="d-flex justify-content-center align-items-center">
