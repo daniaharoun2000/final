@@ -11,7 +11,7 @@ function Section1() {
             
             <div className=" position-relative   imgonesectionone mt-4">
             
-              <div className="textforimage2 position-absolute">
+              <div className="textforimage2 position-absolute mt-5">
                 <div>
                   <h6>
                     Exclusive offer{" "}
@@ -45,7 +45,7 @@ function Section1() {
                   />
                   <div className="textforimage2 position-absolute">
                     <div>
-                      <h2 className="mt-0 text-dd">
+                      <h2 className="text-dd mt-5">
                         45% <span className="discount text-dania">OFF</span>
                       </h2>
                       <h3 className="text-primary">Nut Collection</h3>
@@ -67,7 +67,7 @@ function Section1() {
                   />
                   <div className="textforimage2 position-absolute">
                     <div>
-                      <h3 className="mt-0 text-primary fw-bold">
+                      <h3 className="mt-5 text-primary fw-bold">
                         Healthy Food
                       </h3>
                       <h4 className="text-dd">Organic Market</h4>
