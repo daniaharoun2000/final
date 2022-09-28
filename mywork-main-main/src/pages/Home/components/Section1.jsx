@@ -7,18 +7,16 @@ function Section1() {
     <div className="   align-items-center  ">
       <Container>
         <Row>
-          <Col xl={8}>
-            
+          <Col xl={8} md={12} lg={12}>
             <div className=" position-relative   imgonesectionone mt-4">
-            
               <div className="textforimage2 position-absolute mt-5">
                 <div>
                   <h6>
-                    Exclusive offer{" "}
+                    Exclusive offer
                     <span className="section130percent">30% Off</span>
                   </h6>
                   <h1 className="text-uppercase homecontain">
-                    Stay home &amp; delivered your{" "}
+                    Stay home &amp; delivered your
                     <span className="text-primary">Daily Needs</span>
                   </h1>
                   <p className="w-75 d-none d-sm-block text-aa psection1">
@@ -36,8 +34,8 @@ function Section1() {
             </div>
           </Col>
           <Col xl={4} className="colsection1 ">
-            <Row >
-              <Col xl={12} md={5} lg={6}>
+            <Row>
+              <Col xl={12} md={6} lg={6}>
                 <div className=" position-relative mt-4 ">
                   <img
                     src=" https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/2.jpg"
@@ -45,7 +43,7 @@ function Section1() {
                   />
                   <div className="textforimage2 position-absolute">
                     <div>
-                      <h2 className="text-dd mt-5">
+                      <h2 className="mt-4 text-dd ">
                         45% <span className="discount text-dania">OFF</span>
                       </h2>
                       <h3 className="text-primary">Nut Collection</h3>
@@ -59,7 +57,7 @@ function Section1() {
                   </div>
                 </div>
               </Col>
-              <Col xl={12} md={5} lg={6}>
+              <Col xl={12} md={6} lg={6}>
                 <div className=" position-relative mt-4 ">
                   <img
                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/3.jpg"
@@ -67,7 +65,7 @@ function Section1() {
                   />
                   <div className="textforimage2 position-absolute">
                     <div>
-                      <h3 className="mt-5 text-primary fw-bold">
+                      <h3 className="mt-4 text-primary fw-bold">
                         Healthy Food
                       </h3>
                       <h4 className="text-dd">Organic Market</h4>
@@ -78,8 +76,8 @@ function Section1() {
                         Shop Now
                       </a>
                     </div>
-                  </div>{" "}
-                </div>{" "}
+                  </div>
+                </div>
               </Col>
             </Row>
           </Col>
