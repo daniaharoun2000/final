@@ -25,11 +25,11 @@ function BowsebyCategories() {
                 <h2>Bowse by Categories</h2>
 
                 <span className="title-leaf">
-                  <img
-                    src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg"
-                    className="leafimg"
-                  />
-                </span>
+              <img
+                src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg"
+                className=" icon-width"
+              />
+            </span>
                 <p>Top Categories Of The Week</p>
               </div>
             </div>

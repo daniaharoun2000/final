@@ -9,7 +9,7 @@ function SummerProducts() {
    <Container>
 
    {/* <div className="section-t-space section-b-space"> */}
-                        <div className="py-4" >
+                        <div className="py-4 d-flex justify-content-center align-items-center" >
                         <Row >
         <Col xxl={8} xl={12 } lg={8 }md={7} sm={12}>
    
@@ -35,7 +35,7 @@ function SummerProducts() {
               <div className="position-relative  blur-up  py-2 ml-1" >
 
                                 <a href="shop-left-sidebar.html" >
-                                    <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/13.jpg" className="w-100" alt="" />
+                                    <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/13.jpg" className="w-100" style={{minHeight:230}} alt="" />
                                     <div className="   textforimage2 position-absolute mt-5">
                                         <div>
                                             <h2 className=" fw-normal text-dd">20% Off</h2>

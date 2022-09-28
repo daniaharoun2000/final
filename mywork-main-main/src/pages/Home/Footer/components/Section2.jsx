@@ -10,7 +10,7 @@ function Section2() {
   return (
 <div className="main-footer section-b-space section-t-space  ">
     <Container><Row className="lineundersection py-5">
-                    <Col xl={3} lg={4} sm={6}>
+                    <Col xl={3}md={6} lg={4} sm={6}>
                     
                         <div className="footer-logo ">
                             <div className="theme-logo">
@@ -36,7 +36,7 @@ function Section2() {
                             </div>
                     
                     </div></Col>
-                    <Col xl={2} lg={3}  md={4} sm={6}>
+                    <Col xl={2} lg={3}  md={6} sm={6}>
                         <div className="footer-title">
                             <h4>Categories</h4>
                         </div>
@@ -64,7 +64,7 @@ function Section2() {
                             </ul>
                         
                     </div></Col>
-                    <Col xl lg={2} sm={3}>
+                    <Col xl lg={2}  md={3}sm={3}>
                     
                         <div className="footer-title">
                             <h4>Useful Links</h4>
@@ -90,7 +90,7 @@ function Section2() {
                             </ul>
                         </div>
                   </Col>
-                    <Col xl={2} sm={3}>
+                    <Col xl={2} md={3} sm={3}>
                    
                         <div className="footer-title ">
                             <h4>Help Center</h4>
@@ -119,7 +119,7 @@ function Section2() {
                             </ul>
                         </div>
                </Col>
-                    <Col xl={3} lg={4} sm={6}>
+                    <Col xl={3} lg={4} md={6} sm={6}>
           
                         <div className="footer-title">
                             <h4>Contact Us</h4>

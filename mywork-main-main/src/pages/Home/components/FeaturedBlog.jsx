@@ -25,11 +25,11 @@ function FeaturedBlog() {
                 <h2>Featured Blog</h2>
 
                 <span className="title-leaf">
-                  <img
-                    src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg"
-                    className="leafimg"
-                  />
-                </span>
+              <img
+                src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg"
+                className=" icon-width"
+              />
+            </span>
                 <p>A virtual assistant collects the products from your list</p>
               </div>
             </div>

@@ -6,9 +6,10 @@ function Section1() {
   return (
     <div className="   align-items-center  ">
       <Container>
+        <div className="py-4">
         <Row>
           <Col xl={8} md={12} lg={12}>
-            <div className=" position-relative   imgonesectionone mt-4">
+            <div className=" position-relative   imgonesectionone mt-4 gfg">
               <div className="textforimage2 position-absolute mt-5">
                 <div>
                   <h6>
@@ -81,7 +82,7 @@ function Section1() {
               </Col>
             </Row>
           </Col>
-        </Row>
+        </Row></div>
       </Container>
     </div>
   );
