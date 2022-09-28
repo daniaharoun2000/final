@@ -8,8 +8,7 @@ function SummerProducts() {
     <div >
    <Container><div className="py-4">
     <Row><Col xl={12}>
-                        <div className="position-relative d-flex justify-content-center align-items-center" >
-                            <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/14.jpg" className="w-100 border border-light rounded" alt=""/>
+                        <div className=" imgsummerveg position-relative d-flex justify-content-center align-items-center" >
                             <div className="     textforimage2 position-absolute align-items-center justify-content-center d-flex">
                                 <div >
                                     <h6 className="ls-expanded  text-primary mb-1 align-items-center justify-content-center d-flex">SUMMER</h6>

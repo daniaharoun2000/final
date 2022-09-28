@@ -11,8 +11,21 @@
     cursor: pointer;
 }
 .imgonesectionone{
-  height: 680.75px;
-  width: 1047.33px;
+  height: 689px;
+  min-height: 200px;
+  background-image: url( https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/1.jpg);
+  background-size: cover;
+  background-position: center center;
+  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  overflow: hidden;
+
+
+ 
+
 }
 .imgtwosectionone{
   width: 511.66px;
@@ -42,8 +55,7 @@
       15px + (20 - 15) * ((100vw - 320px) / (1920 - 320))
     ) !important;
 
-    width: 100%;
-    height: 100%;
+ 
     top: 0;
     left: 0;
 

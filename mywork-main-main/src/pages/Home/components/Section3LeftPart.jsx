@@ -1,13 +1,14 @@
-import { Container } from "../../../components";
+import Container from "../../../components/Container";
+import { Col, Row } from "react-bootstrap";
 function Section3LeftPart() {
   return (
     <div >
-      <Container>
+     <Container>
         <section className=" gap-4 py-4">
           <div className=" ">
-            <div className="category-menu bg-cat">
+          <Row><Col xl={12}>    <div className="category-menu bg-cat">
               <h3>Category</h3>
-              <ul>
+              <ul className="linesection3left">
                 <li>
                   <div className="category-list ">
                     <img
@@ -180,7 +181,7 @@ function Section3LeftPart() {
                 </li>
               </ul>
 
-              <ul className="value-list">
+              <ul className="value-list mt-3">
                 <li>
                   <div className="category-list">
                     <h5 className="ms-0 text-title">
@@ -218,16 +219,16 @@ function Section3LeftPart() {
                   </div>
                 </li>
               </ul>
-            </div>
-
-            <div className="ratio_156 section-t-space">
+            </div></Col></Row>
+        
+            <Row><Col xl={12}>   <div className="ratio_156 section-t-space">
               <div className="home-contain  bg-size ">
                 <img
                   src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/8.jpg"
                   className="bg-img  lazyload"
                   alt=""
                 />
-                <div className="home-detail p-top-left home-p-medium">
+                <div className="home-detail mt-5 mx-5 ">
                   <div>
                     <h6 className="text-yellow ">Seafood</h6>
                     <h3 className="text-uppercase fw-normal">
@@ -244,16 +245,17 @@ function Section3LeftPart() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div></Col></Row>
 
-            <div className=" section-t-space">
+         
+            <Row><Col xl={12}> <div className=" section-t-space">
               <div className="home-contain ">
                 <img
                   src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/11.jpg"
                   className=" "
                   alt=""
                 />
-                <div className="home-detail ">
+                <div className="home-detail mt-5 mx-5 ">
                   <div>
                     <h4 className="text-yellow  ">Organic</h4>
                     <h2 className="text-uppercase fw-normal mb-0 text-primary ">
@@ -272,9 +274,10 @@ function Section3LeftPart() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div></Col></Row>
 
-            <div className="section-t-space">
+           
+            <Row><Col xl={12}> <div className="section-t-space">
               <div className="category-menu ">
                 <h3>Treanding Products</h3>
 
@@ -384,9 +387,10 @@ function Section3LeftPart() {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div></Col></Row>
 
-            <div className="section-t-space">
+           
+<Row><Col xl={12}>   <div className="section-t-space">
               <div className="category-menu">
                 <h3>Customer Comment</h3>
 
@@ -402,26 +406,29 @@ function Section3LeftPart() {
                       meaningful content.
                     </p>
                   </div>
-
-                  <div className="review-profile ">
-                    <div className="review-image">
+                  <div className="d-flex justify-content-center align-items-center p-2">
+                  
+                  <div className="review-profile ">  
+       
+                  <div className="review-image px-1">
                       <img
                         src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/review/1.jpg"
                         className="img-fluid "
                         alt=""
                       />
-                    </div>
-                    <div className="review-detail">
+                    </div> </div>
+                <div className="review-detail px-1">
                       <h5>Tina Mcdonnale</h5>
-                      <h6>Sale Manager</h6>
+                      <h6 className="text-aa">Sale Manager</h6>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </div></Col></Row>
+         
           </div>
-        </section>
-      </Container>
+        </section></Container>
+      
     </div>
   );
 }

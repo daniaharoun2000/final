@@ -8,12 +8,12 @@ function CashBack() {
       <Container>
         <Row>
           <Col xl={12} className="py-4">
-            <div className="position-relative cashboxx d-flex justify-content-center align-items-center">
-              <img
+            <div className="imgbootstrap position-relative cashboxx d-flex justify-content-center align-items-center">
+              {/* <img
                 src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/15.jpg"
-                className="w-100 img-fluid imgbootstrap "
+                className="w-100  imgbootstrap "
                 alt=""
-              />
+              /> */}
 
               <div className=" textforimage2 position-absolute align-items-center justify-content-center d-flex">
                 <div>

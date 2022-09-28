@@ -8,11 +8,9 @@ function Section1() {
       <Container>
         <Row>
           <Col xl={8}>
-            <div className=" position-relative   ">
-              <img
-                src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/1.jpg"
-                className="  rounded border-light imgonesectionone w-100"
-              />
+            
+            <div className=" position-relative   imgonesectionone">
+            
               <div className="textforimage2 position-absolute">
                 <div>
                   <h6>
