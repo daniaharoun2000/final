@@ -12,7 +12,7 @@ function Section2() {
     <Container><Row className="lineundersection py-2">
                     <Col xl={3}md={6} lg={4} xs={12}>
                     
-                        <div className="footer-logo ">
+                        <div className="footer-logo mt-2">
                             <div className="theme-logo">
                                 <a href="index.html">
                                     <img src="	https://themes.pixelstrap.com/fastkart/assets/images/logo/1.png" alt="" className="logoo"/>
@@ -37,7 +37,7 @@ function Section2() {
                     
                     </div></Col>
                     <Col xl={2} lg={3}  md={6} xs={12}>
-                        <div className="footer-title">
+                        <div className="footer-title  mt-2">
                             <h4>Categories</h4>
                         </div>
 
@@ -66,7 +66,7 @@ function Section2() {
                     </div></Col>
                     <Col xl={2} lg={3}  md={3}xs={12}>
                     
-                        <div className="footer-title">
+                        <div className="footer-title  mt-2">
                             <h4>Useful Links</h4>
                         </div>
 
@@ -92,7 +92,7 @@ function Section2() {
                   </Col>
                     <Col xl={2} lg={2} md={3} xs={12}>
                    
-                        <div className="footer-title ">
+                        <div className="footer-title  mt-2">
                             <h4>Help Center</h4>
                         </div>
 
@@ -121,7 +121,7 @@ function Section2() {
                </Col>
                     <Col xl={3} lg={4} md={6} xs={12}>
      
-                        <div>
+                        <div className=" mt-2">
                             <h4>Contact Us</h4>
                         </div>
  <div className=" mt-4 ">

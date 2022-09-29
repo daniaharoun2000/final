@@ -98,14 +98,14 @@ function Section3() {
         <Row className=" justify-content-center "> 
          <Col md={12} xs={12} xl={12}>
             <div className="reserve d-flex align-items-center justify-content-center">
-              <h6 className="text-content">
+              <h6 className="text-content  mt-2">
                 ©2022 Fastkart All rights reserved
               </h6>
             </div>
           </Col></Row>
           <Row className="justify-content-center "> 
            <Col md={12} xs={12} xl={12}>
-            <div className=" d-flex align-items-center justify-content-center">
+            <div className=" d-flex align-items-center justify-content-center  mt-2">
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/images/payment/1.png"
              
@@ -115,7 +115,7 @@ function Section3() {
           </Col></Row>
           <Row className="justify-content-end ">   
           <Col md={12} xs={12} xl={12}>
-            <div className=" d-flex align-items-center justify-content-center">
+            <div className=" d-flex align-items-center justify-content-center  mt-2 mb-4">
               <h6 className="text-content ">Stay connected :</h6>
               <ul >
                 <li>
