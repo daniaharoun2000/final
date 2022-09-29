@@ -48,27 +48,33 @@ function Section3() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1">
+                  <Dropdown.Item href="#/action-1" >
                     <img
                       src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg"
                       alt=""
-                      className="section3lesicon"
+                      className="section3lesicon me-2 me-2"
                     />
-                    Vegetables & Fruit
+                   <span className="sectuin3allcatogtext text-aa"> Vegetables & Fruit</span> 
                   </Dropdown.Item>
                   <Dropdown.Item href="#/action-1">
                     <img
                       src="https://themes.pixelstrap.com/fastkart/assets/svg/1/cup.svg"
                       alt=""
-                      className="section3lesicon"
+                      className="section3lesicon me-2"
                     />
-                    Beverages
-                    {/* <img
-                    src={svgg}
-                    className="angleicon  justify-content-end gap-1 align-items-center"
-                  /> */}
+                      <span className="sectuin3allcatogtext text-aa">Beverages</span>  
+                   
                   </Dropdown.Item>
-                </Dropdown.Menu>
+                  <Dropdown.Item href="#/action-1">
+                    <img
+                      src="https://themes.pixelstrap.com/fastkart/assets/svg/1/meats.svg"
+                      alt=""
+                      className="section3lesicon me-2"
+                    />
+                      <span className="sectuin3allcatogtext text-aa">Meats &amp; Seafood</span>  
+                   
+                  </Dropdown.Item>
+                                  </Dropdown.Menu>
               </Dropdown></div>
             </Col>
             <Col xl={8} md={7} className="d-none d-xl-block ">
@@ -520,12 +526,12 @@ function Section3() {
                 </Modal.Header>
                 <Modal.Body className="modalbody">
                   <div>
-                    <ul className="  list-unstyled">
-                      <li className=" ">
-                        <div className=" rounded-3 border border-white bg-gg d-flex gap-1 align-items-center  justify-content-center  ">
+                    <ul className="  list-unstyled ">
+                      <li className="mb-2 ">
+                        <div className=" rounded-3 border border-white bg-gg d-flex  align-items-center  justify-content-center  ">
                           <img
                             src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/10.png"
-                            className="w-25 p-3"
+                            className="w-25 p-3 me-2 ms-2 "
                             alt=""
                           />
 
@@ -540,11 +546,11 @@ function Section3() {
                           </a>
                         </div>
                       </li>
-                      <li className=" ">
+                      <li >
                         <div className=" rounded-3 border border-white bg-pink d-flex gap-1 align-items-center  justify-content-center  ">
                           <img
                             src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/11.png"
-                            className="w-25 p-3"
+                            className="w-25 mt-5 me-2 ms-2 p-3"
                             alt=""
                           />
 
