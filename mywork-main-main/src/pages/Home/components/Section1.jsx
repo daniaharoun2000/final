@@ -6,10 +6,10 @@ function Section1() {
   return (
     <div className="   align-items-center  ">
       <Container>
-        <div className="py-4">
+        <div className="py-2">
         <Row>
           <Col xl={8} md={12} lg={12}>
-            <div className=" position-relative   imgonesectionone mt-4 gfg">
+            <div className=" position-relative   imgonesectionone mt-0 gfg">
               <div className="textforimage2 position-absolute mt-5">
                 <div>
                   <h6>
@@ -25,10 +25,10 @@ function Section1() {
                     for your health.
                   </p>
                   <button
-                    onclick="location.href = 'shop-left-sidebar.html';"
-                    className="btn  mt-xxl-4 mt-2 home-button mend-auto text-overflow-1 w-25 bg-dd text-white "
+                    onClick="location.href = 'shop-left-sidebar.html';"
+                    className="btn  mt-xxl-4 mt-2 home-button mend-auto text-overflow-1  bg-dd text-white "
                   >
-                    Shop Now <img src={svgg} className=" w-25 pl-1" />
+                    Shop Now 
                   </button>
                 </div>
               </div>
@@ -51,7 +51,7 @@ function Section1() {
                       <p className=" text-aa psection1">
                         We deliver organic vegetables &amp; fruits
                       </p>
-                      <a href="shop-left-sidebar.html" className="shop-button">
+                      <a href="shop-left-sidebar.html" >
                         Shop Now
                       </a>
                     </div>
@@ -73,7 +73,7 @@ function Section1() {
                       <p className="organic text-aa psection1">
                         Start your daily shopping with some Organic food
                       </p>
-                      <a href="shop-left-sidebar.html" className="shop-button">
+                      <a href="shop-left-sidebar.html" >
                         Shop Now
                       </a>
                     </div>

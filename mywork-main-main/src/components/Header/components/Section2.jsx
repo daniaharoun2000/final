@@ -42,7 +42,7 @@ function Section2() {
                   <img
                     src={logo}
                     alt="logo"
-                    className="align-items-center logoimage w-100"
+                    className="align-items-center logoimagesection2header w-100"
                   />
                 </Col>
                 <Col md={3} xs={2} className="d-xl-none d-md-block d-none ">

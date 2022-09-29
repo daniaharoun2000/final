@@ -54,15 +54,7 @@
     }
   }
  
-  @media (max-width: 700px) {
-    .gfg {
-      -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-      flex: 0 0 auto;
-      width: 517px;
-      height: 382px;
-    }
-  }
+
   @media (max-width: 767px) {
     .gfg {
       -webkit-box-flex: 0;
@@ -72,7 +64,15 @@
       height: 419px;
     }
   }
- 
+   @media (max-width: 700px) {
+    .gfg {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      width: 517px;
+      height: 382px;
+    }
+  }
   @media (max-width: 550px) {
     .gfg {
       -webkit-box-flex: 0;
@@ -98,6 +98,33 @@
       flex: 0 0 auto;
       width: 460px;
       height: 287px;
+    }
+  }
+  @media (max-width: 425px) {
+    .gfg {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      width: 400px;
+      height: 287px;
+    }
+  }
+  @media (max-width: 375px) {
+    .gfg {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      width: 350px;
+      height: 287px;
+    }
+  }
+  @media (max-width: 320px) {
+    .gfg {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+      width: 290px;
+      height: 210px;
     }
   }
   .imgtwosectionone {

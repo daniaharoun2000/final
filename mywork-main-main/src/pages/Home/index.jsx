@@ -8,7 +8,7 @@ import "./components/Section3LeftPart.scss";
 import "./components/Section3RightPart.scss";
 import React from "react";
 import ScrollButton from "./components/ScrollButton";
-import "./components/BowsebyCategories.scss";
+import'./components/Slider/BowsebyCategoriesSlider.scss';
 import "./components/Fiftypercentoffer.scss";
 import "./components/FoodCupboard.scss";
 import "./components/CashBack.scss";
@@ -25,10 +25,10 @@ import "./components/ScrollButton.scss";
 import MobileMenu from "./components/MobileMenu";
 import "./components/MobileMenu.scss";
 import Newsletter from "./components/Newsletter";
+
 function Home() {
   return (
     <div id="main-home" >
-    
       <section>
         <Section1 />
       </section>
