@@ -1,8 +1,8 @@
 import { Col, Row } from "react-bootstrap";
 
-import Rating from "./Rating";
-import AddButton from "./AddButton";
-import Container from "../../../components/Container";
+import Rating from "../../Rating";
+import AddButton from "../../AddButton";
+import { Container } from "../../../../../components";
 function TopSaveToday() {
   return (
     <div >

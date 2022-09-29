@@ -1,6 +1,6 @@
 import { Col, Row } from "react-bootstrap";
 
-import Container from "../../../components/Container";
+import Container from "../../../../components/Container";
 function Section2() {
   return (
     <div >

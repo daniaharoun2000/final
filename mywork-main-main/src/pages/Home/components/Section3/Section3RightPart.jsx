@@ -1,16 +1,16 @@
-import CountdownTimer from "./CountdownTimer";
-import TopSaveToday from "./TopSaveToday";
-import Container from "../../../components/Container";
+import CountdownTimer from "../CountdownTimer";
+import TopSaveToday from './RightPart/TopSaveToday';
+import Container from "../../../../components/Container";
 import { Row, Col } from "react-bootstrap";
 
-import BowsebyCategoriesSlider from "./Slider/BowsebyCategoriesSlider";
-import Fiftypercentoffer from "./Fiftypercentoffer";
-import FoodCupboardSlider from "./Slider/FoodCupboardSlider";
-import CashBack from "./CashBack";
-import SummerProducts from "./SummerProducts";
-import OurBestSellerSlider from "./Slider/OurBestSellerSlider";
-import SummerVEGETABLE from "./SummerVEGETABLE";
-import FeaturedBlogSlider from "./Slider/FeaturedBlogSlider";
+import BowsebyCategoriesSlider from "../Slider/BowsebyCategoriesSlider";
+import Fiftypercentoffer from "./RightPart/Fiftypercentoffer";
+import FoodCupboardSlider from "../Slider/FoodCupboardSlider";
+import CashBack from "./RightPart/CashBack";
+import SummerProducts from "./RightPart/SummerProducts";
+import OurBestSellerSlider from "../Slider/OurBestSellerSlider";
+import SummerVEGETABLE from './RightPart/SummerVEGETABLE';
+import FeaturedBlogSlider from "../Slider/FeaturedBlogSlider";
 function Section3RightPart() {
   const THREE_DAYS_IN_MS = 333 * 24 * 60 * 60 * 1000;
   const NOW_IN_MS = new Date().getTime();

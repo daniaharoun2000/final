@@ -1,6 +1,7 @@
-import Container from "../../../components/Container";
+import Container from "../../../../components/Container";
 
-import svgg from "../images/arrowright.svg";
+import svgg from '../../images/arrowright.svg';
+
 import { Col, Row } from "react-bootstrap";
 
 function Newsletter() {

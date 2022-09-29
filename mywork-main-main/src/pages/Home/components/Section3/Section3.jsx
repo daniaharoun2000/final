@@ -1,4 +1,4 @@
-import { Container } from "../../../components";
+import { Container } from "../../../../components";
 import { Col, Row } from "react-bootstrap";
 
 import Section3LeftPart from "./Section3LeftPart";

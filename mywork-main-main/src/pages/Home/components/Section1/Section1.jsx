@@ -1,7 +1,8 @@
 import { Col, Row } from "react-bootstrap";
 
-import svgg from "../images/rarrow.svg";
-import Container from "../../../components/Container";
+// import svgg from "../images/rarrow.svg";
+import svgg from '../../images/rarrow.svg';
+import Container from "../../../../components/Container";
 function Section1() {
   return (
     <div className=" align-items-center mt-1 ">

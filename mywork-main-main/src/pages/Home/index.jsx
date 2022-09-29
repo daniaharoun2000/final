@@ -1,21 +1,21 @@
-import Section1 from "./components/Section1";
-import Section2 from "./components/Section2";
-import Section3 from "./components/Section3";
-import "./components/TopSaveToday.scss";
-import "./components/Section1.scss";
-import "./components/Section2.scss";
-import "./components/Section3LeftPart.scss";
-import "./components/Section3RightPart.scss";
+import Section1 from "./components/Section1/Section1";
+import Section2 from "./components/Section2/Section2";
+import Section3 from "./components/Section3/Section3";
+import "./components/Section3/RightPart/TopSaveToday.scss";
+import "./components/Section1/Section1.scss";
+import "./components/Section2/Section2.scss";
+import "./components/Section3/Section3LeftPart.scss";
+import "./components/Section3/Section3RightPart.scss";
 import React from "react";
 import ScrollButton from "./components/ScrollButton";
 import'./components/Slider/BowsebyCategoriesSlider.scss';
-import "./components/Fiftypercentoffer.scss";
-import "./components/CashBack.scss";
-import "./components/SummerProducts.scss";
+import "./components/Section3/RightPart/Fiftypercentoffer.scss";
+import "./components/Section3/RightPart/CashBack.scss";
+import "./components/Section3/RightPart/SummerProducts.scss";
+import "./components/Section3/RightPart/SummerVEGETABLE.scss";
 import "./components/Slider/OurBestSellerSlider.scss";
-import "./components/SummerVEGETABLE.scss";
 import "./components/Slider/FeaturedBlogSlider.scss";
-import "./components/Newsletter.scss";
+import "./components/Section4/Newsletter.scss";
 import Footer from "./Footer/index";
 import "./Footer/Footer.scss";
 import Cookies from "./components/Cookies/Cookies";
@@ -23,7 +23,7 @@ import "./components/Cookies/Cookies.scss";
 import "./components/ScrollButton.scss";
 import MobileMenu from "./components/MobileNavbar/MobileMenu";
 import "./components/MobileNavbar/MobileMenu.scss";
-import Newsletter from "./components/Newsletter";
+import Newsletter from "./components/Section4/Newsletter";
 
 function Home() {
   return (
