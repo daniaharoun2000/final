@@ -18,7 +18,7 @@ function Section2() {
                   <div className="banner-details">
                     <div className="banner-box">
                       <h6 className="text-dd">5% OFF</h6>
-                      <h5>Hot Deals on New Items</h5>
+                      <h5 className="me-4">Hot Deals on New Items</h5>
                       <h6 className="text-aa">
                         Daily Essentials Eggs &amp; Dairy
                       </h6>
@@ -42,7 +42,7 @@ function Section2() {
                   <div className="banner-details">
                     <div className="banner-box">
                       <h6 className="text-dd">5% OFF</h6>
-                      <h5>Buy More &amp; Save More</h5>
+                      <h5 className="me-4">Buy More &amp; Save More</h5>
                       <h6 className="text-aa">Fresh Vegetables</h6>
                     </div>
                     <a
@@ -64,7 +64,7 @@ function Section2() {
                   <div className="banner-details">
                     <div className="banner-box">
                       <h6 className="text-dd">5% OFF</h6>
-                      <h5>Organic Meat Prepared</h5>
+                      <h5 className="me-4">Organic Meat Prepared</h5>
                       <h6 className="text-aa">Delivered to Your Home</h6>
                     </div>
                     <a
@@ -86,7 +86,7 @@ function Section2() {
                   <div className="banner-details">
                     <div className="banner-box">
                       <h6 className="text-dd">5% OFF</h6>
-                      <h5>Buy More &amp; Save More</h5>
+                      <h5 className="me-4">Buy More &amp; Save More</h5>
                       <h6 className="text-aa">Nuts &amp; Snacks</h6>
                     </div>
                     <a

@@ -9,7 +9,7 @@ import "./components/Section3RightPart.scss";
 import React from "react";
 import ScrollButton from "./components/ScrollButton";
 import "./components/BowsebyCategories.scss";
-import "./components/fiftypercentoffer.scss";
+import "./components/Fiftypercentoffer.scss";
 import "./components/FoodCupboard.scss";
 import "./components/CashBack.scss";
 import "./components/SummerProducts.scss";
