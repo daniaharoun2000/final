@@ -5,7 +5,7 @@ import { Row, Col } from "react-bootstrap";
 
 import BowsebyCategoriesSlider from "./Slider/BowsebyCategoriesSlider";
 import Fiftypercentoffer from "./Fiftypercentoffer";
-import FoodCupboard from "./FoodCupboard";
+import FoodCupboardSlider from "./Slider/FoodCupboardSlider";
 import CashBack from "./CashBack";
 import SummerProducts from "./SummerProducts";
 import OurBestSeller from "./OurBestSeller";
@@ -64,7 +64,7 @@ function Section3RightPart() {
         <TopSaveToday />
         <BowsebyCategoriesSlider />
         <Fiftypercentoffer />
-        <FoodCupboard />
+        <FoodCupboardSlider />
         <CashBack />
         <SummerProducts />
         <OurBestSeller />

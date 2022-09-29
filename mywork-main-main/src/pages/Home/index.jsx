@@ -10,7 +10,7 @@ import React from "react";
 import ScrollButton from "./components/ScrollButton";
 import'./components/Slider/BowsebyCategoriesSlider.scss';
 import "./components/Fiftypercentoffer.scss";
-import "./components/FoodCupboard.scss";
+import "./components/Slider/FoodCupboardSlider.scss";
 import "./components/CashBack.scss";
 import "./components/SummerProducts.scss";
 import "./components/OurBestSeller.scss";
