@@ -27,7 +27,8 @@ export default function FeaturedBlogSlider() {
               </div>
             </div>
                   <Swiper
-                    spaceBetween={0}
+                  
+                    spaceBetween={10}
                     // slidesPerView={7}
                     onSlideChange={() => console.log("slide change")}
                     onSwiper={(swiper) => console.log(swiper)}
@@ -66,10 +67,10 @@ export default function FeaturedBlogSlider() {
                       },
                     }}
                   >
-                    <SwiperSlide>
+                    <SwiperSlide  >
                     <a
                               href="blog-detail.html"
-                              className="category-box imgblog"
+                              className="category-box imgblog "
                               tabindex="-1"
                             ></a>
 
@@ -82,7 +83,7 @@ export default function FeaturedBlogSlider() {
                               <h5>Fresh Vegetable Online</h5>
                             </a>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide >
                     <a
                               href="blog-detail.html"
                               className="category-box imgblog2"
@@ -97,7 +98,7 @@ export default function FeaturedBlogSlider() {
                               <h5>Fresh Combo Fruit</h5>
                             </a>
                     </SwiperSlide>
-                    <SwiperSlide>
+                    <SwiperSlide >
                     <a
                               href="blog-detail.html"
                               className="category-box imgblog3"
