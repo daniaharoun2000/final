@@ -18,11 +18,11 @@ import "./components/Slider/FeaturedBlogSlider.scss";
 import "./components/Newsletter.scss";
 import Footer from "./Footer/index";
 import "./Footer/Footer.scss";
-import Cookies from "./components/Cookies";
-import "./components/Cookies.scss";
+import Cookies from "./components/Cookies/Cookies";
+import "./components/Cookies/Cookies.scss";
 import "./components/ScrollButton.scss";
-import MobileMenu from "./components/MobileMenu";
-import "./components/MobileMenu.scss";
+import MobileMenu from "./components/MobileNavbar/MobileMenu";
+import "./components/MobileNavbar/MobileMenu.scss";
 import Newsletter from "./components/Newsletter";
 
 function Home() {

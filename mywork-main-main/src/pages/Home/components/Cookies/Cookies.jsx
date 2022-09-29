@@ -1,5 +1,4 @@
-import Container from "../../../components/Container";
-
+import { Container } from "../../../../components";
 import { useState } from "react";
 
 import { Col, Row, Button } from "react-bootstrap";
