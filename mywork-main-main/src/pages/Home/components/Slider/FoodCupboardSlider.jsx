@@ -192,7 +192,7 @@ export default function FoodCupboardSlider() {
 
                               <a href="product-left.html" tabindex="0">
                                 <h6 className="name">
-                                  Chips
+                                  
                                 </h6>
                               </a>
 

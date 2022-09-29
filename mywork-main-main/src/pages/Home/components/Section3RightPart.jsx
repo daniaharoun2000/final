@@ -8,9 +8,9 @@ import Fiftypercentoffer from "./Fiftypercentoffer";
 import FoodCupboardSlider from "./Slider/FoodCupboardSlider";
 import CashBack from "./CashBack";
 import SummerProducts from "./SummerProducts";
-import OurBestSeller from "./OurBestSeller";
+import OurBestSellerSlider from "./Slider/OurBestSellerSlider";
 import SummerVEGETABLE from "./SummerVEGETABLE";
-import FeaturedBlog from "./FeaturedBlog";
+import FeaturedBlogSlider from "./Slider/FeaturedBlogSlider";
 function Section3RightPart() {
   const THREE_DAYS_IN_MS = 333 * 24 * 60 * 60 * 1000;
   const NOW_IN_MS = new Date().getTime();
@@ -20,7 +20,7 @@ function Section3RightPart() {
     <div >
       <Container> <Row>
           <Col xxl={6 }xl={6}xs={12} md={12}>   <div className="title title-flex">
-          <div>
+          <div >
             <h2>Top Save Today</h2>
 
             <span className="title-leaf">
@@ -39,7 +39,7 @@ function Section3RightPart() {
          
      
        
-          <Col xxl={6} xl={6} xs={12} md={12}  className="d-flex justify-content-end ">
+          <Col xxl={6} xl={6} xs={12} md={12}  className="d-flex justify-content-end mb-2 ">
             <div className=" align-items-center  justify-content-center d-flex bg-dd text-badge border border-light rounded timeboxsection3 ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -67,9 +67,9 @@ function Section3RightPart() {
         <FoodCupboardSlider />
         <CashBack />
         <SummerProducts />
-        <OurBestSeller />
+        <OurBestSellerSlider />
         <SummerVEGETABLE />
-        <FeaturedBlog />
+        <FeaturedBlogSlider />
        
       </Container>
     </div>

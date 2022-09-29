@@ -24,7 +24,8 @@ function OurBestSeller() {
 
                     
                     <div className="slick-list draggable  ">
-                        <div className="slick-track" >    <Row className="row-cols-xxl-3 row-cols-xl-2 row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1">
+                        <div className="slick-track" > 
+                          <Row className="row-cols-xxl-3 row-cols-xl-2 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1">
 
 <Col>
                             <div className="slick-slide slick-current slick-active" >
@@ -180,7 +181,7 @@ function OurBestSeller() {
                             </ul>
                         </div></Col>
                         <Col>
-                        <div className="slick-slide slick-active"  tabindex="0" data-slick-index="2" aria-hidden="false">
+                        <div className="slick-slide slick-active "  tabindex="0" data-slick-index="2" aria-hidden="false">
                             <ul className="product-list  p-3 border rounded-3">
                                 <li className="line mb-4  ">
                                     <div className="offer-product">

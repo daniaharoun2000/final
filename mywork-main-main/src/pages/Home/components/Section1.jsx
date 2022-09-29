@@ -4,12 +4,12 @@ import svgg from "../images/rarrow.svg";
 import Container from "../../../components/Container";
 function Section1() {
   return (
-    <div className="   align-items-center  ">
+    <div className=" align-items-center mt-1 ">
       <Container>
-        <div className="py-2">
+        <div >
         <Row>
           <Col xl={8} md={12} lg={12}>
-            <div className=" position-relative   imgonesectionone mt-0 gfg">
+            <div className=" position-relative   imgonesectionone   mt-4 gfg">
               <div className="textforimage2 position-absolute mt-5">
                 <div>
                   <h6>
@@ -34,10 +34,10 @@ function Section1() {
               </div>
             </div>
           </Col>
-          <Col xl={4} className="colsection1 ">
+          <Col xl={4}>
             <Row>
               <Col xl={12} md={6} lg={6}>
-                <div className=" position-relative mt-4 ">
+                <div className=" position-relative mt-4">
                   <img
                     src=" https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/2.jpg"
                     className=" rounded border-light imgtwosectionone w-100"
@@ -59,7 +59,7 @@ function Section1() {
                 </div>
               </Col>
               <Col xl={12} md={6} lg={6}>
-                <div className=" position-relative mt-4 ">
+                <div className=" position-relative mt-4">
                   <img
                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/3.jpg"
                     className=" rounded border-light imgtwosectionone w-100"
