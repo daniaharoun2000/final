@@ -8,7 +8,7 @@ function Section3() {
     <div className="sub-footer section-small-space">
       <Container>
         <div className="  d-none d-lg-block d-sm-none  py-4">
-        <Row className="align-items-center ">
+        <Row className="align-items-center d-flex justify-content-start">
           <Col xs={4}>
             <div className="reserve">
               <h6 className="text-content">
@@ -17,7 +17,7 @@ function Section3() {
             </div>
           </Col>
           <Col xs={4}>
-            <div className=" align-items-center">
+            <div className=" align-items-center d-flex justify-content-center">
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/images/payment/1.png"
              
@@ -26,7 +26,7 @@ function Section3() {
             </div>
           </Col>
           <Col xs={4}>
-            <div className=" d-flex align-items-center">
+            <div className=" d-flex align-items-center justify-content-end">
               <h6 className="text-content m-0 ">Stay connected :</h6>
               <ul>
                 <li >
@@ -113,7 +113,7 @@ function Section3() {
               />
             </div>
           </Col></Row>
-          <Row className="justify-content-center ">   
+          <Row className="justify-content-end ">   
           <Col md={12} xs={12} xl={12}>
             <div className=" d-flex align-items-center justify-content-center">
               <h6 className="text-content ">Stay connected :</h6>
