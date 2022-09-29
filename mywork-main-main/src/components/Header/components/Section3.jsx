@@ -149,6 +149,183 @@ function Section3() {
                         </Row>
                       </NavDropdown>
                     </Col>
+                    <Col xl={3}>
+                    
+                    <NavDropdown
+                      id="nav-dropdown-dark-example"
+                      title="Mega Menue"
+                     
+                    >
+                      <NavDropdown.Item
+                        href="#action/3.1"
+                        to="/contact"
+                        as={NavLink}
+                        className="dropdownsizee"
+                      ><div className="megabg">
+                        <Row>
+                          <div>
+                            <ul className="unstyled">
+                              <Col xl={3}>
+                                <div className="dropdown-column col-xl-3">
+                                  <h5 className="dropdown-header">
+                                    Daily Vegetables
+                                  </h5>
+                                  <a
+                                    className="dropdown-item"
+                                    href="shop-left-sidebar.html"
+                                  >
+                                    Beans &amp; Brinjals
+                                  </a>
+
+                                  <a
+                                    className="dropdown-item"
+                                    href="shop-left-sidebar.html"
+                                  >
+                                    Broccoli &amp; Cauliflower
+                                  </a>
+
+                                  <a
+                                    href="shop-left-sidebar.html"
+                                    className="dropdown-item"
+                                  >
+                                    Chilies, Garlic
+                                  </a>
+
+                                  <a
+                                    className="dropdown-item"
+                                    href="shop-left-sidebar.html"
+                                  >
+                                    Vegetables &amp; Salads
+                                  </a>
+
+                                  <a
+                                    className="dropdown-item"
+                                    href="shop-left-sidebar.html"
+                                  >
+                                    Gourd, Cucumber
+                                  </a>
+
+                                  <a
+                                    className="dropdown-item"
+                                    href="shop-left-sidebar.html"
+                                  >
+                                    Herbs &amp; Sprouts
+                                  </a>
+
+                                  <a
+                                    href="demo-personal-portfolio.html"
+                                    className="dropdown-item"
+                                  >
+                                    Lettuce &amp; Leafy
+                                  </a>
+                                </div>
+                              </Col>
+
+                              <Col xl={3}>
+                                <div className="dropdown-column col-xl-3">
+                                  <h5 className="dropdown-header">
+                                    Baby Tender
+                                  </h5>
+                                  <a
+                                    className="dropdown-item"
+                                    href="shop-left-sidebar.html"
+                                  >
+                                    Beans &amp; Brinjals
+                                  </a>
+
+                                  <a
+                                    className="dropdown-item"
+                                    href="shop-left-sidebar.html"
+                                  >
+                                    Broccoli &amp; Cauliflower
+                                  </a>
+
+                                  <a
+                                    className="dropdown-item"
+                                    href="shop-left-sidebar.html"
+                                  >
+                                    Chilies, Garlic
+                                  </a>
+
+                                  <a
+                                    className="dropdown-item"
+                                    href="shop-left-sidebar.html"
+                                  >
+                                    Vegetables &amp; Salads
+                                  </a>
+
+                                  <a
+                                    className="dropdown-item"
+                                    href="shop-left-sidebar.html"
+                                  >
+                                    Gourd, Cucumber
+                                  </a>
+
+                                  <a
+                                    className="dropdown-item"
+                                    href="shop-left-sidebar.html"
+                                  >
+                                    Potatoes &amp; Tomatoes
+                                  </a>
+
+                                  <a
+                                    href="shop-left-sidebar.html"
+                                    className="dropdown-item"
+                                  >
+                                    Peas &amp; Corn
+                                  </a>
+                                </div>
+                              </Col>
+                              <Col xl={3}>
+                                <div className="dropdown-column col-xl-3">
+                                  <h5 className="dropdown-header">
+                                    Exotic Vegetables
+                                  </h5>
+                                  <a
+                                    className="dropdown-item"
+                                    href="shop-left-sidebar.html"
+                                  >
+                                    Asparagus &amp; Artichokes
+                                  </a>
+
+                                  <a
+                                    className="dropdown-item"
+                                    href="shop-left-sidebar.html"
+                                  >
+                                    Avocados &amp; Peppers
+                                  </a>
+
+                                  <a
+                                    className="dropdown-item"
+                                    href="shop-left-sidebar.html"
+                                  >
+                                    Broccoli &amp; Zucchini
+                                  </a>
+
+                                  <a
+                                    className="dropdown-item"
+                                    href="shop-left-sidebar.html"
+                                  >
+                                    Celery, Fennel &amp; Leeks
+                                  </a>
+
+                                  <a
+                                    className="dropdown-item"
+                                    href="shop-left-sidebar.html"
+                                  >
+                                    Chilies &amp; Lime
+                                  </a>
+                                </div>
+                              </Col>
+<Col xl={3}></Col>
+
+                              {/* <div className="dropdown-column dropdown-column-img col-3"></div> */}
+                            </ul>
+                          </div>
+                        </Row></div>
+                      </NavDropdown.Item>
+                    </NavDropdown>
+                  </Col>
                     <Col xl={2}>
                       <NavDropdown id="nav-dropdown-dark-example" title="Shop">
                         <NavDropdown.Item
@@ -179,6 +356,7 @@ function Section3() {
                         </NavDropdown.Item>
                       </NavDropdown>
                     </Col>
+                
                     <Col xl={2}>
                       <NavDropdown
                         id="nav-dropdown-dark-example"
@@ -212,180 +390,7 @@ function Section3() {
                         </NavDropdown.Item>
                       </NavDropdown>
                     </Col>
-                    <Col xl={3}>
-                    
-                      <NavDropdown
-                        id="nav-dropdown-dark-example"
-                        title="Mega Menue"
-                      >
-                        <NavDropdown.Item
-                          href="#action/3.1"
-                          to="/contact"
-                          as={NavLink}
-                        ><div className="megabg">
-                          <Row>
-                            <div>
-                              <ul className="unstyled">
-                                <Col xl={3}>
-                                  <div className="dropdown-column col-xl-3">
-                                    <h5 className="dropdown-header">
-                                      Daily Vegetables
-                                    </h5>
-                                    <a
-                                      className="dropdown-item"
-                                      href="shop-left-sidebar.html"
-                                    >
-                                      Beans &amp; Brinjals
-                                    </a>
-
-                                    <a
-                                      className="dropdown-item"
-                                      href="shop-left-sidebar.html"
-                                    >
-                                      Broccoli &amp; Cauliflower
-                                    </a>
-
-                                    <a
-                                      href="shop-left-sidebar.html"
-                                      className="dropdown-item"
-                                    >
-                                      Chilies, Garlic
-                                    </a>
-
-                                    <a
-                                      className="dropdown-item"
-                                      href="shop-left-sidebar.html"
-                                    >
-                                      Vegetables &amp; Salads
-                                    </a>
-
-                                    <a
-                                      className="dropdown-item"
-                                      href="shop-left-sidebar.html"
-                                    >
-                                      Gourd, Cucumber
-                                    </a>
-
-                                    <a
-                                      className="dropdown-item"
-                                      href="shop-left-sidebar.html"
-                                    >
-                                      Herbs &amp; Sprouts
-                                    </a>
-
-                                    <a
-                                      href="demo-personal-portfolio.html"
-                                      className="dropdown-item"
-                                    >
-                                      Lettuce &amp; Leafy
-                                    </a>
-                                  </div>
-                                </Col>
-
-                                <Col xl={3}>
-                                  <div className="dropdown-column col-xl-3">
-                                    <h5 className="dropdown-header">
-                                      Baby Tender
-                                    </h5>
-                                    <a
-                                      className="dropdown-item"
-                                      href="shop-left-sidebar.html"
-                                    >
-                                      Beans &amp; Brinjals
-                                    </a>
-
-                                    <a
-                                      className="dropdown-item"
-                                      href="shop-left-sidebar.html"
-                                    >
-                                      Broccoli &amp; Cauliflower
-                                    </a>
-
-                                    <a
-                                      className="dropdown-item"
-                                      href="shop-left-sidebar.html"
-                                    >
-                                      Chilies, Garlic
-                                    </a>
-
-                                    <a
-                                      className="dropdown-item"
-                                      href="shop-left-sidebar.html"
-                                    >
-                                      Vegetables &amp; Salads
-                                    </a>
-
-                                    <a
-                                      className="dropdown-item"
-                                      href="shop-left-sidebar.html"
-                                    >
-                                      Gourd, Cucumber
-                                    </a>
-
-                                    <a
-                                      className="dropdown-item"
-                                      href="shop-left-sidebar.html"
-                                    >
-                                      Potatoes &amp; Tomatoes
-                                    </a>
-
-                                    <a
-                                      href="shop-left-sidebar.html"
-                                      className="dropdown-item"
-                                    >
-                                      Peas &amp; Corn
-                                    </a>
-                                  </div>
-                                </Col>
-                                <Col xl={3}>
-                                  <div className="dropdown-column col-xl-3">
-                                    <h5 className="dropdown-header">
-                                      Exotic Vegetables
-                                    </h5>
-                                    <a
-                                      className="dropdown-item"
-                                      href="shop-left-sidebar.html"
-                                    >
-                                      Asparagus &amp; Artichokes
-                                    </a>
-
-                                    <a
-                                      className="dropdown-item"
-                                      href="shop-left-sidebar.html"
-                                    >
-                                      Avocados &amp; Peppers
-                                    </a>
-
-                                    <a
-                                      className="dropdown-item"
-                                      href="shop-left-sidebar.html"
-                                    >
-                                      Broccoli &amp; Zucchini
-                                    </a>
-
-                                    <a
-                                      className="dropdown-item"
-                                      href="shop-left-sidebar.html"
-                                    >
-                                      Celery, Fennel &amp; Leeks
-                                    </a>
-
-                                    <a
-                                      className="dropdown-item"
-                                      href="shop-left-sidebar.html"
-                                    >
-                                      Chilies &amp; Lime
-                                    </a>
-                                  </div>
-                                </Col>
-
-                                {/* <div className="dropdown-column dropdown-column-img col-3"></div> */}
-                              </ul>
-                            </div>
-                          </Row></div>
-                        </NavDropdown.Item>
-                      </NavDropdown>
-                    </Col>
+                  
                     <Col>
                       <Row className="align-items-center justify-content-between ">
                         <Col xl={3}>

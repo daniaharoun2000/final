@@ -59,7 +59,7 @@ export default function OurBestSellerSlider() {
                     <SwiperSlide>
                     <div className="slick-slide slick-current slick-active" >
                                 <ul className="product-list  p-3 border rounded-3">
-                                    <li className="line mb-4  ">
+                                    <li className="line mb-4 mt-2 ">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/11.png" className="blur-up lazyloaded" alt=""/>
@@ -78,7 +78,7 @@ export default function OurBestSellerSlider() {
                                        
                                     </li>
     
-                                    <li className="line mb-4  ">
+                                    <li className="line mb-4  mt-2">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/12.png" className="blur-up lazyloaded" alt=""/>
@@ -96,7 +96,7 @@ export default function OurBestSellerSlider() {
                                         </div>
                                     </li>
     
-                                    <li className="line mb-4  ">
+                                    <li className="line mb-4  mt-2">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/13.png" className="blur-up lazyloaded" alt=""/>
@@ -114,7 +114,7 @@ export default function OurBestSellerSlider() {
                                         </div>
                                     </li>
     
-                                    <li >
+                                    <li className="mt-2">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/14.png" className="blur-up lazyloaded" alt=""/>
@@ -137,7 +137,7 @@ export default function OurBestSellerSlider() {
                     <SwiperSlide>
                     <div className="slick-slide slick-active" tabindex="0" data-slick-index="1" aria-hidden="false">
                             <ul className="product-list  p-3 border rounded-3">
-                                <li className="line mb-4  ">
+                                <li className="line mb-4 mt-2 ">
                                     <div className="offer-product">
                                         <a href="product-left.html" className="offer-image" tabindex="0">
                                             <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/15.png" className="blur-up lazyloaded" alt=""/>
@@ -155,7 +155,7 @@ export default function OurBestSellerSlider() {
                                     </div>
                                 </li>
 
-                                <li className="line mb-4  ">
+                                <li className="line mb-4 mt-2  ">
                                     <div className="offer-product">
                                         <a href="product-left.html" className="offer-image" tabindex="0">
                                             <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/16.png" className="blur-up lazyloaded" alt=""/>
@@ -173,7 +173,7 @@ export default function OurBestSellerSlider() {
                                     </div>
                                 </li>
 
-                                <li className="line mb-4  ">
+                                <li className="line mb-4  mt-2">
                                     <div className="offer-product">
                                         <a href="product-left.html" className="offer-image" tabindex="0">
                                             <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/17.png" className="blur-up lazyloaded" alt=""/>
@@ -191,7 +191,7 @@ export default function OurBestSellerSlider() {
                                     </div>
                                 </li>
 
-                                <li >
+                                <li className="mt-2">
                                     <div className="offer-product">
                                         <a href="product-left.html" className="offer-image" tabindex="0">
                                             <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/18.png" className="blur-up lazyloaded" alt=""/>
@@ -213,8 +213,8 @@ export default function OurBestSellerSlider() {
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="slick-slide slick-active "  tabindex="0" data-slick-index="2" aria-hidden="false">
-                            <ul className="product-list  p-3 border rounded-3">
-                                <li className="line mb-4  ">
+                            <ul className="product-list  p-3 border rounded-3 ">
+                                <li className="line mb-4 mt-2 ">
                                     <div className="offer-product">
                                         <a href="product-left.html" className="offer-image" tabindex="0">
                                             <img src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/19.png" className="blur-up lazyloaded" alt=""/>
@@ -232,7 +232,7 @@ export default function OurBestSellerSlider() {
                                     </div>
                                 </li>
 
-                                <li className="line mb-4  ">
+                                <li className="line mb-4  mt-2">
                                     <div className="offer-product">
                                         <a href="product-left.html" className="offer-image" tabindex="0">
                                             <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/20.png
@@ -251,7 +251,7 @@ export default function OurBestSellerSlider() {
                                     </div>
                                 </li>
 
-                                <li className="line mb-4  ">
+                                <li className="line mb-4 mt-2 ">
                                     <div className="offer-product">
                                         <a href="product-left.html" className="offer-image" tabindex="0">
                                             <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/21.png
@@ -270,7 +270,7 @@ export default function OurBestSellerSlider() {
                                     </div>
                                 </li>
 
-                                <li >
+                                <li className="mt-2" >
                                     <div className="offer-product">
                                         <a href="product-left.html" className="offer-image" tabindex="0">
                                             <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/22.png" className="blur-up lazyloaded" alt=""/>
@@ -305,7 +305,7 @@ export default function OurBestSellerSlider() {
     <Col>
                                 <div className="slick-slide slick-current slick-active" >
                                 <ul className="product-list  p-3 border rounded-3">
-                                    <li className="line mb-4  ">
+                                    <li className="line mb-4 mt-2  ">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/11.png" className="blur-up lazyloaded" alt=""/>
@@ -324,7 +324,7 @@ export default function OurBestSellerSlider() {
                                        
                                     </li>
     
-                                    <li className="line mb-4  ">
+                                    <li className="line mb-4  mt-2">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/12.png" className="blur-up lazyloaded" alt=""/>
@@ -342,7 +342,7 @@ export default function OurBestSellerSlider() {
                                         </div>
                                     </li>
     
-                                    <li className="line mb-4  ">
+                                    <li className="line mb-4 mt-2 ">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/13.png" className="blur-up lazyloaded" alt=""/>
@@ -360,7 +360,7 @@ export default function OurBestSellerSlider() {
                                         </div>
                                     </li>
     
-                                    <li >
+                                    <li className="mt-2" >
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/14.png" className="blur-up lazyloaded" alt=""/>
@@ -382,7 +382,7 @@ export default function OurBestSellerSlider() {
                             <Col>
                             <div className="slick-slide slick-active" tabindex="0" data-slick-index="1" aria-hidden="false">
                                 <ul className="product-list  p-3 border rounded-3">
-                                    <li className="line mb-4  ">
+                                    <li className="line mb-4 mt-2 ">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/15.png" className="blur-up lazyloaded" alt=""/>
@@ -400,7 +400,7 @@ export default function OurBestSellerSlider() {
                                         </div>
                                     </li>
     
-                                    <li className="line mb-4  ">
+                                    <li className="line mb-4 mt-2 ">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/16.png" className="blur-up lazyloaded" alt=""/>
@@ -418,7 +418,7 @@ export default function OurBestSellerSlider() {
                                         </div>
                                     </li>
     
-                                    <li className="line mb-4  ">
+                                    <li className="line mb-4 mt-2 ">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/17.png" className="blur-up lazyloaded" alt=""/>
@@ -436,7 +436,7 @@ export default function OurBestSellerSlider() {
                                         </div>
                                     </li>
     
-                                    <li >
+                                    <li className="mt-2">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/18.png" className="blur-up lazyloaded" alt=""/>
@@ -458,7 +458,7 @@ export default function OurBestSellerSlider() {
                             <Col>
                             <div className="slick-slide slick-active "  tabindex="0" data-slick-index="2" aria-hidden="false">
                                 <ul className="product-list  p-3 border rounded-3">
-                                    <li className="line mb-4  ">
+                                    <li className="line mb-4  mt-2">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/19.png" className="blur-up lazyloaded" alt=""/>
@@ -476,7 +476,7 @@ export default function OurBestSellerSlider() {
                                         </div>
                                     </li>
     
-                                    <li className="line mb-4  ">
+                                    <li className="line mb-4 mt-2 ">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/20.png
@@ -495,7 +495,7 @@ export default function OurBestSellerSlider() {
                                         </div>
                                     </li>
     
-                                    <li className="line mb-4  ">
+                                    <li className="line mb-4 mt-2 ">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/21.png
@@ -514,7 +514,7 @@ export default function OurBestSellerSlider() {
                                         </div>
                                     </li>
     
-                                    <li >
+                                    <li className="mt-2">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/22.png" className="blur-up lazyloaded" alt=""/>
