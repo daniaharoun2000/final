@@ -1,10 +1,31 @@
 #main-home {
-
-    .line{
     
+    @media (max-width: 768px) {
+
+    .cardname{
+        line-height: 22px;
+        height: 25px;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        display: -webkit-box;
+        overflow: hidden;
+    }}
+    @media (max-width: 1440px) {
+
+        .cardname{
+            line-height: 22px;
+            height: 45px;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            display: -webkit-box;
+            overflow: hidden;
+        }
+    }
+    .product-list li+li:after {
         content: "";
         position: absolute;
-     
+        top: -28px;
+        right: 0;
         border-bottom: 1px dashed rgba(74,85,104,0.3);
         width: calc(100% - 103px);
     }
@@ -24,8 +45,8 @@
     }
     .product-list li {
  
-        height: 80px;
         position: relative;
+        display: -webkit-box;
     }
     
     .product-list li .offer-product {

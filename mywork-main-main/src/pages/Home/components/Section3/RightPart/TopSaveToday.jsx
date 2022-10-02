@@ -38,7 +38,7 @@ function TopSaveToday() {
             />
 
             <a href="product-left.html" tabindex="0">
-              <h6 className="name">Peanut Butter Bite Premium Butter Cookies 600 g
+              <h6 className="name">Peanut Butter Bite Premium Butter Cookies 
                                                         </h6>
             </a>
 
@@ -134,8 +134,8 @@ function TopSaveToday() {
             </div>
 
             <a href="product-left.html" tabindex="0">
-              <h6 className="name">SnackAmor Combo Pack of Jowar Stick and Jowar
-                                                            Chips
+              <h6 className="name">SnackAmor Combo Pack of Jowar Stick and Jowar 
+                                                          
                                                         </h6>
             </a>
 
@@ -200,7 +200,7 @@ function TopSaveToday() {
 
             <a href="product-left.html" tabindex="0">
               <h6 className="name">Dog Treats Natural Yak Milk Bars For Small Dogs
-                                                            100g</h6>
+                                                         </h6>
             </a>
 
             <h5 className="sold text-content">

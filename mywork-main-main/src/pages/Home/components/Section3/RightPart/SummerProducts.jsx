@@ -1,7 +1,6 @@
 import Container from "../../../../../components/Container";
 import { Col, Row } from "react-bootstrap";
 import "./SummerProducts.scss";
-import svgg from "../../../images/arrowright.svg";
 
 function SummerProducts() {
   return (
@@ -21,7 +20,7 @@ function SummerProducts() {
                   <div >
                     <h2 className=" fw-normal text-primary">Get Ready To</h2>
                     <h3 className="mt-2 mb-3">TAKE ON THE DAY!</h3>
-                    <p className=" banner-text">
+                    <p className=" w-75 text-aa">
                       In publishing and graphic design, Lorem ipsum is a
                       placeholder text commonly used to demonstrate.
                     </p>
@@ -30,7 +29,7 @@ function SummerProducts() {
                       className="btn  mt-xxl-4 mt-2 home-button mend-auto text-overflow-1 bg-dd text-white "
                     >
                       Shop Now
-                      <img src={svgg} className="   text-overflow-1 " />
+                   
                     </button>
                   </div>
                 </div>

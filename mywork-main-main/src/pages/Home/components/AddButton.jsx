@@ -10,8 +10,9 @@ function AddButton() {
         <Row>
         
             <Button className="bg-cat buttonclass">
-          <Col xl={6}><div className="justify-content-end d-flex"> Add</div></Col>   
-         <Col xl={6}> <div className="d-flex justify-content-end "> <svg
+          <Col xl={6} xs={6}><div className="justify-content-end d-flex"> Add</div></Col>   
+         <Col xl={6} xs={6}>
+           <div className="d-flex justify-content-end align-items-end "> <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
