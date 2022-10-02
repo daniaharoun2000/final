@@ -78,15 +78,15 @@ function Section3() {
               </Dropdown></div>
             </Col>
             <Col xl={8} md={7} className="d-none d-xl-block ">
-              <Navbar>
-                <Navbar.Toggle />
+              <Navbar >
+                <Navbar.Toggle  />
                 <Navbar.Collapse
                   id="responsive-navbar-nav"
                   className="  gap-3 align-items-center  justify-content-center navsection3"
                 >
                   <Row className="align-items-center justify-content-between ">
                     <Col xl={2}>
-                      <NavDropdown id="nav-dropdown-dark-example" title="Home">
+                      <NavDropdown id="nav-dropdown-dark-example" title="Home" >
                         <Row>
                           <div>
                             <ul className="unstyled">
