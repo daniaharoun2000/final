@@ -14,7 +14,7 @@ function LocationBar() {
 
   return (
     <div className="  text-white align-items-center locationbox p-1  ">
-      <Button onClick={handleShow} className="d-xl-none      " variant="badge">
+      <Button onClick={handleShow} className="d-xl-none w-100 justify-content-center   " variant="badge">
         <span className=" pg-gg ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,8 @@ function LocationBar() {
         </span>
       </Button>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose}  >
+ 
         <Modal.Header closeButton>
           <Modal.Title>
             Choose your Delivery Location
@@ -157,6 +158,7 @@ function LocationBar() {
             </Form.Group>
           </Form>
         </Modal.Body>
+      
       </Modal>
     </div>
   );

@@ -35,11 +35,11 @@ function Section1() {
             <Carousel controls={false} indicators={false}>
               <Carousel.Item interval={4000}>
                 <span className="text-white text-overflow-1 align-items-center">
-                  Something you love is now on sale!
-                  <span className="fw-bold text-decoration-underline">
-                    {" "}
+                  Something you love is now on sale!<a href="">
+                  <span className="fw-bold text-decoration-underline mx-1 text-badge">
+                
                     Buy Now !
-                  </span>
+                  </span></a>
                 </span>
               </Carousel.Item>
               <Carousel.Item interval={4000}>

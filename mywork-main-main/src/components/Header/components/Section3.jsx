@@ -175,14 +175,14 @@ function Section3() {
                                 <div className="dropdown-column col-xl-3">
                                   <h5 className="dropdown-header">
                                     Daily Vegetables
-                                  </h5>
-                                  <a
+                                  </h5><Row><Col xl={12}>             <a
                                     className="dropdown-item"
                                     href="shop-left-sidebar.html"
                                   >
                                     Beans &amp; Brinjals
-                                  </a>
-
+                                  </a></Col></Row>
+                     
+                                  <Row><Col xl={12}></Col></Row>
                                   <a
                                     className="dropdown-item"
                                     href="shop-left-sidebar.html"
