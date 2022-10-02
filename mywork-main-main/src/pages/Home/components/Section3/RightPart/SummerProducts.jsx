@@ -38,7 +38,7 @@ function SummerProducts() {
             </Col>
             <Col xxl={4} xl={12} lg={4} md={5} sm={12}>
               <div className="position-relative  blur-up  py-2 ml-1">
-                <a href="shop-left-sidebar.html">
+        
                   <img
                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/13.jpg"
                     className="w-100"
@@ -52,7 +52,7 @@ function SummerProducts() {
                       <h3 className="fw-normal product-name ">Product</h3>
                     </div>
                   </div>
-                </a>
+            
               </div>
             </Col>
           </Row>
