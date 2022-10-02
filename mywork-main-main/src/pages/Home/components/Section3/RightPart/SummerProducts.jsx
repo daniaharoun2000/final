@@ -29,9 +29,9 @@ function SummerProducts() {
                       onclick="location.href = 'shop-left-sidebar.html';"
                       className="btn  mt-xxl-4 mt-2 home-button mend-auto text-overflow-1 bg-dd text-white "
                     >
-                      Shop Now{" "}
+                      Shop Now
                       <img src={svgg} className="   text-overflow-1 " />
-                    </button>{" "}
+                    </button>
                   </div>
                 </div>
               </div>

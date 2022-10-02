@@ -232,7 +232,7 @@ function Section3LeftPart() {
                   <div>
                     <h6 className="text-yellow ">Seafood</h6>
                     <h3 className="text-uppercase fw-normal">
-                      <span className="theme-color fw-bold">Freshes</span>{" "}
+                      <span className="theme-color fw-bold">Freshes</span>
                       Products
                     </h3>
                     <h3 className="fw-light h3section3">every hour</h3>
@@ -241,7 +241,7 @@ function Section3LeftPart() {
                       className="btn text-overflow-1 bg-dd text-white "
                     >
                       Shop Now
-                    </button>{" "}
+                    </button>
                   </div>
                 </div>
               </div>

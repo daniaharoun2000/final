@@ -27,7 +27,7 @@ function Section2() {
                       href="shop-left-sidebar.html"
                       className="banner-button text-white"
                     >
-                      Shop Now{" "}
+                      Shop Now
                     </a>
                   </div>
                 </div>
@@ -71,7 +71,7 @@ function Section2() {
                       href="shop-left-sidebar.html"
                       className="banner-button text-white"
                     >
-                      Shop Now{" "}
+                      Shop Now
                     </a>
                   </div>
                 </div>
@@ -93,7 +93,7 @@ function Section2() {
                       href="shop-left-sidebar.html"
                       className="banner-button text-white"
                     >
-                      Shop Now{" "}
+                      Shop Now
                     </a>
                   </div>
                 </div>

@@ -108,7 +108,7 @@ function Section2() {
               <Row>
                 <ul className="unstiled-list  p-0 d-flex  align-items-center justify-content-end w-100">
                   <Col xxl={1}xl={1}>
-                    {" "}
+                    
                     <li className="m-0 d-xl-none d-block"><a href="">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -154,7 +154,7 @@ function Section2() {
                           <h6>+91 888 104 2340</h6>
                         </div>
                       </div>
-                    </li>{" "}
+                    </li>
                   </Col>
                   <li className="m-0 px-3">
                     <span>|</span>

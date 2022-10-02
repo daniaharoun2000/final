@@ -56,7 +56,7 @@ function LocationBar() {
           </svg>
         </span>
         <span className="text-primary px-2 align-items-center  ">
-          Your Location{" "}
+          Your Location
         </span>
         <span>
           <img src={svgg} className="  text-aa angleicon" />
