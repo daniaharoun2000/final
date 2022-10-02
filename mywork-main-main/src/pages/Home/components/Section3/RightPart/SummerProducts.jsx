@@ -9,11 +9,11 @@ function SummerProducts() {
         <div className="py-4 ">
           <Row>
             <Col xxl={8} xl={12} lg={8} md={7} sm={12}>
-              <div className="position-relative  blur-up  py-2">
+              <div className="position-relative  blur-up  py-1">
                 <img
                   src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/12.jpg"
                   className="w-100 "
-                  style={{ minHeight: 230 }}
+                  style={{ minHeight: 258 }}
                   alt=""
                 />
                 <div className=" textforimage2 position-absolute my-3 ">
@@ -41,7 +41,7 @@ function SummerProducts() {
                   <img
                     src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/13.jpg"
                     className="w-100"
-                    style={{ minHeight: 230 }}
+                    style={{ minHeight: 258 }}
                     alt=""
                   />
                   <div className="   textforimage2 position-absolute my-5">

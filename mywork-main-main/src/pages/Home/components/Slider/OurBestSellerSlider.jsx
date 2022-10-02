@@ -5,6 +5,8 @@ import { Container } from "../../../../components";
 import { Col, Row } from "react-bootstrap";
 
 export default function OurBestSellerSlider() {
+    
+    
   return (
     <>
       <div>
@@ -29,22 +31,17 @@ export default function OurBestSellerSlider() {
                   </div>
                   <div className=" d-lg-none d-xxl-none d-xl-block d-md-block d-xs-block">
                     <Swiper
+                    
                       spaceBetween={10}
                       // slidesPerView={7}
-                      onSlideChange={() => console.log("slide change")}
+                      scrollbar={{ draggable: true }}
                       onSwiper={(swiper) => console.log(swiper)}
+                      onSlideChange={() => console.log('slide change')}
                       modules={[Autoplay, Pagination, Navigation, Lazy]}
                       autoplay={{ delay: 2000 }}
                       lazy={true}
-                      pagination={{
-                        el: ".swiper-pagination",
-                        type: "bullets",
-                        clickable: true,
-                      }}
-                      navigation={{
-                        nextEl: ".swiper-button-next",
-                        prevEl: ".swiper-button-prev",
-                      }}
+            
+                      pagination={{ clickable: true }}
                       loop={true}
                       breakpoints={{
                         320: {
@@ -58,7 +55,7 @@ export default function OurBestSellerSlider() {
                       <SwiperSlide>
                         <div className="slick-slide slick-current slick-active ">
                           <ul className="product-list  p-3 border rounded-3">
-                            <li className=" mb-4 mt-2 ">
+                            <li  className=" mb-4  mt-2">
                               <div className="offer-product">
                                 <a
                                   href="product-left.html"
@@ -199,8 +196,8 @@ export default function OurBestSellerSlider() {
                           data-slick-index="1"
                           aria-hidden="false"
                         >
-                          <ul className="product-list  p-3 border rounded-3">
-                            <li className=" mb-4 mt-2 ">
+                          <ul className="product-list  p-3 border rounded-3 cheeza">
+                            <li  className=" mb-4  mt-2">
                               <div className="offer-product">
                                 <a
                                   href="product-left.html"
@@ -344,7 +341,7 @@ export default function OurBestSellerSlider() {
                           aria-hidden="false"
                         >
                           <ul className="product-list  p-3 border rounded-3 ">
-                            <li className=" mb-4 mt-2 ">
+                            <li  className=" mb-4  mt-2">
                               <div className="offer-product">
                                 <a
                                   href="product-left.html"
@@ -484,7 +481,9 @@ export default function OurBestSellerSlider() {
                           </ul>
                         </div>
                       </SwiperSlide>
+                    
                     </Swiper>
+                    
                   </div>
                   <div className="d-none  d-xxl-block d-xl-none d-lg-block d-md-none ">
                     <div className="best-selling-slider product-wrapper wow fadeInUp slick-initialized slick-slider ">
