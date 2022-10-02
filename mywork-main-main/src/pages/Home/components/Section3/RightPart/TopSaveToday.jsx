@@ -9,10 +9,10 @@ function TopSaveToday() {
       <Container>
         <Row className="row-cols-xxl-5 row-cols-xl-4 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-2">
           {/* react gutters */}
-          <Col className="p-3 border ">
+          <Col className="p-3 border cardhovering ">
             <img
               src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/1.png"
-              className="w-100 margintoptodayimage ml-2 mr-2 "
+              className="w-100  margintoptodayimage ml-2 mr-2 imghovering "
               alt=""
             />
 
@@ -30,10 +30,10 @@ function TopSaveToday() {
             </div>
            <AddButton/>
           </Col>
-          <Col className="p-3 border ">
+          <Col className="p-3 border cardhovering ">
             <img
               src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/3.png"
-              className="w-100 margintoptodayimage  "
+              className="w-100  margintoptodayimage  imghovering  "
               alt=""
             />
 
@@ -52,10 +52,10 @@ function TopSaveToday() {
             </div>
             <AddButton/>
           </Col>
-          <Col className="p-3 border ">
+          <Col className="p-3 border cardhovering ">
             <img
               src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/5.png"
-              className="w-100 margintoptodayimage "
+              className="w-100  margintoptodayimage  imghovering "
               alt=""
             />
 
@@ -74,14 +74,14 @@ function TopSaveToday() {
             </div>
             <AddButton/>
           </Col>
-          <Col className="p-3 border position-relative ">
+          <Col className="p-3 border cardhovering position-relative ">
           <div className="label-tag">
                                                     <span>NEW</span>
                                                 </div>
             <div>
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/7.png"
-                className="w-100 margintoptodayimage  topsavetodayimages2"
+                className="w-100  margintoptodayimage  imghovering  topsavetodayimages2"
                 alt=""
               />
             </div>
@@ -100,10 +100,10 @@ function TopSaveToday() {
             </div>
             <AddButton/>
           </Col>
-          <Col className="p-3 border ">
+          <Col className="p-3 border cardhovering ">
             <img
               src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/2.png"
-              className="w-100 margintoptodayimage "
+              className="w-100  margintoptodayimage  imghovering "
               alt=""
             />
 
@@ -121,14 +121,14 @@ function TopSaveToday() {
             </div>
             <AddButton/>
           </Col>
-          <Col className="p-3 border position-relative">
+          <Col className="p-3 border cardhovering position-relative">
           <div className="label-tag">
                                                     <span>NEW</span>
                                                 </div>
             <div>
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/4.png"
-                className="w-100 margintoptodayimage "
+                className="w-100  margintoptodayimage  imghovering "
                 alt=""
               />
             </div>
@@ -149,10 +149,10 @@ function TopSaveToday() {
             </div>
             <AddButton/>
           </Col>
-          <Col className="p-3 border ">
+          <Col className="p-3 border cardhovering ">
             <img
               src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/6.png"
-              className="w-100 margintoptodayimage "
+              className="w-100  margintoptodayimage  imghovering "
               alt=""
             />
 
@@ -170,10 +170,10 @@ function TopSaveToday() {
             </div>
             <AddButton/>
           </Col>
-          <Col className="p-3 border ">
+          <Col className="p-3 border cardhovering ">
             <img
               src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/9.png"
-              className="w-100 margintoptodayimage "
+              className="w-100  margintoptodayimage  imghovering "
               alt=""
             />
 
@@ -191,10 +191,10 @@ function TopSaveToday() {
             </div>
             <AddButton/>
           </Col>
-          <Col className="p-3 border ">
+          <Col className="p-3 border cardhovering ">
             <img
               src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/8.png"
-              className="w-100 margintoptodayimage "
+              className="w-100  margintoptodayimage  imghovering "
               alt=""
             />
 
@@ -213,10 +213,10 @@ function TopSaveToday() {
             </div>
             <AddButton/>
           </Col>
-          <Col className="p-3 border ">
+          <Col className="p-3 border cardhovering ">
             <img
               src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/10.png"
-              className="w-100 margintoptodayimage "
+              className="w-100  margintoptodayimage  imghovering "
               alt=""
             />
 

@@ -162,27 +162,22 @@ function Section3() {
                       title="Mega Menue"
                      
                     >
-                      <NavDropdown.Item
-                        href="#action/3.1"
-                        to="/contact"
-                        as={NavLink}
-                        className="dropdownsizee"
-                      ><div className="megabg">
+                     <div className="megabg dropdownsizee">
                         <Row>
                           <div>
-                            <ul className="unstyled">
+                            <ul className="unstyled" >
                               <Col xl={3}>
                                 <div className="dropdown-column col-xl-3">
                                   <h5 className="dropdown-header">
                                     Daily Vegetables
-                                  </h5><Row><Col xl={12}>             <a
+                                  </h5>  
+                                        <a
                                     className="dropdown-item"
                                     href="shop-left-sidebar.html"
                                   >
                                     Beans &amp; Brinjals
-                                  </a></Col></Row>
+                                  </a>
                      
-                                  <Row><Col xl={12}></Col></Row>
                                   <a
                                     className="dropdown-item"
                                     href="shop-left-sidebar.html"
@@ -329,7 +324,7 @@ function Section3() {
                             </ul>
                           </div>
                         </Row></div>
-                      </NavDropdown.Item>
+                   
                     </NavDropdown>
                   </Col>
                     <Col xl={2}>

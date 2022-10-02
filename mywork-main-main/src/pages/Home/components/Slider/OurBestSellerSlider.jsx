@@ -29,7 +29,7 @@ export default function OurBestSellerSlider() {
                     </div>
                     <div className=" d-lg-none d-xxl-none d-xl-none">
                   <Swiper
-                    spaceBetween={0}
+                    spaceBetween={10}
                     // slidesPerView={7}
                     onSlideChange={() => console.log("slide change")}
                     onSwiper={(swiper) => console.log(swiper)}
@@ -56,13 +56,13 @@ export default function OurBestSellerSlider() {
                     
                     }}
                   >
-                    <SwiperSlide>
-                    <div className="slick-slide slick-current slick-active" >
+                    <SwiperSlide  >
+                    <div className="slick-slide slick-current slick-active " >
                                 <ul className="product-list  p-3 border rounded-3">
                                     <li className="line mb-4 mt-2 ">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
-                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/11.png" className="blur-up lazyloaded" alt=""/>
+                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/11.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                             </a>
     
                                             <div className="offer-detail">
@@ -70,7 +70,7 @@ export default function OurBestSellerSlider() {
                                                     <a href="product-left.html" className="text-title" tabindex="0">
                                                         <span className="name">Tuffets Whole Wheat Bread</span>
                                                     </a>
-                                                    <span>500 G</span>
+                                                    <span className="mx-2">500 G</span>
                                                     <span className="price text-primary mb-4 ">$ 10.00</span>
                                                 </div>
                                             </div>
@@ -81,7 +81,7 @@ export default function OurBestSellerSlider() {
                                     <li className="line mb-4  mt-2">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
-                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/12.png" className="blur-up lazyloaded" alt=""/>
+                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/12.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                             </a>
     
                                             <div className="offer-detail">
@@ -89,7 +89,7 @@ export default function OurBestSellerSlider() {
                                                     <a href="product-left.html" className="text-title" tabindex="0">
                                                         <span className="name">Potato</span>
                                                     </a>
-                                                    <span>500 G</span>
+                                                    <span className="mx-2">500 G</span>
                                                     <span className="price text-primary mb-4">$ 10.00</span>
                                                 </div>
                                             </div>
@@ -99,7 +99,7 @@ export default function OurBestSellerSlider() {
                                     <li className="line mb-4  mt-2">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
-                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/13.png" className="blur-up lazyloaded" alt=""/>
+                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/13.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                             </a>
     
                                             <div className="offer-detail">
@@ -107,7 +107,7 @@ export default function OurBestSellerSlider() {
                                                     <a href="product-left.html" className="text-title" tabindex="0">
                                                         <span className="name">Green Chilli</span>
                                                     </a>
-                                                    <span>200 G</span>
+                                                    <span className="mx-2">200 G</span>
                                                     <span className="price text-primary mb-4">$ 10.00</span>
                                                 </div>
                                             </div>
@@ -117,7 +117,7 @@ export default function OurBestSellerSlider() {
                                     <li className="mt-2">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
-                                                <img src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/14.png" className="blur-up lazyloaded" alt=""/>
+                                                <img src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/14.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                             </a>
     
                                             <div className="offer-detail">
@@ -125,7 +125,7 @@ export default function OurBestSellerSlider() {
                                                     <a href="product-left.html" className="text-title" tabindex="0">
                                                         <span className="name">Muffets Burger Bun</span>
                                                     </a>
-                                                    <span>150 G</span>
+                                                    <span className="mx-2">150 G</span>
                                                     <span className="price text-primary mb-4">$ 10.00</span>
                                                 </div>
                                             </div>
@@ -134,13 +134,13 @@ export default function OurBestSellerSlider() {
                                 </ul>
                             </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                    <div className="slick-slide slick-active" tabindex="0" data-slick-index="1" aria-hidden="false">
+                    <SwiperSlide  >
+                    <div className="slick-slide slick-active " tabindex="0" data-slick-index="1" aria-hidden="false">
                             <ul className="product-list  p-3 border rounded-3">
                                 <li className="line mb-4 mt-2 ">
                                     <div className="offer-product">
                                         <a href="product-left.html" className="offer-image" tabindex="0">
-                                            <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/15.png" className="blur-up lazyloaded" alt=""/>
+                                            <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/15.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                         </a>
 
                                         <div className="offer-detail">
@@ -148,7 +148,7 @@ export default function OurBestSellerSlider() {
                                                 <a href="product-left.html" className="text-title" tabindex="0">
                                                     <span className="name">Tuffets Britannia Cheezza</span>
                                                 </a>
-                                                <span>500 G</span>
+                                                <span className="mx-2">500 G</span>
                                                 <span className="price text-primary mb-4">$ 10.00</span>
                                             </div>
                                         </div>
@@ -158,7 +158,7 @@ export default function OurBestSellerSlider() {
                                 <li className="line mb-4 mt-2  ">
                                     <div className="offer-product">
                                         <a href="product-left.html" className="offer-image" tabindex="0">
-                                            <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/16.png" className="blur-up lazyloaded" alt=""/>
+                                            <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/16.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                         </a>
 
                                         <div className="offer-detail">
@@ -166,7 +166,7 @@ export default function OurBestSellerSlider() {
                                                 <a href="product-left.html" className="text-title" tabindex="0">
                                                     <span className="name">Long Life Toned Milk</span>
                                                 </a>
-                                                <span>1 L</span>
+                                                <span className="mx-2">1 L</span>
                                                 <span className="price text-primary mb-4">$ 10.00</span>
                                             </div>
                                         </div>
@@ -176,7 +176,7 @@ export default function OurBestSellerSlider() {
                                 <li className="line mb-4  mt-2">
                                     <div className="offer-product">
                                         <a href="product-left.html" className="offer-image" tabindex="0">
-                                            <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/17.png" className="blur-up lazyloaded" alt=""/>
+                                            <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/17.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                         </a>
 
                                         <div className="offer-detail">
@@ -184,7 +184,7 @@ export default function OurBestSellerSlider() {
                                                 <a href="product-left.html" className="text-title" tabindex="0">
                                                     <span className="name">Organic Tomato</span>
                                                 </a>
-                                                <span>1 KG</span>
+                                                <span className="mx-2">1 KG</span>
                                                 <span className="price text-primary mb-4">$ 10.00</span>
                                             </div>
                                         </div>
@@ -194,7 +194,7 @@ export default function OurBestSellerSlider() {
                                 <li className="mt-2">
                                     <div className="offer-product">
                                         <a href="product-left.html" className="offer-image" tabindex="0">
-                                            <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/18.png" className="blur-up lazyloaded" alt=""/>
+                                            <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/18.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                         </a>
 
                                         <div className="offer-detail">
@@ -202,7 +202,7 @@ export default function OurBestSellerSlider() {
                                                 <a href="product-left.html" className="text-title" tabindex="0">
                                                     <span className="name">Organic Jam</span>
                                                 </a>
-                                                <span>150 G</span>
+                                                <span className="mx-2">150 G</span>
                                                 <span className="price text-primary mb-4">$ 10.00</span>
                                             </div>
                                         </div>
@@ -211,13 +211,13 @@ export default function OurBestSellerSlider() {
                             </ul>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                    <div className="slick-slide slick-active "  tabindex="0" data-slick-index="2" aria-hidden="false">
+                    <SwiperSlide  >
+                    <div className="slick-slide slick-active  "  tabindex="0" data-slick-index="2" aria-hidden="false">
                             <ul className="product-list  p-3 border rounded-3 ">
                                 <li className="line mb-4 mt-2 ">
                                     <div className="offer-product">
                                         <a href="product-left.html" className="offer-image" tabindex="0">
-                                            <img src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/19.png" className="blur-up lazyloaded" alt=""/>
+                                            <img src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/19.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                         </a>
 
                                         <div className="offer-detail">
@@ -225,7 +225,7 @@ export default function OurBestSellerSlider() {
                                                 <a href="product-left.html" className="text-title" tabindex="0">
                                                     <span className="name">Good Life Refined Sunflower Oil</span>
                                                 </a>
-                                                <span>1 L</span>
+                                                <span className="mx-2">1 L</span>
                                                 <span className="price text-primary mb-4">$ 10.00</span>
                                             </div>
                                         </div>
@@ -236,7 +236,7 @@ export default function OurBestSellerSlider() {
                                     <div className="offer-product">
                                         <a href="product-left.html" className="offer-image" tabindex="0">
                                             <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/20.png
-" className="blur-up lazyloaded" alt=""/>
+" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                         </a>
 
                                         <div className="offer-detail">
@@ -244,7 +244,7 @@ export default function OurBestSellerSlider() {
                                                 <a href="product-left.html" className="text-title" tabindex="0">
                                                     <span className="name">Good Life Raw Peanuts</span>
                                                 </a>
-                                                <span>500 G</span>
+                                                <span className="mx-2">500 G</span>
                                                 <span className="price text-primary mb-4">$ 10.00</span>
                                             </div>
                                         </div>
@@ -255,7 +255,7 @@ export default function OurBestSellerSlider() {
                                     <div className="offer-product">
                                         <a href="product-left.html" className="offer-image" tabindex="0">
                                             <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/21.png
-" className="blur-up lazyloaded" alt=""/>
+" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                         </a>
 
                                         <div className="offer-detail">
@@ -263,7 +263,7 @@ export default function OurBestSellerSlider() {
                                                 <a href="product-left.html" className="text-title" tabindex="0">
                                                     <span className="name">TufBest Farms Moong Dal</span>
                                                 </a>
-                                                <span>1 KG</span>
+                                                <span className="mx-2">1 KG</span>
                                                 <span className="price text-primary mb-4">$ 10.00</span>
                                             </div>
                                         </div>
@@ -273,7 +273,7 @@ export default function OurBestSellerSlider() {
                                 <li className="mt-2" >
                                     <div className="offer-product">
                                         <a href="product-left.html" className="offer-image" tabindex="0">
-                                            <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/22.png" className="blur-up lazyloaded" alt=""/>
+                                            <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/22.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                         </a>
 
                                         <div className="offer-detail">
@@ -281,7 +281,7 @@ export default function OurBestSellerSlider() {
                                                 <a href="product-left.html" className="text-title" tabindex="0">
                                                     <span className="name">Frooti Mango Drink</span>
                                                 </a>
-                                                <span>160 ML</span>
+                                                <span className="mx-2">160 ML</span>
                                                 <span className="price text-primary mb-4">$ 10.00</span>
                                             </div>
                                         </div>
@@ -300,15 +300,15 @@ export default function OurBestSellerSlider() {
                     
                         <div className="slick-list draggable  ">
                             <div className="slick-track" > 
-                              <Row className="row-cols-xxl-3 row-cols-xl-2 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1">
+                              <Row className="row-cols-xxl-3 row-cols-xl-2 row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1  ">
     
     <Col>
-                                <div className="slick-slide slick-current slick-active" >
-                                <ul className="product-list  p-3 border rounded-3">
+                            
+                                <ul className="product-list  p-3 border rounded-3 ">
                                     <li className="line mb-4 mt-2  ">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
-                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/11.png" className="blur-up lazyloaded" alt=""/>
+                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/11.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                             </a>
     
                                             <div className="offer-detail">
@@ -316,7 +316,7 @@ export default function OurBestSellerSlider() {
                                                     <a href="product-left.html" className="text-title" tabindex="0">
                                                         <span className="name">Tuffets Whole Wheat Bread</span>
                                                     </a>
-                                                    <span>500 G</span>
+                                                    <span className="mx-2">500 G</span>
                                                     <span className="price text-primary mb-4 ">$ 10.00</span>
                                                 </div>
                                             </div>
@@ -327,7 +327,7 @@ export default function OurBestSellerSlider() {
                                     <li className="line mb-4  mt-2">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
-                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/12.png" className="blur-up lazyloaded" alt=""/>
+                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/12.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                             </a>
     
                                             <div className="offer-detail">
@@ -335,7 +335,7 @@ export default function OurBestSellerSlider() {
                                                     <a href="product-left.html" className="text-title" tabindex="0">
                                                         <span className="name">Potato</span>
                                                     </a>
-                                                    <span>500 G</span>
+                                                    <span className="mx-2">500 G</span>
                                                     <span className="price text-primary mb-4">$ 10.00</span>
                                                 </div>
                                             </div>
@@ -345,7 +345,7 @@ export default function OurBestSellerSlider() {
                                     <li className="line mb-4 mt-2 ">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
-                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/13.png" className="blur-up lazyloaded" alt=""/>
+                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/13.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                             </a>
     
                                             <div className="offer-detail">
@@ -353,7 +353,7 @@ export default function OurBestSellerSlider() {
                                                     <a href="product-left.html" className="text-title" tabindex="0">
                                                         <span className="name">Green Chilli</span>
                                                     </a>
-                                                    <span>200 G</span>
+                                                    <span className="mx-2">200 G</span>
                                                     <span className="price text-primary mb-4">$ 10.00</span>
                                                 </div>
                                             </div>
@@ -363,7 +363,7 @@ export default function OurBestSellerSlider() {
                                     <li className="mt-2" >
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
-                                                <img src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/14.png" className="blur-up lazyloaded" alt=""/>
+                                                <img src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/14.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                             </a>
     
                                             <div className="offer-detail">
@@ -371,21 +371,21 @@ export default function OurBestSellerSlider() {
                                                     <a href="product-left.html" className="text-title" tabindex="0">
                                                         <span className="name">Muffets Burger Bun</span>
                                                     </a>
-                                                    <span>150 G</span>
+                                                    <span className="mx-2">150 G</span>
                                                     <span className="price text-primary mb-4">$ 10.00</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </li>
                                 </ul>
-                            </div></Col>
+                           </Col>
                             <Col>
-                            <div className="slick-slide slick-active" tabindex="0" data-slick-index="1" aria-hidden="false">
+                           
                                 <ul className="product-list  p-3 border rounded-3">
                                     <li className="line mb-4 mt-2 ">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
-                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/15.png" className="blur-up lazyloaded" alt=""/>
+                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/15.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                             </a>
     
                                             <div className="offer-detail">
@@ -393,7 +393,7 @@ export default function OurBestSellerSlider() {
                                                     <a href="product-left.html" className="text-title" tabindex="0">
                                                         <span className="name">Tuffets Britannia Cheezza</span>
                                                     </a>
-                                                    <span>500 G</span>
+                                                    <span className="mx-2">500 G</span>
                                                     <span className="price text-primary mb-4">$ 10.00</span>
                                                 </div>
                                             </div>
@@ -403,7 +403,7 @@ export default function OurBestSellerSlider() {
                                     <li className="line mb-4 mt-2 ">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
-                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/16.png" className="blur-up lazyloaded" alt=""/>
+                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/16.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                             </a>
     
                                             <div className="offer-detail">
@@ -411,7 +411,7 @@ export default function OurBestSellerSlider() {
                                                     <a href="product-left.html" className="text-title" tabindex="0">
                                                         <span className="name">Long Life Toned Milk</span>
                                                     </a>
-                                                    <span>1 L</span>
+                                                    <span className="mx-2">1 L</span>
                                                     <span className="price text-primary mb-4">$ 10.00</span>
                                                 </div>
                                             </div>
@@ -421,7 +421,7 @@ export default function OurBestSellerSlider() {
                                     <li className="line mb-4 mt-2 ">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
-                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/17.png" className="blur-up lazyloaded" alt=""/>
+                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/17.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                             </a>
     
                                             <div className="offer-detail">
@@ -429,7 +429,7 @@ export default function OurBestSellerSlider() {
                                                     <a href="product-left.html" className="text-title" tabindex="0">
                                                         <span className="name">Organic Tomato</span>
                                                     </a>
-                                                    <span>1 KG</span>
+                                                    <span className="mx-2">1 KG</span>
                                                     <span className="price text-primary mb-4">$ 10.00</span>
                                                 </div>
                                             </div>
@@ -439,7 +439,7 @@ export default function OurBestSellerSlider() {
                                     <li className="mt-2">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
-                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/18.png" className="blur-up lazyloaded" alt=""/>
+                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/18.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                             </a>
     
                                             <div className="offer-detail">
@@ -447,21 +447,21 @@ export default function OurBestSellerSlider() {
                                                     <a href="product-left.html" className="text-title" tabindex="0">
                                                         <span className="name">Organic Jam</span>
                                                     </a>
-                                                    <span>150 G</span>
+                                                    <span className="mx-2">150 G</span>
                                                     <span className="price text-primary mb-4">$ 10.00</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </li>
                                 </ul>
-                            </div></Col>
+                        </Col>
                             <Col>
-                            <div className="slick-slide slick-active "  tabindex="0" data-slick-index="2" aria-hidden="false">
+                            
                                 <ul className="product-list  p-3 border rounded-3">
                                     <li className="line mb-4  mt-2">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
-                                                <img src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/19.png" className="blur-up lazyloaded" alt=""/>
+                                                <img src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/19.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                             </a>
     
                                             <div className="offer-detail">
@@ -469,7 +469,7 @@ export default function OurBestSellerSlider() {
                                                     <a href="product-left.html" className="text-title" tabindex="0">
                                                         <span className="name">Good Life Refined Sunflower Oil</span>
                                                     </a>
-                                                    <span>1 L</span>
+                                                    <span className="mx-2">1 L</span>
                                                     <span className="price text-primary mb-4">$ 10.00</span>
                                                 </div>
                                             </div>
@@ -480,7 +480,7 @@ export default function OurBestSellerSlider() {
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/20.png
-    " className="blur-up lazyloaded" alt=""/>
+    " className="blur-up lazyloaded imghovering me-2" alt=""/>
                                             </a>
     
                                             <div className="offer-detail">
@@ -488,7 +488,7 @@ export default function OurBestSellerSlider() {
                                                     <a href="product-left.html" className="text-title" tabindex="0">
                                                         <span className="name">Good Life Raw Peanuts</span>
                                                     </a>
-                                                    <span>500 G</span>
+                                                    <span className="mx-2">500 G</span>
                                                     <span className="price text-primary mb-4">$ 10.00</span>
                                                 </div>
                                             </div>
@@ -499,7 +499,7 @@ export default function OurBestSellerSlider() {
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
                                                 <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/21.png
-    " className="blur-up lazyloaded" alt=""/>
+    " className="blur-up lazyloaded imghovering me-2" alt=""/>
                                             </a>
     
                                             <div className="offer-detail">
@@ -507,7 +507,7 @@ export default function OurBestSellerSlider() {
                                                     <a href="product-left.html" className="text-title" tabindex="0">
                                                         <span className="name">TufBest Farms Moong Dal</span>
                                                     </a>
-                                                    <span>1 KG</span>
+                                                    <span className="mx-2">1 KG</span>
                                                     <span className="price text-primary mb-4">$ 10.00</span>
                                                 </div>
                                             </div>
@@ -517,7 +517,7 @@ export default function OurBestSellerSlider() {
                                     <li className="mt-2">
                                         <div className="offer-product">
                                             <a href="product-left.html" className="offer-image" tabindex="0">
-                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/22.png" className="blur-up lazyloaded" alt=""/>
+                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/22.png" className="blur-up lazyloaded imghovering me-2" alt=""/>
                                             </a>
     
                                             <div className="offer-detail">
@@ -525,14 +525,14 @@ export default function OurBestSellerSlider() {
                                                     <a href="product-left.html" className="text-title" tabindex="0">
                                                         <span className="name">Frooti Mango Drink</span>
                                                     </a>
-                                                    <span>160 ML</span>
+                                                    <span className="mx-2">160 ML</span>
                                                     <span className="price text-primary mb-4">$ 10.00</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </li>
                                 </ul>
-                            </div></Col></Row></div></div></div></div>
+                           </Col></Row></div></div></div></div>
                 </Col>
               </Row>
             </div>

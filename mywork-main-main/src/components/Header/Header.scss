@@ -148,7 +148,20 @@
    
     
   }
-  
+  .dropdown-item::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 4px;
+    bottom: 2px;
+    left: 0;
+    background-color: #0da487;
+    opacity: 0.3;
+    border-radius: 50px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+}
 @media (max-width: 575.98px){
 .modal-dialog{
     width: 100vw;

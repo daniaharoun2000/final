@@ -7,7 +7,7 @@ function Section3LeftPart() {
         <section className=" gap-4 py-4">
           <div className=" ">
           <Row><Col xl={12}>    <div className="category-menu bg-cat">
-              <h3>Category</h3>
+              <h3>Categories </h3>
               <ul className="linesection3left">
                 <li>
                   <div className="category-list ">
@@ -19,7 +19,7 @@ function Section3LeftPart() {
                     <h5>
                       <a
                         href="shop-left-sidebar.html"
-                        className="categorytext text-gray "
+                        className="categorytext  "
                       >
                         Vegetables &amp; Fruit
                       </a>
@@ -36,7 +36,7 @@ function Section3LeftPart() {
                     <h5>
                       <a
                         href="shop-left-sidebar.html"
-                        className="categorytext text-gray "
+                        className="categorytext  "
                       >
                         Beverages
                       </a>
@@ -53,7 +53,7 @@ function Section3LeftPart() {
                     <h5>
                       <a
                         href="shop-left-sidebar.html"
-                        className="categorytext text-gray "
+                        className="categorytext  "
                       >
                         Meats &amp; Seafood
                       </a>
@@ -70,7 +70,7 @@ function Section3LeftPart() {
                     <h5>
                       <a
                         href="shop-left-sidebar.html"
-                        className="categorytext text-gray "
+                        className="categorytext  "
                       >
                         Breakfast &amp; Dairy
                       </a>
@@ -87,7 +87,7 @@ function Section3LeftPart() {
                     <h5>
                       <a
                         href="shop-left-sidebar.html"
-                        className="categorytext text-gray "
+                        className="categorytext  "
                       >
                         Frozen Foods
                       </a>
@@ -104,7 +104,7 @@ function Section3LeftPart() {
                     <h5>
                       <a
                         href="shop-left-sidebar.html"
-                        className="categorytext text-gray "
+                        className="categorytext  "
                       >
                         Biscuits &amp; Snacks
                       </a>
@@ -121,7 +121,7 @@ function Section3LeftPart() {
                     <h5>
                       <a
                         href="shop-left-sidebar.html"
-                        className="categorytext text-gray "
+                        className="categorytext  "
                       >
                         Grocery &amp; Staples
                       </a>
@@ -138,7 +138,7 @@ function Section3LeftPart() {
                     <h5>
                       <a
                         href="shop-left-sidebar.html"
-                        className="categorytext text-gray "
+                        className="categorytext  "
                       >
                         Wines &amp; Alcohol Drinks
                       </a>
@@ -155,7 +155,7 @@ function Section3LeftPart() {
                     <h5>
                       <a
                         href="shop-left-sidebar.html"
-                        className="categorytext text-gray "
+                        className="categorytext  "
                       >
                         Milk &amp; Dairies
                       </a>
@@ -172,7 +172,7 @@ function Section3LeftPart() {
                     <h5>
                       <a
                         href="shop-left-sidebar.html"
-                        className="categorytext text-gray "
+                        className="categorytext  "
                       >
                         Pet Foods
                       </a>
@@ -187,7 +187,7 @@ function Section3LeftPart() {
                     <h5 className="ms-0 text-title">
                       <a
                         href="shop-left-sidebar.html"
-                        className="categorytext text-gray "
+                        className="categorytext  "
                       >
                         Value of the Day
                       </a>
@@ -199,7 +199,7 @@ function Section3LeftPart() {
                     <h5 className="ms-0 text-title">
                       <a
                         href="shop-left-sidebar.html"
-                        className="categorytext text-gray "
+                        className="categorytext  "
                       >
                         Top 50 Offers
                       </a>
@@ -211,7 +211,7 @@ function Section3LeftPart() {
                     <h5 className="ms-0 text-title">
                       <a
                         href="shop-left-sidebar.html"
-                        className="categorytext text-gray "
+                        className="categorytext  "
                       >
                         New Arrivals
                       </a>
@@ -287,7 +287,7 @@ function Section3LeftPart() {
                       <a href="product-left.html" className="offer-image">
                         <img
                           src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/23.png"
-                          className=" "
+                          className=" me-1 imghovering"
                           alt=""
                         />
                       </a>
@@ -300,7 +300,7 @@ function Section3LeftPart() {
                             </h6>
                           </a>
                           <span className="text-aa">450 G</span>
-                          <h6 className="price text-primary  lineundersection">
+                          <h6 className="price text-primary  lineundersection pb-1">
                             $ 70.00
                           </h6>
                         </div>
@@ -313,7 +313,7 @@ function Section3LeftPart() {
                       <a href="product-left.html" className="offer-image">
                         <img
                           src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/24.png"
-                          className=" "
+                          className="me-1 imghovering "
                           alt=""
                         />
                       </a>
@@ -326,7 +326,7 @@ function Section3LeftPart() {
                             </h6>
                           </a>
                           <span className="text-aa">450 G</span>
-                          <h6 className="price text-primary lineundersection">
+                          <h6 className="price text-primary lineundersection pb-1">
                             $ 40.00
                           </h6>
                         </div>
@@ -339,7 +339,7 @@ function Section3LeftPart() {
                       <a href="product-left.html" className="offer-image">
                         <img
                           src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/25.png"
-                          className=" "
+                          className="me-1 imghovering "
                           alt=""
                         />
                       </a>
@@ -352,7 +352,7 @@ function Section3LeftPart() {
                             </h6>
                           </a>
                           <span className="text-aa">200 G</span>
-                          <h6 className="price text-primary lineundersection">
+                          <h6 className="price text-primary lineundersection pb-1">
                             $ 52.00
                           </h6>
                         </div>
@@ -365,7 +365,7 @@ function Section3LeftPart() {
                       <a href="product-left.html" className="offer-image">
                         <img
                           src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/26.png"
-                          className=" "
+                          className="me-1  imghovering "
                           alt=""
                         />
                       </a>
@@ -378,7 +378,7 @@ function Section3LeftPart() {
                             </h6>
                           </a>
                           <span className="text-aa">1 KG</span>
-                          <h6 className="price text-primary lineundersection">
+                          <h6 className="price text-primary lineundersection pb-1">
                             $ 80.00
                           </h6>
                         </div>

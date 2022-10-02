@@ -5,7 +5,7 @@ function Section2() {
   return (
     <div >
       <Container>
-        <section className="banner-section ">
+   
           <div className="py-4">
             <Row className="g-sm-4 g-3">
               <Col xxl={3} lg={4} sm={6} className="firstcol">
@@ -16,13 +16,13 @@ function Section2() {
                     className="imagesection2 w-100"
                   />
                   <div className="banner-details">
-                    <div className="banner-box">
+                    <div className="banner-box"><div className="mx-3">
                       <h6 className="text-dd">5% OFF</h6>
                       <h5 className="me-4">Hot Deals on New Items</h5>
                       <h6 className="text-aa">
                         Daily Essentials Eggs &amp; Dairy
                       </h6>
-                    </div>
+                    </div></div>
                     <a
                       href="shop-left-sidebar.html"
                       className="banner-button text-white"
@@ -40,11 +40,11 @@ function Section2() {
                     className="imagesection2 w-100"
                   />
                   <div className="banner-details">
-                    <div className="banner-box">
+                    <div className="banner-box"><div className="mx-3">
                       <h6 className="text-dd">5% OFF</h6>
                       <h5 className="me-4">Buy More &amp; Save More</h5>
                       <h6 className="text-aa">Fresh Vegetables</h6>
-                    </div>
+                    </div></div>
                     <a
                       href="shop-left-sidebar.html"
                       className="banner-button text-white"
@@ -62,11 +62,11 @@ function Section2() {
                     className="imagesection2 w-100"
                   />
                   <div className="banner-details">
-                    <div className="banner-box">
+                    <div className="banner-box"><div className="mx-3">
                       <h6 className="text-dd">5% OFF</h6>
                       <h5 className="me-4">Organic Meat Prepared</h5>
                       <h6 className="text-aa">Delivered to Your Home</h6>
-                    </div>
+                    </div></div>
                     <a
                       href="shop-left-sidebar.html"
                       className="banner-button text-white"
@@ -84,11 +84,11 @@ function Section2() {
                     className="imagesection2 w-100"
                   />
                   <div className="banner-details">
-                    <div className="banner-box">
+                    <div className="banner-box "><div className="mx-3">
                       <h6 className="text-dd">5% OFF</h6>
                       <h5 className="me-4">Buy More &amp; Save More</h5>
                       <h6 className="text-aa">Nuts &amp; Snacks</h6>
-                    </div>
+                    </div></div>
                     <a
                       href="shop-left-sidebar.html"
                       className="banner-button text-white"
@@ -100,7 +100,7 @@ function Section2() {
               </Col>
             </Row>
           </div>
-        </section>
+ 
       </Container>
     </div>
   );

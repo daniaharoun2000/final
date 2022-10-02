@@ -9,6 +9,9 @@
     -webkit-box-shadow: 0 -3px 10px 0px rgb(0 0 0 / 8%);
     box-shadow: 0 -3px 10px 0px rgb(0 0 0 / 8%);
   }
+.iconsizemobile{
+  width: 20px;
+}
 
   .mobile-menu ul {
     display: -webkit-box;
@@ -17,22 +20,7 @@
 
     margin: 0 auto;
   }
-  .iconly-Home:before {
-    content: "\e933";
-}
-.iconly-Category:before {
-  content: "\e920";
-}
-.iconly-Search:before {
-  content: "\e94b";
-}
 
-.iconly-Heart:before {
-  content: "\e931";
-}
-.iconly-Bag-2:before {
-  content: "\e917";
-}
   .mobile-menu ul li {
     width: 100%;
     text-align: center;
@@ -53,4 +41,20 @@
     display: block;
     color: #fff;
   }
+  .mobile-menu ul li.active {
+ 
+    position: relative;
+}
+.mobile-menu ul li.active::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  bottom: -15px;
+  left: 50%;
+  -webkit-transform: translateX(-50%) rotate(45deg);
+  transform: translateX(-50%) rotate(45deg);
+  background-color: #fff;
+  border-radius: 100%;
+}
 }

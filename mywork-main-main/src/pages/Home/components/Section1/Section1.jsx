@@ -1,7 +1,6 @@
 import { Col, Row } from "react-bootstrap";
 
-// import svgg from "../images/rarrow.svg";
-import svgg from '../../images/rarrow.svg';
+
 import Container from "../../../../components/Container";
 function Section1() {
   return (
@@ -52,9 +51,12 @@ function Section1() {
                       <p className=" text-aa psection1">
                         We deliver organic vegetables &amp; fruits
                       </p>
-                      <a href="shop-left-sidebar.html" >
-                        Shop Now
-                      </a>
+                      <button
+                    onClick="location.href = 'shop-left-sidebar.html';"
+                    className="btn  mt-xxl-4 mt-2 home-button mend-auto text-overflow-1  bg-dd text-white "
+                  >
+                    Shop Now 
+                  </button>
                     </div>
                   </div>
                 </div>
@@ -74,9 +76,12 @@ function Section1() {
                       <p className="organic text-aa psection1">
                         Start your daily shopping with some Organic food
                       </p>
-                      <a href="shop-left-sidebar.html" >
-                        Shop Now
-                      </a>
+                      <button
+                    onClick="location.href = 'shop-left-sidebar.html';"
+                    className="btn  mt-xxl-4 mt-2 home-button mend-auto text-overflow-1  bg-dd text-white "
+                  >
+                    Shop Now 
+                  </button>
                     </div>
                   </div>
                 </div>

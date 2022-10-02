@@ -38,9 +38,9 @@ function Home() {
       <section>
         <Section3 />
       </section>
-      <section>
+     
         <Newsletter />
-      </section>
+     
       <section>
         <Footer />
       </section>

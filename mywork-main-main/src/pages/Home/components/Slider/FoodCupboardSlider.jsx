@@ -14,7 +14,7 @@ export default function FoodCupboardSlider() {
           <Container>
             <div className=" py-4">
               <Row>
-                <Col xl={12}>
+                <Col xl={12} >
                   <div className="title title-flex py-4">
                     <div>
                       <h2>Food Cupboard</h2>
@@ -73,10 +73,10 @@ export default function FoodCupboardSlider() {
                     }}
                   >
                     <SwiperSlide>
-                    <div className="p-3 border ">
+                    <div className="p-3 border  cardhovering">
                               <img
                                 src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/1.png"
-                                className="w-100 margintoptodayimage  "
+                                className="w-100 margintoptodayimage imghovering  "
                                 alt=""
                               />
 
@@ -100,10 +100,10 @@ export default function FoodCupboardSlider() {
                             </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className="p-3 border ">
+                    <div className="p-3 border cardhovering ">
                               <img
                               src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/3.png"
-                                className="w-100 margintoptodayimage  "
+                                className="w-100 margintoptodayimage imghovering  "
                                 alt=""
                               />
 
@@ -127,11 +127,11 @@ export default function FoodCupboardSlider() {
                             </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className="p-3 border ">
+                    <div className="p-3 border cardhovering ">
                               <img
                                 src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/5.png
                                 "
-                                className="w-100 margintoptodayimage  "
+                                className="w-100 margintoptodayimage imghovering  "
                                 alt=""
                               />
 
@@ -156,10 +156,10 @@ export default function FoodCupboardSlider() {
                             </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className="p-3 border ">
+                    <div className="p-3 border cardhovering ">
                               <img
                                 src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/6.png"
-                                className="w-100 margintoptodayimage  "
+                                className="w-100 margintoptodayimage imghovering  "
                                 alt=""
                               />
 
@@ -183,10 +183,10 @@ export default function FoodCupboardSlider() {
                             </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                    <div className="p-3 border ">
+                    <div className="p-3 border cardhovering ">
                               <img
                                 src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/4.png"
-                                className="w-100 margintoptodayimage  "
+                                className="w-100 margintoptodayimage imghovering  "
                                 alt=""
                               />
 

@@ -18,7 +18,7 @@ function Section3RightPart() {
   const dateTimeAfter333Days = NOW_IN_MS + THREE_DAYS_IN_MS;
   return (
     <div >
-      <Container> <Row>
+      <Container><div className=" py-4"><Row>
           <Col xxl={6 }xl={6}xs={12} md={12}>   <div className="title title-flex">
           <div >
             <h2>Top Save Today</h2>
@@ -59,7 +59,7 @@ function Section3RightPart() {
               <CountdownTimer targetDate={dateTimeAfter333Days} />
             </div>
           </Col>
-        </Row>
+        </Row></div>
 
         <TopSaveToday />
         <BowsebyCategoriesSlider />

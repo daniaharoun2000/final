@@ -1,6 +1,10 @@
 import Container from "../../../../components/Container";
-
 import { Col, Row } from "react-bootstrap";
+import catigoriesicon from '../../images/catigories.png';
+import homeicon from '../../images/homeicon.png';
+import favorite from '../../images/favorite.png';
+import cart from '../../images/cart.png';
+import search from '../../images/search.png';
 
 function MobileMenu() {
   return (
@@ -9,39 +13,39 @@ function MobileMenu() {
         <Row>
           <Col xl={12}>
             <div className="w-100">
-              <div className=" mobile-cart   w-100">
+              <div className=" mobile-cart w-100">
                 <ul>
-                  <li className="mobile-category">
+                  <li className="mobile-category active">
                     <a href="index.html">
-                      <i className="iconly-Home icli"></i>
+<img src={homeicon} className="iconsizemobile"/>
                   <span>Home</span>
                     </a>
                   </li>
 
                   <li className="mobile-category">
                     <a href="javascript:void(0)">
-                      <i className="iconly-Category icli js-link"></i>
+                    <img src={catigoriesicon} className="iconsizemobile"/>
                       <span>Category</span>
                     </a>
                   </li>
 
                   <li>
                     <a href="search.html" className="search-box">
-                      <i className="iconly-Search icli"></i>
+                    <img src={search} className="iconsizemobile"/>
                       <span>Search</span>
                     </a>
                   </li>
 
                   <li>
                     <a href="wishlist.html" className="notifi-wishlist">
-                      <i className="iconly-Heart icli"></i>
+                    <img src={favorite} className="iconsizemobile"/>
                       <span>My Wish</span>
                     </a>
                   </li>
 
                   <li>
                     <a href="cart.html">
-                      <i className="iconly-Bag-2 icli fly-cate"></i>
+                    <img src={cart} className="iconsizemobile"/>
                       <span>Cart</span>
                     </a>
                   </li>

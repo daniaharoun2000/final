@@ -9,7 +9,7 @@ function Fiftypercentoffer() {
       <Container>
         <Row>
           <Col xl={6} md={6}>
-            <div className=" coverimageonefifty banner-contain  ">
+            <div className=" coverimageonefifty banner-contain mt-1 ">
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/9.jpg"
                 className="d-none"
@@ -30,7 +30,7 @@ function Fiftypercentoffer() {
           </Col>
 
           <Col xl={6} md={6}>
-            <div className=" coverimagetwofifty banner-contain  mt-2">
+            <div className=" coverimagetwofifty banner-contain mt-1">
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/10.jpg"
                 className="d-none"
