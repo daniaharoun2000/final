@@ -6,20 +6,11 @@
     width: 100%;
     z-index: 2;
     overflow: hidden;
-    -webkit-box-shadow: 0 -3px 10px 0px rgb(0 0 0 / 8%);
     box-shadow: 0 -3px 10px 0px rgb(0 0 0 / 8%);
   }
 .iconsizemobile{
   width: 20px;
 }
-
-  .mobile-menu ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-
-    margin: 0 auto;
-  }
 
   .mobile-menu ul li {
     width: 100%;
@@ -30,21 +21,7 @@
     font-size: 14px;
   }
 
-  .mobile-menu ul li a .icli {
-    display: inline-block;
-    margin: 0 auto;
-    font-size: 22px;
-    color: #fff;
-  }
-  
-  .mobile-menu ul li a span {
-    display: block;
-    color: #fff;
-  }
-  .mobile-menu ul li.active {
- 
-    position: relative;
-}
+
 .mobile-menu ul li.active::before {
   content: "";
   position: absolute;
@@ -52,8 +29,7 @@
   height: 10px;
   bottom: -15px;
   left: 50%;
-  -webkit-transform: translateX(-50%) rotate(45deg);
-  transform: translateX(-50%) rotate(45deg);
+
   background-color: #fff;
   border-radius: 100%;
 }

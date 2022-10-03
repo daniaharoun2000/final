@@ -16,7 +16,7 @@ function SummerProducts() {
                   style={{ minHeight: 258 }}
                   alt=""
                 />
-                <div className=" textforimage2 position-absolute my-3 ">
+                <div className=" textforimage2 position-absolute my-1 ">
                   <div >
                     <h2 className=" fw-normal text-primary">Get Ready To</h2>
                     <h3 className="mt-2 mb-3">TAKE ON THE DAY!</h3>
@@ -44,7 +44,7 @@ function SummerProducts() {
                     style={{ minHeight: 258 }}
                     alt=""
                   />
-                  <div className="   textforimage2 position-absolute my-5">
+                  <div className="   textforimage2 position-absolute my-2">
                     <div>
                       <h2 className=" fw-normal text-dd">20% Off</h2>
                       <h3 className="mt-2 mb-2 text-primary">SUMMRY</h3>

@@ -11,10 +11,10 @@ function Newsletter() {
                         <div className=" newsletterbg position-relative d-flex justify-content-center align-items-center" >
                             <div className="     textforimage2 mt-1 align-items-center justify-content-center d-flex">
                                 <div >
-                                <h2 className="text-badge">
+                                <h2 className="text-badge textsizenewsletter">
                       Join our newsletter and get...
                     </h2>
-                    <h5 className="text-yellow">
+                    <h5 className="text-yellow textsizenewsletter">
                       $20 discount for your first order
                     </h5>
                     <div >

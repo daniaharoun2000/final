@@ -115,7 +115,7 @@ function Section3() {
           </Col></Row>
           <Row className="justify-content-end ">   
           <Col md={12} xs={12} xl={12}>
-            <div className=" d-flex align-items-center justify-content-center  mt-2 mb-4">
+            <div className=" d-flex align-items-center justify-content-center  mt-2 mb-5">
               <h6 className="text-content ">Stay connected :</h6>
               <ul >
                 <li>

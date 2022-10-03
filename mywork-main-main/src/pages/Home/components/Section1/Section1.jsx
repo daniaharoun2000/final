@@ -10,15 +10,15 @@ function Section1() {
         <Row>
           <Col xl={8} md={12} lg={12}>
             <div className=" position-relative   imgonesectionone   mt-4 gfg">
-              <div className="textforimage2 position-absolute mt-5">
-                <div>
+              <div className="textforimage2 position-absolute  ">
+                <div className="textforimage">
                   <h6>
                     Exclusive offer
-                    <span className="section130percent">30% Off</span>
+                    <span className="ms-2 section130percent">30% Off</span>
                   </h6>
-                  <h1 className="text-uppercase homecontain">
+                  <h1 className="text-uppercase homecontain mb-2">
                     Stay home &amp; delivered your
-                    <span className="text-primary">Daily Needs</span>
+                    <span className="text-primary ms-1">Daily Needs</span>
                   </h1>
                   <p className="w-75 d-none d-sm-block text-aa psection1">
                     Vegetables contain many vitamins and minerals that are good
@@ -26,7 +26,7 @@ function Section1() {
                   </p>
                   <button
                     onClick="location.href = 'shop-left-sidebar.html';"
-                    className="btn  mt-xxl-4 mt-2 home-button mend-auto text-overflow-1  bg-dd text-white "
+                    className="btn  mt-xxl-4 mt-2   text-overflow-1  bg-dd text-white "
                   >
                     Shop Now 
                   </button>
@@ -45,7 +45,7 @@ function Section1() {
                   <div className="textforimage2 position-absolute">
                     <div>
                       <h2 className="mt-4 text-dd ">
-                        45% <span className="discount text-dania">OFF</span>
+                        45% <span className=" text-dania">OFF</span>
                       </h2>
                       <h3 className="text-primary">Nut Collection</h3>
                       <p className=" text-aa psection1">
@@ -53,7 +53,7 @@ function Section1() {
                       </p>
                       <button
                     onClick="location.href = 'shop-left-sidebar.html';"
-                    className="btn  mt-xxl-4 mt-2 home-button mend-auto text-overflow-1  bg-dd text-white "
+                    className="btn  mt-xxl-4 mt-2   text-overflow-1  bg-dd text-white "
                   >
                     Shop Now 
                   </button>
@@ -73,12 +73,12 @@ function Section1() {
                         Healthy Food
                       </h3>
                       <h4 className="text-dd">Organic Market</h4>
-                      <p className="organic text-aa psection1">
+                      <p className=" text-aa psection1">
                         Start your daily shopping with some Organic food
                       </p>
                       <button
                     onClick="location.href = 'shop-left-sidebar.html';"
-                    className="btn  mt-xxl-4 mt-2 home-button mend-auto text-overflow-1  bg-dd text-white "
+                    className="btn  mt-xxl-4 mt-2   text-overflow-1  bg-dd text-white "
                   >
                     Shop Now 
                   </button>
