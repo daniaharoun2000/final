@@ -3,47 +3,13 @@
 
   .divsection2 {
     display: block;
-    @media (min-width: 1400px) {
-      .col-xxl-3 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 25%;
-      }
-    }
-    @media (min-width: 992px) {
-      .col-lg-4 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 33.33333%;
-      }
-    }
-    @media (min-width: 576px) {
-      .col-sm-6 {
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 auto;
-        flex: 0 0 auto;
-        width: 50%;
-      }
-    }
+    
   }
   .banner-contain {
     border-radius: 5px;
     overflow: hidden;
     position: relative;
-    @media (min-width: 576px) {
-      .g-sm-4,
-      .gy-sm-4 {
-        --bs-gutter-y: 1.5rem;
-      }
-    }
-    @media (min-width: 576px) {
-      .g-sm-4,
-      .gx-sm-4 {
-        --bs-gutter-x: 1.5rem;
-      }
-    }
+   
   }
 
   .banner-contain .banner-details .banner-box {
@@ -58,8 +24,8 @@
   }
   .banner-contain .banner-details .banner-button {
     position: absolute;
-    bottom: calc(8px + (16 - 8) * ((100vw - 320px) / (1920 - 320)));
-    left: calc(14px + (22 - 14) * ((100vw - 320px) / (1920 - 320)));
+    bottom: 13.6px;
+    left: 19.6px;
     color: #fff;
     font-weight: 600;
 
@@ -68,34 +34,8 @@
     align-items: center;
   }
 
-  .imagesection2 {
-    @media (min-width: 576px) {
-      .g-sm-4,
-      .gy-sm-4 {
-        --bs-gutter-y: 1.5rem;
-      }
-    }
-    @media (min-width: 576px) {
-      .g-sm-4,
-      .gx-sm-4 {
-        --bs-gutter-x: 1.5rem;
-      }
-    }
-
-  }
   .banner-contain:hover {
     opacity: 0.6;
   }
-  @media (min-width: 576px) {
-    .g-sm-4,
-    .gy-sm-4 {
-      --bs-gutter-y: 1.5rem;
-    }
-  }
-  @media (min-width: 576px) {
-    .g-sm-4,
-    .gx-sm-4 {
-      --bs-gutter-x: 1.5rem;
-    }
-  }
+  
 }

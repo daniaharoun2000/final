@@ -9,7 +9,7 @@ function AddButton() {
       <Container>
         <Row>
         
-            <Button className="bg-cat buttonclass">
+            <Button className="bg-cat buttonclass mt-2">
           <Col xl={6} xs={6}><div className="justify-content-end d-flex"> Add</div></Col>   
          <Col xl={6} xs={6}>
            <div className="d-flex justify-content-end align-items-end "> <svg

@@ -32,7 +32,7 @@ function Section2() {
     >
       <div>
         <Container>
-          <Row className="align-items-center  gx-2  py-3">
+          <Row className="align-items-center  gx-2  py-2">
             <Col xl={2} md={4} xs={12}>
               <Row className="align-items-center justify-content-between gx-2 ">
                 <Col md={2} xs={2} className="d-xl-none">

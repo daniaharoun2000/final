@@ -4,7 +4,7 @@ import { Col, Row } from "react-bootstrap";
 import Container from "../../../../components/Container";
 function Section1() {
   return (
-    <div className=" align-items-center mt-1 ">
+    <div className=" align-items-center  ">
       <Container>
         <div >
         <Row>
@@ -40,7 +40,7 @@ function Section1() {
                 <div className=" position-relative mt-4">
                   <img
                     src=" https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/2.jpg"
-                    className=" rounded border-light imgtwosectionone w-100"
+                    className=" rounded border-light imgtwosectionone w-100" alt="img"
                   />
                   <div className="textforimage2 position-absolute">
                     <div>

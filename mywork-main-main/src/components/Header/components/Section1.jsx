@@ -6,9 +6,9 @@ import {Row,Col,Carousel,NavDropdown} from "react-bootstrap";
 
 function Section1() {
   return (
-    <div className="bg-primary py-2">
+    <div className="bg-primary ">
       <Container>
-        <Row >
+        <Row className="py-2">
           <Col xxl={3} className=" d-xxl-block d-none d-flex justify-content-start">
             <div className="d-flex  align-items-center ">
               <div>

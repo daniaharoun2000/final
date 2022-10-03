@@ -8,11 +8,11 @@ export default function Rating() {
         
         <div >
             <Container>
-              <Row className="d-flex justify-content-center align-items-center">
-            
-              <Col xxl={6}   md={6}>
+              <Row  className="d-flex justify-content-center align-items-center">
+          
+              <Col xxl={6}   md={6} xs={12} className="p-0">
                 
-    <ul className="rating uul ">
+    <ul className="rating ">
     <li>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -95,8 +95,8 @@ export default function Rating() {
     </li>
     
   </ul></Col>
-  <Col xxl={6}  md={6}>
-  <h6 className="text-primary  m-0 ">
+  <Col xxl={6}   md={6} xs={12} className="p-0">
+  <h6 className="text-primary m-0 mb-0 p-0">
                 In Stock
               </h6></Col></Row></Container>
 </div>

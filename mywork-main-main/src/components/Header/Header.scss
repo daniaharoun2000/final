@@ -60,12 +60,13 @@
 .imgg{
   width: 115px;
 }
-  .locationbox{
-    border-radius: 5px;
-    border: 1px solid #ececec;
-    position: relative;
-    height: 100%;
-  }
+.locationbox{
+  border-radius: 5px;
+  border: 1px solid #ececec;
+  position: relative;
+  height: 100%;
+}
+
   .fontweight{
     font-weight: 400;
     font-size: 14px;
@@ -121,6 +122,9 @@
   
     background-color: #e7f6f3;
    
+  }
+  .DealTodaybutton:hover{
+    color: #0da487;
   }
   .dealpadding{
     padding-top: 15px;

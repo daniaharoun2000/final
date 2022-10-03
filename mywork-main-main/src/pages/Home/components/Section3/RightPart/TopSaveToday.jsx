@@ -25,7 +25,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="product-rating mt-2">
+            <div className=" mt-2">
               <Rating />
             </div>
            <AddButton/>
@@ -47,7 +47,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="product-rating mt-2">
+            <div className=" mt-2 ">
               <Rating />
             </div>
             <AddButton/>
@@ -69,7 +69,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="product-rating mt-2">
+            <div className=" mt-2">
               <Rating />
             </div>
             <AddButton/>
@@ -95,7 +95,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="product-rating mt-2">
+            <div className=" mt-2">
               <Rating />
             </div>
             <AddButton/>
@@ -116,7 +116,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="product-rating mt-2">
+            <div className=" mt-2">
               <Rating />
             </div>
             <AddButton/>
@@ -144,7 +144,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="product-rating mt-2">
+            <div className=" mt-2">
               <Rating />
             </div>
             <AddButton/>
@@ -165,7 +165,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="product-rating mt-2">
+            <div className=" mt-2">
               <Rating />
             </div>
             <AddButton/>
@@ -186,7 +186,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="product-rating mt-2">
+            <div className=" mt-2">
               <Rating />
             </div>
             <AddButton/>
@@ -208,7 +208,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="product-rating mt-2">
+            <div className=" mt-2">
               <Rating />
             </div>
             <AddButton/>
@@ -230,7 +230,7 @@ function TopSaveToday() {
               <del className="dell">28.56</del>
             </h5>
 
-            <div className="product-rating mt-2">
+            <div className=" mt-2">
               <Rating />
             </div>
             <AddButton/>
