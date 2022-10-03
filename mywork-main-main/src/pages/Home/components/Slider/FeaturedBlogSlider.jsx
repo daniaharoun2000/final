@@ -1,4 +1,4 @@
-import { Autoplay, Thumbs, Pagination, Navigation, Lazy } from "swiper";
+import { Autoplay, Pagination, Navigation, Lazy } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Container } from "../../../../components";
@@ -20,7 +20,7 @@ export default function FeaturedBlogSlider() {
                 <span className="title-leaf">
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg"
-                className=" icon-width"
+                className=" icon-width" alt="featuredblog"
               />
             </span>
                 <p>A virtual assistant collects the products from your list</p>
@@ -65,13 +65,13 @@ export default function FeaturedBlogSlider() {
                   >
                     <SwiperSlide  >
                     <a
-                              href="blog-detail.html"
+                             href="/"
                               className="category-box imgblog imghoveringin"
                               tabindex="-1"
-                            ></a>
+                            > </a>
 
                             <a
-                              href="blog-detail.html"
+                             href="/"
                               className="blog-detail"
                               tabindex="0"
                             >
@@ -81,12 +81,12 @@ export default function FeaturedBlogSlider() {
                     </SwiperSlide>
                     <SwiperSlide >
                     <a
-                              href="blog-detail.html"
+                             href="/"
                               className="category-box imgblog2 imghoveringin"
                               tabindex="-1"
-                            ></a>
+                            > </a>
                             <a
-                              href="blog-detail.html"
+                             href="/"
                               className="blog-detail"
                               tabindex="-1"
                             >
@@ -95,13 +95,13 @@ export default function FeaturedBlogSlider() {
                             </a>
                     </SwiperSlide>
                     <SwiperSlide >
-                    <a
-                              href="blog-detail.html"
+                     <a
+                             href="/"
                               className="category-box imgblog3 imghoveringin"
                               tabindex="-1"
-                            ></a>
+                            > </a>
                             <a
-                              href="blog-detail.html"
+                             href="/"
                               className="blog-detail"
                               tabindex="0"
                             >

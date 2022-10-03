@@ -28,22 +28,22 @@ function OffcanvasNavbar() {
         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3 ">
 
            <li className="nav-item ">
-            <a  href="#" role="button"  aria-expanded="false" className='nav-link text-decoration-none text-aa'>
+            <a  href="/" role="button"  aria-expanded="false" className='nav-link text-decoration-none text-aa'>
             Home
             </a>   </li> 
          <li className="nav-item ">
-            <a  href="#" role="button"  aria-expanded="false" className='nav-link  text-decoration-none text-aa'>
+            <a  href="/" role="button"  aria-expanded="false" className='nav-link  text-decoration-none text-aa'>
             Shop
             </a>   </li>   <li className="nav-item ">
-            <a  href="#" role="button"  aria-expanded="false" className='nav-link  text-decoration-none text-aa'>
+            <a  href="/" role="button"  aria-expanded="false" className='nav-link  text-decoration-none text-aa'>
             Product
             </a>   </li>      <li className="nav-item ">
-             <a  href="#" role="button"  aria-expanded="false" className='nav-link  text-decoration-none text-aa'>
+             <a  href="/" role="button"  aria-expanded="false" className='nav-link  text-decoration-none text-aa'>
             Blog
             </a>   
-            </li>       <li className="nav-item "><a  href="#" role="button"  aria-expanded="false" className='nav-link  text-decoration-none text-aa'>
+            </li>       <li className="nav-item "><a  href="/" role="button"  aria-expanded="false" className='nav-link  text-decoration-none text-aa'>
             Pages
-            </a>   </li>      <li className="nav-item "> <a  href="#" role="button"  aria-expanded="false" className='nav-link  text-decoration-none text-aa'>
+            </a>   </li>      <li className="nav-item "> <a  href="/" role="button"  aria-expanded="false" className='nav-link  text-decoration-none text-aa'>
             Contact
             </a>   </li> 
          

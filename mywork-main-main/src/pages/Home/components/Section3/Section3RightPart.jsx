@@ -26,7 +26,7 @@ function Section3RightPart() {
             <span className="title-leaf">
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg"
-                className=" icon-width"
+                className=" icon-width" alt="img"
               />
             </span>
            

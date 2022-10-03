@@ -1,4 +1,4 @@
-import { Autoplay, Thumbs, Pagination, Navigation, Lazy } from "swiper";
+import { Autoplay, Pagination, Navigation, Lazy } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Container } from "../../../../components";
@@ -21,7 +21,7 @@ export default function OurBestSellerSlider() {
                       <span className="title-leaf">
                         <img
                           src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg"
-                          className=" icon-width"
+                          className=" icon-width" alt="ourbest seller"
                         />
                       </span>
                       <p>
@@ -61,7 +61,7 @@ export default function OurBestSellerSlider() {
                             <li  className=" mb-4  mt-2">
                               <div className="offer-product">
                                 <a
-                                  href="product-left.html"
+                                  href="/"
                                   className="offer-image"
                                   tabindex="0"
                                 >
@@ -75,7 +75,7 @@ export default function OurBestSellerSlider() {
                                 <div className="offer-detail">
                                   <div>
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="text-title"
                                       tabindex="0"
                                     >
@@ -95,7 +95,7 @@ export default function OurBestSellerSlider() {
                             <li className=" mb-4  mt-2">
                               <div className="offer-product">
                                 <a
-                                  href="product-left.html"
+                                  href="/"
                                   className="offer-image"
                                   tabindex="0"
                                 >
@@ -109,7 +109,7 @@ export default function OurBestSellerSlider() {
                                 <div className="offer-detail">
                                   <div>
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="text-title"
                                       tabindex="0"
                                     >
@@ -127,7 +127,7 @@ export default function OurBestSellerSlider() {
                             <li className=" mb-4  mt-2">
                               <div className="offer-product">
                                 <a
-                                  href="product-left.html"
+                                  href="/"
                                   className="offer-image"
                                   tabindex="0"
                                 >
@@ -141,7 +141,7 @@ export default function OurBestSellerSlider() {
                                 <div className="offer-detail">
                                   <div>
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="text-title"
                                       tabindex="0"
                                     >
@@ -159,7 +159,7 @@ export default function OurBestSellerSlider() {
                             <li className="mt-2">
                               <div className="offer-product">
                                 <a
-                                  href="product-left.html"
+                                  href="/"
                                   className="offer-image"
                                   tabindex="0"
                                 >
@@ -173,7 +173,7 @@ export default function OurBestSellerSlider() {
                                 <div className="offer-detail">
                                   <div>
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="text-title"
                                       tabindex="0"
                                     >
@@ -203,7 +203,7 @@ export default function OurBestSellerSlider() {
                             <li  className=" mb-4  mt-2">
                               <div className="offer-product">
                                 <a
-                                  href="product-left.html"
+                                  href="/"
                                   className="offer-image"
                                   tabindex="0"
                                 >
@@ -217,7 +217,7 @@ export default function OurBestSellerSlider() {
                                 <div className="offer-detail">
                                   <div>
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="text-title"
                                       tabindex="0"
                                     >
@@ -237,7 +237,7 @@ export default function OurBestSellerSlider() {
                             <li >
                               <div className="offer-product">
                                 <a
-                                  href="product-left.html"
+                                  href="/"
                                   className="offer-image"
                                   tabindex="0"
                                 >
@@ -251,7 +251,7 @@ export default function OurBestSellerSlider() {
                                 <div className="offer-detail">
                                   <div>
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="text-title"
                                       tabindex="0"
                                     >
@@ -271,7 +271,7 @@ export default function OurBestSellerSlider() {
                             <li className=" mb-4  mt-2">
                               <div className="offer-product">
                                 <a
-                                  href="product-left.html"
+                                  href="/"
                                   className="offer-image"
                                   tabindex="0"
                                 >
@@ -285,7 +285,7 @@ export default function OurBestSellerSlider() {
                                 <div className="offer-detail">
                                   <div>
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="text-title"
                                       tabindex="0"
                                     >
@@ -305,7 +305,7 @@ export default function OurBestSellerSlider() {
                             <li className="mt-2">
                               <div className="offer-product">
                                 <a
-                                  href="product-left.html"
+                                  href="/"
                                   className="offer-image"
                                   tabindex="0"
                                 >
@@ -319,7 +319,7 @@ export default function OurBestSellerSlider() {
                                 <div className="offer-detail">
                                   <div>
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="text-title"
                                       tabindex="0"
                                     >
@@ -347,7 +347,7 @@ export default function OurBestSellerSlider() {
                             <li  className=" mb-4  mt-2">
                               <div className="offer-product">
                                 <a
-                                  href="product-left.html"
+                                  href="/"
                                   className="offer-image"
                                   tabindex="0"
                                 >
@@ -361,7 +361,7 @@ export default function OurBestSellerSlider() {
                                 <div className="offer-detail">
                                   <div>
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="text-title"
                                       tabindex="0"
                                     >
@@ -381,7 +381,7 @@ export default function OurBestSellerSlider() {
                             <li className=" mb-4  mt-2">
                               <div className="offer-product">
                                 <a
-                                  href="product-left.html"
+                                  href="/"
                                   className="offer-image"
                                   tabindex="0"
                                 >
@@ -396,7 +396,7 @@ export default function OurBestSellerSlider() {
                                 <div className="offer-detail">
                                   <div>
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="text-title"
                                       tabindex="0"
                                     >
@@ -416,7 +416,7 @@ export default function OurBestSellerSlider() {
                             <li className=" mb-4 mt-2 ">
                               <div className="offer-product">
                                 <a
-                                  href="product-left.html"
+                                  href="/"
                                   className="offer-image"
                                   tabindex="0"
                                 >
@@ -431,7 +431,7 @@ export default function OurBestSellerSlider() {
                                 <div className="offer-detail">
                                   <div>
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="text-title"
                                       tabindex="0"
                                     >
@@ -451,7 +451,7 @@ export default function OurBestSellerSlider() {
                             <li className="mt-2">
                               <div className="offer-product">
                                 <a
-                                  href="product-left.html"
+                                  href="/"
                                   className="offer-image"
                                   tabindex="0"
                                 >
@@ -465,7 +465,7 @@ export default function OurBestSellerSlider() {
                                 <div className="offer-detail">
                                   <div>
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="text-title"
                                       tabindex="0"
                                     >
@@ -503,7 +503,7 @@ export default function OurBestSellerSlider() {
                                 <li className=" mb-4  mt-2">
                                   <div className="offer-product">
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="offer-image"
                                       tabindex="0"
                                     >
@@ -517,7 +517,7 @@ export default function OurBestSellerSlider() {
                                     <div className="offer-detail">
                                       <div>
                                         <a
-                                          href="product-left.html"
+                                          href="/"
                                           className="text-title"
                                           tabindex="0"
                                         >
@@ -537,7 +537,7 @@ export default function OurBestSellerSlider() {
                                 <li className=" mb-4  mt-2">
                                   <div className="offer-product">
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="offer-image"
                                       tabindex="0"
                                     >
@@ -551,7 +551,7 @@ export default function OurBestSellerSlider() {
                                     <div className="offer-detail">
                                       <div>
                                         <a
-                                          href="product-left.html"
+                                          href="/"
                                           className="text-title"
                                           tabindex="0"
                                         >
@@ -569,7 +569,7 @@ export default function OurBestSellerSlider() {
                                 <li className=" mb-4 mt-2 ">
                                   <div className="offer-product">
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="offer-image"
                                       tabindex="0"
                                     >
@@ -583,7 +583,7 @@ export default function OurBestSellerSlider() {
                                     <div className="offer-detail">
                                       <div>
                                         <a
-                                          href="product-left.html"
+                                          href="/"
                                           className="text-title"
                                           tabindex="0"
                                         >
@@ -603,7 +603,7 @@ export default function OurBestSellerSlider() {
                                 <li className="mt-2">
                                   <div className="offer-product">
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="offer-image"
                                       tabindex="0"
                                     >
@@ -617,7 +617,7 @@ export default function OurBestSellerSlider() {
                                     <div className="offer-detail">
                                       <div>
                                         <a
-                                          href="product-left.html"
+                                          href="/"
                                           className="text-title"
                                           tabindex="0"
                                         >
@@ -640,7 +640,7 @@ export default function OurBestSellerSlider() {
                                 <li className=" mb-4 mt-2 ">
                                   <div className="offer-product">
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="offer-image"
                                       tabindex="0"
                                     >
@@ -654,7 +654,7 @@ export default function OurBestSellerSlider() {
                                     <div className="offer-detail">
                                       <div>
                                         <a
-                                          href="product-left.html"
+                                          href="/"
                                           className="text-title"
                                           tabindex="0"
                                         >
@@ -674,7 +674,7 @@ export default function OurBestSellerSlider() {
                                 <li className=" mb-4 mt-2 ">
                                   <div className="offer-product">
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="offer-image"
                                       tabindex="0"
                                     >
@@ -688,7 +688,7 @@ export default function OurBestSellerSlider() {
                                     <div className="offer-detail">
                                       <div>
                                         <a
-                                          href="product-left.html"
+                                          href="/"
                                           className="text-title"
                                           tabindex="0"
                                         >
@@ -708,7 +708,7 @@ export default function OurBestSellerSlider() {
                                 <li className=" mb-4 mt-2 ">
                                   <div className="offer-product">
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="offer-image"
                                       tabindex="0"
                                     >
@@ -722,7 +722,7 @@ export default function OurBestSellerSlider() {
                                     <div className="offer-detail">
                                       <div>
                                         <a
-                                          href="product-left.html"
+                                          href="/"
                                           className="text-title"
                                           tabindex="0"
                                         >
@@ -742,7 +742,7 @@ export default function OurBestSellerSlider() {
                                 <li className="mt-2">
                                   <div className="offer-product">
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="offer-image"
                                       tabindex="0"
                                     >
@@ -756,7 +756,7 @@ export default function OurBestSellerSlider() {
                                     <div className="offer-detail">
                                       <div>
                                         <a
-                                          href="product-left.html"
+                                          href="/"
                                           className="text-title"
                                           tabindex="0"
                                         >
@@ -779,7 +779,7 @@ export default function OurBestSellerSlider() {
                                 <li className=" mb-4  mt-2">
                                   <div className="offer-product">
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="offer-image"
                                       tabindex="0"
                                     >
@@ -793,7 +793,7 @@ export default function OurBestSellerSlider() {
                                     <div className="offer-detail">
                                       <div>
                                         <a
-                                          href="product-left.html"
+                                          href="/"
                                           className="text-title"
                                           tabindex="0"
                                         >
@@ -813,7 +813,7 @@ export default function OurBestSellerSlider() {
                                 <li className=" mb-4 mt-2 ">
                                   <div className="offer-product">
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="offer-image"
                                       tabindex="0"
                                     >
@@ -828,7 +828,7 @@ export default function OurBestSellerSlider() {
                                     <div className="offer-detail">
                                       <div>
                                         <a
-                                          href="product-left.html"
+                                          href="/"
                                           className="text-title"
                                           tabindex="0"
                                         >
@@ -848,7 +848,7 @@ export default function OurBestSellerSlider() {
                                 <li className=" mb-4 mt-2 ">
                                   <div className="offer-product">
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="offer-image"
                                       tabindex="0"
                                     >
@@ -863,7 +863,7 @@ export default function OurBestSellerSlider() {
                                     <div className="offer-detail">
                                       <div>
                                         <a
-                                          href="product-left.html"
+                                          href="/"
                                           className="text-title"
                                           tabindex="0"
                                         >
@@ -883,7 +883,7 @@ export default function OurBestSellerSlider() {
                                 <li className="mt-2">
                                   <div className="offer-product">
                                     <a
-                                      href="product-left.html"
+                                      href="/"
                                       className="offer-image"
                                       tabindex="0"
                                     >
@@ -897,7 +897,7 @@ export default function OurBestSellerSlider() {
                                     <div className="offer-detail">
                                       <div>
                                         <a
-                                          href="product-left.html"
+                                          href="/"
                                           className="text-title"
                                           tabindex="0"
                                         >

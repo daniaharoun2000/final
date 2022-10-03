@@ -1,4 +1,4 @@
-import { Autoplay, Thumbs, Pagination, Navigation, Lazy } from "swiper";
+import { Autoplay,  Pagination, Navigation, Lazy } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Container } from "../../../../components";
@@ -19,7 +19,7 @@ export default function BowsebyCategoriesSlider() {
                 <span className="title-leaf">
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg"
-                className=" icon-width"
+                className=" icon-width" alt="browsebycategories"
               />
             </span>
                 <p>Top Categories Of The Week</p>
@@ -63,7 +63,7 @@ export default function BowsebyCategoriesSlider() {
         }}
       >
         <SwiperSlide>     <a
-                              href="shop-left-sidebar.html"
+                             href="/"
                               className="category-box"
                               tabindex="-1"
                             >
@@ -75,7 +75,7 @@ export default function BowsebyCategoriesSlider() {
                               <h5 className="align-items-center justify-content-center d-flex">Breakfast</h5>
                             </a></SwiperSlide>
         <SwiperSlide>     <a
-                              href="shop-left-sidebar.html"
+                             href="/"
                               className="category-box"
                               tabindex="-1"
                             >
@@ -87,7 +87,7 @@ export default function BowsebyCategoriesSlider() {
                               <h5 className="align-items-center justify-content-center d-flex">Frozen Foods</h5>
                             </a></SwiperSlide>
         <SwiperSlide>    <a
-                              href="shop-left-sidebar.html"
+                             href="/"
                               className="category-box"
                               tabindex="-1"
                             >
@@ -99,7 +99,7 @@ export default function BowsebyCategoriesSlider() {
                               <h5 className="align-items-center justify-content-center d-flex">Milk & Dairies</h5>
                             </a></SwiperSlide>
         <SwiperSlide>        <a
-                              href="shop-left-sidebar.html"
+                             href="/"
                               className="category-box"
                               tabindex="-1"
                             >
@@ -111,7 +111,7 @@ export default function BowsebyCategoriesSlider() {
                               <h5 className="align-items-center justify-content-center d-flex">Pet Food</h5>
                             </a></SwiperSlide>
         <SwiperSlide>   <a
-                              href="shop-left-sidebar.html"
+                             href="/"
                               className="category-box"
                               tabindex="-1"
                             >
@@ -123,7 +123,7 @@ export default function BowsebyCategoriesSlider() {
                               <h5 className="align-items-center justify-content-center d-flex">Beverages </h5>
                             </a></SwiperSlide>
         <SwiperSlide>   <a
-                              href="shop-left-sidebar.html"
+                             href="/"
                               className="category-box"
                               tabindex="-1"
                             >
@@ -135,7 +135,7 @@ export default function BowsebyCategoriesSlider() {
                               <h5 className="align-items-center justify-content-center d-flex">Vegetables & Fruit</h5>
                             </a></SwiperSlide>
         <SwiperSlide>   <a
-                              href="shop-left-sidebar.html"
+                             href="/"
                               className="category-box"
                               tabindex="-1"
                             >

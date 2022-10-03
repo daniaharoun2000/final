@@ -24,7 +24,7 @@ function Section2() {
                       </h6>
                     </div></div>
                     <a
-                      href="shop-left-sidebar.html"
+                      href="/"
                       className="banner-button text-white"
                     >
                       Shop Now
@@ -46,7 +46,7 @@ function Section2() {
                       <h6 className="text-aa">Fresh Vegetables</h6>
                     </div></div>
                     <a
-                      href="shop-left-sidebar.html"
+                      href="/"
                       className="banner-button text-white"
                     >
                       Shop Now
@@ -68,7 +68,7 @@ function Section2() {
                       <h6 className="text-aa">Delivered to Your Home</h6>
                     </div></div>
                     <a
-                      href="shop-left-sidebar.html"
+                      href="/"
                       className="banner-button text-white"
                     >
                       Shop Now
@@ -90,7 +90,7 @@ function Section2() {
                       <h6 className="text-aa">Nuts &amp; Snacks</h6>
                     </div></div>
                     <a
-                      href="shop-left-sidebar.html"
+                      href="/"
                       className="banner-button text-white"
                     >
                       Shop Now

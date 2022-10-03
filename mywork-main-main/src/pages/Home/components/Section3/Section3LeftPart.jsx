@@ -18,7 +18,7 @@ function Section3LeftPart() {
                     />
                     <h5>
                       <a
-                        href="shop-left-sidebar.html"
+                        href="/"
                         className="categorytext  "
                       >
                         Vegetables &amp; Fruit
@@ -35,7 +35,7 @@ function Section3LeftPart() {
                     />
                     <h5>
                       <a
-                        href="shop-left-sidebar.html"
+                        href="/"
                         className="categorytext  "
                       >
                         Beverages
@@ -52,7 +52,7 @@ function Section3LeftPart() {
                     />
                     <h5>
                       <a
-                        href="shop-left-sidebar.html"
+                        href="/"
                         className="categorytext  "
                       >
                         Meats &amp; Seafood
@@ -69,7 +69,7 @@ function Section3LeftPart() {
                     />
                     <h5>
                       <a
-                        href="shop-left-sidebar.html"
+                        href="/"
                         className="categorytext  "
                       >
                         Breakfast &amp; Dairy
@@ -86,7 +86,7 @@ function Section3LeftPart() {
                     />
                     <h5>
                       <a
-                        href="shop-left-sidebar.html"
+                        href="/"
                         className="categorytext  "
                       >
                         Frozen Foods
@@ -103,7 +103,7 @@ function Section3LeftPart() {
                     />
                     <h5>
                       <a
-                        href="shop-left-sidebar.html"
+                        href="/"
                         className="categorytext  "
                       >
                         Biscuits &amp; Snacks
@@ -120,7 +120,7 @@ function Section3LeftPart() {
                     />
                     <h5>
                       <a
-                        href="shop-left-sidebar.html"
+                        href="/"
                         className="categorytext  "
                       >
                         Grocery &amp; Staples
@@ -137,7 +137,7 @@ function Section3LeftPart() {
                     />
                     <h5>
                       <a
-                        href="shop-left-sidebar.html"
+                        href="/"
                         className="categorytext  "
                       >
                         Wines &amp; Alcohol Drinks
@@ -154,7 +154,7 @@ function Section3LeftPart() {
                     />
                     <h5>
                       <a
-                        href="shop-left-sidebar.html"
+                        href="/"
                         className="categorytext  "
                       >
                         Milk &amp; Dairies
@@ -171,7 +171,7 @@ function Section3LeftPart() {
                     />
                     <h5>
                       <a
-                        href="shop-left-sidebar.html"
+                        href="/"
                         className="categorytext  "
                       >
                         Pet Foods
@@ -186,7 +186,7 @@ function Section3LeftPart() {
                   <div className="category-list">
                     <h5 className="ms-0 text-title">
                       <a
-                        href="shop-left-sidebar.html"
+                        href="/"
                         className="categorytext  "
                       >
                         Value of the Day
@@ -198,7 +198,7 @@ function Section3LeftPart() {
                   <div className="category-list">
                     <h5 className="ms-0 text-title">
                       <a
-                        href="shop-left-sidebar.html"
+                        href="/"
                         className="categorytext  "
                       >
                         Top 50 Offers
@@ -210,7 +210,7 @@ function Section3LeftPart() {
                   <div className="category-list">
                     <h5 className="ms-0 text-title">
                       <a
-                        href="shop-left-sidebar.html"
+                        href="/"
                         className="categorytext  "
                       >
                         New Arrivals
@@ -237,7 +237,7 @@ function Section3LeftPart() {
                     </h3>
                     <h3 className="fw-light h3section3">every hour</h3>
                     <button
-                      onclick="location.href = 'shop-left-sidebar.html';"
+                      onClick="location.href = 'shop-left-sidebar.html';"
                       className="btn text-overflow-1 bg-dd text-white "
                     >
                       Shop Now
@@ -266,7 +266,7 @@ function Section3LeftPart() {
                     </h2>
                     <p className="mb-3 text-aa">Super Offer to 50% Off</p>
                     <button
-                      onclick="location.href = 'shop-left-sidebar.html';"
+                      onClick="location.href = 'shop-left-sidebar.html';"
                       className="btn text-overflow-1 bg-dd text-white "
                     >
                       Shop Now
@@ -284,7 +284,7 @@ function Section3LeftPart() {
                 <ul className="product-list border-0 p-0 d-block ">
                   <li>
                     <div className="offer-product ">
-                      <a href="product-left.html" className="offer-image">
+                      <a href="/" className="offer-image">
                         <img
                           src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/23.png"
                           className=" me-1 imghovering"
@@ -294,7 +294,7 @@ function Section3LeftPart() {
 
                       <div className="offer-detail ">
                         <div>
-                          <a href="product-left.html" className="text-title">
+                          <a href="/" className="text-title">
                             <h6 className="  text-overflow-1">
                               Meatigo Premium Goat Curry
                             </h6>
@@ -310,7 +310,7 @@ function Section3LeftPart() {
 
                   <li className="mt-4 ">
                     <div className="offer-product">
-                      <a href="product-left.html" className="offer-image">
+                      <a href="/" className="offer-image">
                         <img
                           src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/24.png"
                           className="me-1 imghovering "
@@ -320,7 +320,7 @@ function Section3LeftPart() {
 
                       <div className="offer-detail">
                         <div>
-                          <a href="product-left.html" className="text-title">
+                          <a href="/" className="text-title">
                             <h6 className=" text-overflow-1 ">
                               Dates Medjoul Premium Imported
                             </h6>
@@ -336,7 +336,7 @@ function Section3LeftPart() {
 
                   <li className="mt-4 ">
                     <div className="offer-product">
-                      <a href="product-left.html" className="offer-image">
+                      <a href="/" className="offer-image">
                         <img
                           src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/25.png"
                           className="me-1 imghovering "
@@ -346,7 +346,7 @@ function Section3LeftPart() {
 
                       <div className="offer-detail">
                         <div>
-                          <a href="product-left.html" className="text-title ">
+                          <a href="/" className="text-title ">
                             <h6 className=" text-overflow-1">
                               Good Life Walnut Kernels
                             </h6>
@@ -362,7 +362,7 @@ function Section3LeftPart() {
 
                   <li className="mb-0 mt-4 ">
                     <div className="offer-product">
-                      <a href="product-left.html" className="offer-image">
+                      <a href="/" className="offer-image">
                         <img
                           src="	https://themes.pixelstrap.com/fastkart/assets/images/vegetable/product/26.png"
                           className="me-1  imghovering "
@@ -372,7 +372,7 @@ function Section3LeftPart() {
 
                       <div className="offer-detail">
                         <div>
-                          <a href="product-left.html" className="text-title">
+                          <a href="/" className="text-title">
                             <h6 className=" text-overflow-1">
                               Apple Red Premium Imported
                             </h6>

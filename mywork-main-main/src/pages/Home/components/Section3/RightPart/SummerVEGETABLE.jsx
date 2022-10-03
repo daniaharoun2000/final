@@ -15,10 +15,10 @@ function SummerProducts() {
                                     <h2 className="banner-title ">VEGETABLE</h2>
                                     <h5 className="lh-sm mx-auto mt-1  align-items-center justify-content-center d-flex text-aa">Save up to 5% OFF</h5>
                                     <button
-                    onclick="location.href = 'shop-left-sidebar.html';"
+                    onClick="location.href = 'shop-left-sidebar.html';"
                     className=" mt-2 btn  bg-dd  text-white m-auto  "
                   >
-                    Shop Now <img src={svgg} className="   text-overflow-1 " />
+                    Shop Now 
                   </button>    </div>
                             </div>
                

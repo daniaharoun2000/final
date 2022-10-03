@@ -16,7 +16,7 @@ function TopSaveToday() {
               alt=""
             />
 
-            <a href="product-left.html" tabindex="0">
+            <a href="/" tabindex="0">
               <h6 className="name">Fantasy Crunchy Choco Chip Cookies</h6>
             </a>
 
@@ -37,7 +37,7 @@ function TopSaveToday() {
               alt=""
             />
 
-            <a href="product-left.html" tabindex="0">
+            <a href="/" tabindex="0">
               <h6 className="name">Peanut Butter Bite Premium Butter Cookies 
                                                         </h6>
             </a>
@@ -59,7 +59,7 @@ function TopSaveToday() {
               alt=""
             />
 
-            <a href="product-left.html" tabindex="0">
+            <a href="/" tabindex="0">
               <h6 className="name">Yumitos Chilli Sprinkled Potato Chips 100 g
                                                         </h6>
             </a>
@@ -86,7 +86,7 @@ function TopSaveToday() {
               />
             </div>
 
-            <a href="product-left.html" tabindex="0">
+            <a href="/" tabindex="0">
               <h6 className="name">healthy Long Life Toned Milk 1 L</h6>
             </a>
 
@@ -107,7 +107,7 @@ function TopSaveToday() {
               alt=""
             />
 
-            <a href="product-left.html" tabindex="0">
+            <a href="/" tabindex="0">
               <h6 className="name">Cold Brew Coffee Instant Coffee 50 g</h6>
             </a>
 
@@ -133,7 +133,7 @@ function TopSaveToday() {
               />
             </div>
 
-            <a href="product-left.html" tabindex="0">
+            <a href="/" tabindex="0">
               <h6 className="name">SnackAmor Combo Pack of Jowar Stick and Jowar 
                                                           
                                                         </h6>
@@ -156,7 +156,7 @@ function TopSaveToday() {
               alt=""
             />
 
-            <a href="product-left.html" tabindex="0">
+            <a href="/" tabindex="0">
               <h6 className="name">Neu Farm Unpolished Desi Toor Dal 1 kg</h6>
             </a>
 
@@ -177,7 +177,7 @@ function TopSaveToday() {
               alt=""
             />
 
-            <a href="product-left.html" tabindex="0">
+            <a href="/" tabindex="0">
               <h6 className="name">Raw Mutton Leg, Packaging 5 Kg</h6>
             </a>
 
@@ -198,7 +198,7 @@ function TopSaveToday() {
               alt=""
             />
 
-            <a href="product-left.html" tabindex="0">
+            <a href="/" tabindex="0">
               <h6 className="name">Dog Treats Natural Yak Milk Bars For Small Dogs
                                                          </h6>
             </a>
@@ -220,7 +220,7 @@ function TopSaveToday() {
               alt=""
             />
 
-            <a href="product-left.html" tabindex="0">
+            <a href="/" tabindex="0">
               <h6 className="name">Blended Instant Coffee 50 g Buy 1 Get 1 Free
                                                         </h6>
             </a>

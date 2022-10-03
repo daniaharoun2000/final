@@ -25,7 +25,7 @@ function SummerProducts() {
                       placeholder text commonly used to demonstrate.
                     </p>
                     <button
-                      onclick="location.href = 'shop-left-sidebar.html';"
+                      onClick="location.href = 'shop-left-sidebar.html';"
                       className="btn  mt-xxl-4 mt-2 home-button mend-auto text-overflow-1 bg-dd text-white "
                     >
                       Shop Now

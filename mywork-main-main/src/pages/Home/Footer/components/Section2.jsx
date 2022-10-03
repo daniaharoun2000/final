@@ -14,7 +14,7 @@ function Section2() {
                     
                         <div className="footer-logo mt-2">
                             <div className="theme-logo">
-                                <a href="index.html">
+                                <a href="/">
                                     <img src="	https://themes.pixelstrap.com/fastkart/assets/images/logo/1.png" alt="" className="logoo"/>
                                 </a>
                             </div>
@@ -26,11 +26,11 @@ function Section2() {
                                 <ul className="address">
                                     <li>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-home svgg"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-                                        <a href="javascript:void(0)"><span className="mx-2">1418 Riverwood Drive, US</span></a>
+                                        <a href="/"><span className="mx-2">1418 Riverwood Drive, US</span></a>
                                     </li>
                                     <li className="mt-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-mail svgg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                                        <a href="javascript:void(0)"><span className="mx-2">support@fastkart.com</span></a>
+                                        <a href="/"><span className="mx-2">support@fastkart.com</span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -44,22 +44,22 @@ function Section2() {
                         <div className="footer-contain mt-4">
                             <ul>
                                 <li>
-                                    <a href="shop-left-sidebar.html" className="text-content ">Vegetables &amp; Fruit</a>
+                                    <a href="/" className="text-content ">Vegetables &amp; Fruit</a>
                                 </li>
                                 <li className="mt-2">
-                                    <a href="shop-left-sidebar.html" className="text-content ">Beverages</a>
+                                    <a href="/" className="text-content ">Beverages</a>
                                 </li>
                                 <li className="mt-2">
-                                    <a href="shop-left-sidebar.html" className="text-content">Meats &amp; Seafood</a>
+                                    <a href="/" className="text-content">Meats &amp; Seafood</a>
                                 </li>
                                 <li className="mt-2">
-                                    <a href="shop-left-sidebar.html" className="text-content">Frozen Foods</a>
+                                    <a href="/" className="text-content">Frozen Foods</a>
                                 </li>
                                 <li className="mt-2">
-                                    <a href="shop-left-sidebar.html" className="text-content">Biscuits &amp; Snacks</a>
+                                    <a href="/" className="text-content">Biscuits &amp; Snacks</a>
                                 </li>
                                 <li className="mt-2">
-                                    <a href="shop-left-sidebar.html" className="text-content">Grocery &amp; Staples</a>
+                                    <a href="/" className="text-content">Grocery &amp; Staples</a>
                                 </li>
                             </ul>
                         
@@ -73,19 +73,19 @@ function Section2() {
                         <div className="footer-contain mt-4">
                             <ul>
                                 <li >
-                                    <a href="index.html" className="text-content">Home</a>
+                                    <a href="/" className="text-content">Home</a>
                                 </li>
                                 <li className="mt-2">
-                                    <a href="shop-left-sidebar.html" className="text-content">Shop</a>
+                                    <a href="/" className="text-content">Shop</a>
                                 </li>
                                 <li className="mt-2">
-                                    <a href="about-us.html" className="text-content">About Us</a>
+                                    <a href="/" className="text-content">About Us</a>
                                 </li>
                                 <li className="mt-2">
-                                    <a href="blog-list.html" className="text-content">Blog</a>
+                                    <a href="/" className="text-content">Blog</a>
                                 </li>
                                 <li className="mt-2">
-                                    <a href="contact-us.html" className="text-content">Contact Us</a>
+                                    <a href="/" className="text-content">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -99,22 +99,22 @@ function Section2() {
                         <div className="footer-contain mt-4">
                             <ul>
                                 <li >
-                                    <a href="order-success.html" className="text-content">Your Order</a>
+                                    <a href="/" className="text-content">Your Order</a>
                                 </li>
                                 <li className="mt-2">
-                                    <a href="user-dashboard.html" className="text-content">Your Account</a>
+                                    <a href="/" className="text-content">Your Account</a>
                                 </li>
                                 <li className="mt-2">
-                                    <a href="order-tracking.html" className="text-content">Track Order</a>
+                                    <a href="/" className="text-content">Track Order</a>
                                 </li>
                                 <li className="mt-2">
-                                    <a href="wishlist.html" className="text-content">Your Wishlist</a>
+                                    <a href="/" className="text-content">Your Wishlist</a>
                                 </li>
                                 <li className="mt-2">
-                                    <a href="search.html" className="text-content">Search</a>
+                                    <a href="/" className="text-content">Search</a>
                                 </li>
                                 <li className="mt-2">
-                                    <a href="faq.html" className="text-content">FAQ</a>
+                                    <a href="/" className="text-content">FAQ</a>
                                 </li>
                             </ul>
                         </div>
@@ -156,12 +156,12 @@ function Section2() {
                                     <h5 className="mb-2 text-content ">Download App :</h5>
                                     <ul className="d-flex justify-content-center align-items-center">
                                         <li >
-                                            <a href="https://play.google.com/store/apps" target="_blank">
+                                            <a href="/" target="_blank">
                                                 <img src="	https://themes.pixelstrap.com/fastkart/assets/images/playstore.svg" className="blur-up lazyloaded" alt=""/>
                                             </a>
                                         </li>
                                         <li className="mx-2">
-                                            <a href="https://www.apple.com/in/app-store/" target="_blank">
+                                            <a href="/" target="_blank">
                                                 <img src="https://themes.pixelstrap.com/fastkart/assets/images/appstore.svg" className="blur-up lazyloaded" alt=""/>
                                             </a>
                                         </li>

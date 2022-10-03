@@ -9,11 +9,7 @@ function CashBack() {
         <Row>
           <Col xl={12} className="py-4">
             <div className="imgbootstrap position-relative cashboxx ">
-              {/* <img
-                src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/15.jpg"
-                className="w-100  imgbootstrap "
-                alt=""
-              /> */}
+        
 
               <div className=" textforimage2 mt-1 align-items-center justify-content-center d-flex">
                 <div>

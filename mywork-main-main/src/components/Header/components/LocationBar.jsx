@@ -59,7 +59,7 @@ function LocationBar() {
           Your Location
         </span>
         <span>
-          <img src={svgg} className="  text-aa angleicon" />
+          <img src={svgg} className="  text-aa angleicon" alt="img"/>
         </span>
       </Button>
 

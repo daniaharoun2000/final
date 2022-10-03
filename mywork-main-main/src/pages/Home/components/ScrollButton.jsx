@@ -28,7 +28,7 @@ export default function ScrollButton() {
        <img
                     src={svgg}
                     className=" iconn  align-items-center "
-                    
+                    alt="img"
                   />
       </button>
     </div>

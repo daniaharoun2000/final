@@ -48,7 +48,7 @@ function Section3() {
                 </Dropdown.Toggle>
 
                 <Dropdown.Menu>
-                  <Dropdown.Item href="#/action-1" >
+                  <Dropdown.Item href="/" >
                     <img
                       src="https://themes.pixelstrap.com/fastkart/assets/svg/1/vegetable.svg"
                       alt=""
@@ -56,7 +56,7 @@ function Section3() {
                     />
                    <span className="sectuin3allcatogtext "> Vegetables & Fruit</span> 
                   </Dropdown.Item>
-                  <Dropdown.Item href="#/action-1">
+                  <Dropdown.Item href="/">
                     <img
                       src="https://themes.pixelstrap.com/fastkart/assets/svg/1/cup.svg"
                       alt=""
@@ -65,7 +65,7 @@ function Section3() {
                       <span className="sectuin3allcatogtext ">Beverages</span>  
                    
                   </Dropdown.Item>
-                  <Dropdown.Item href="#/action-1">
+                  <Dropdown.Item href="/">
                     <img
                       src="https://themes.pixelstrap.com/fastkart/assets/svg/1/meats.svg"
                       alt=""
@@ -91,7 +91,7 @@ function Section3() {
                           <div>
                             <ul className="unstyled">
                               <li>
-                                <a href="#" className="dropdownitem">
+                                <a href="/" className="dropdownitem">
                                   <img
                                     src="	https://themes.pixelstrap.com/fastkart/assets/images/theme/1.jpg"
                                     alt="logo"
@@ -103,7 +103,7 @@ function Section3() {
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a href="/">
                                   <img
                                     src="  https://themes.pixelstrap.com/fastkart/assets/images/theme/2.jpg"
                                     alt="logo"
@@ -115,7 +115,7 @@ function Section3() {
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a href="/">
                                   <img
                                     src="  	https://themes.pixelstrap.com/fastkart/assets/images/theme/3.jpg"
                                     alt="logo"
@@ -127,7 +127,7 @@ function Section3() {
                                 </a>
                               </li>
                               <li>
-                                <a href="#">
+                                <a href="/">
                                   <img
                                     src=" 	https://themes.pixelstrap.com/fastkart/assets/images/theme/3.jpg"
                                     alt="logo"
@@ -139,7 +139,7 @@ function Section3() {
                                 </a>
                               </li>
                               <li >
-                                <a href="#" >
+                                <a href="/" >
                                   <img
                                     src=" https://themes.pixelstrap.com/fastkart/assets/images/theme/5.jpg"
                                     alt="logo"
@@ -173,20 +173,20 @@ function Section3() {
                                   </h5>  
                                         <a
                                     className="dropdown-item"
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                   >
                                     Beans &amp; Brinjals
                                   </a>
                      
                                   <a
                                     className="dropdown-item"
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                   >
                                     Broccoli &amp; Cauliflower
                                   </a>
 
                                   <a
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                     className="dropdown-item"
                                   >
                                     Chilies, Garlic
@@ -194,27 +194,27 @@ function Section3() {
 
                                   <a
                                     className="dropdown-item"
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                   >
                                     Vegetables &amp; Salads
                                   </a>
 
                                   <a
                                     className="dropdown-item"
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                   >
                                     Gourd, Cucumber
                                   </a>
 
                                   <a
                                     className="dropdown-item"
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                   >
                                     Herbs &amp; Sprouts
                                   </a>
 
                                   <a
-                                    href="demo-personal-portfolio.html"
+                                    href="/"
                                     className="dropdown-item"
                                   >
                                     Lettuce &amp; Leafy
@@ -229,48 +229,48 @@ function Section3() {
                                   </h5>
                                   <a
                                     className="dropdown-item"
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                   >
                                     Beans &amp; Brinjals
                                   </a>
 
                                   <a
                                     className="dropdown-item"
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                   >
                                     Broccoli &amp; Cauliflower
                                   </a>
 
                                   <a
                                     className="dropdown-item"
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                   >
                                     Chilies, Garlic
                                   </a>
 
                                   <a
                                     className="dropdown-item"
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                   >
                                     Vegetables &amp; Salads
                                   </a>
 
                                   <a
                                     className="dropdown-item"
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                   >
                                     Gourd, Cucumber
                                   </a>
 
                                   <a
                                     className="dropdown-item"
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                   >
                                     Potatoes &amp; Tomatoes
                                   </a>
 
                                   <a
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                     className="dropdown-item"
                                   >
                                     Peas &amp; Corn
@@ -284,35 +284,35 @@ function Section3() {
                                   </h5>
                                   <a
                                     className="dropdown-item"
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                   >
                                     Asparagus &amp; Artichokes
                                   </a>
 
                                   <a
                                     className="dropdown-item"
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                   >
                                     Avocados &amp; Peppers
                                   </a>
 
                                   <a
                                     className="dropdown-item"
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                   >
                                     Broccoli &amp; Zucchini
                                   </a>
 
                                   <a
                                     className="dropdown-item"
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                   >
                                     Celery, Fennel &amp; Leeks
                                   </a>
 
                                   <a
                                     className="dropdown-item"
-                                    href="shop-left-sidebar.html"
+                                   href="/"
                                   >
                                     Chilies &amp; Lime
                                   </a>
@@ -330,29 +330,29 @@ function Section3() {
                     <Col xl={2}>
                       <NavDropdown id="nav-dropdown-dark-example" title="Shop">
                         <NavDropdown.Item
-                          href="#action/3.1"
+                         href="/"
                           to="/contact"
                           as={NavLink}
                           
                         >
                           Shop Category Slider
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">
+                        <NavDropdown.Item href="/">
                           Shop Category Sidebar
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">
+                        <NavDropdown.Item href="/">
                           Shop Banner
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">
+                        <NavDropdown.Item href="/">
                           Shop Left Sidebar
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">
+                        <NavDropdown.Item href="/">
                           Shop List
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">
+                        <NavDropdown.Item href="/">
                           Shop Right Sidebar
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">
+                        <NavDropdown.Item href="/">
                           Shop Top Filter
                         </NavDropdown.Item>
                       </NavDropdown>
@@ -364,29 +364,29 @@ function Section3() {
                         title="Product"
                       >
                         <NavDropdown.Item
-                          href="#action/3.1"
+                         href="/"
                           to="/contact"
                           as={NavLink}
                           
                         >
                           Product 4 Image
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">
+                        <NavDropdown.Item href="/">
                           Product Left Thumbnail
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">
+                        <NavDropdown.Item href="/">
                           Product Buttom Thumbnail
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">
+                        <NavDropdown.Item href="/">
                           Product Left
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">
+                        <NavDropdown.Item href="/">
                           Product Right Thumbnail
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">
+                        <NavDropdown.Item href="/">
                           Product Slider
                         </NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">
+                        <NavDropdown.Item href="/">
                           Product Sticky
                         </NavDropdown.Item>
                       </NavDropdown>
@@ -400,17 +400,17 @@ function Section3() {
                             title="Blog"
                           >
                             <NavDropdown.Item
-                              href="#action/3.1"
+                             href="/"
                               to="/contact"
                               as={NavLink}
                               
                             >
                               Blog Detail
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
+                            <NavDropdown.Item href="/">
                               Blog Grid
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">
+                            <NavDropdown.Item href="/">
                               Blog List
                             </NavDropdown.Item>
                           </NavDropdown>
@@ -421,47 +421,47 @@ function Section3() {
                             title="Pages"
                           >
                             <NavDropdown.Item
-                              href="#action/3.1"
+                             href="/"
                               to="/contact"
                               as={NavLink}
                               
                             >
                               404
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
+                            <NavDropdown.Item href="/">
                               About Us
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">
+                            <NavDropdown.Item href="/">
                               Cart
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.4">
+                            <NavDropdown.Item href="/">
                               Checkout
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.4">
+                            <NavDropdown.Item href="/">
                               Coming Soon
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.4">
+                            <NavDropdown.Item href="/">
                               Compare
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.4">
+                            <NavDropdown.Item href="/">
                               Faq
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.4">
+                            <NavDropdown.Item href="/">
                               Order Success
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.4">
+                            <NavDropdown.Item href="/">
                               Order Tracking
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.4">
+                            <NavDropdown.Item href="/">
                               OTP
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.4">
+                            <NavDropdown.Item href="/">
                               Search
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.4">
+                            <NavDropdown.Item href="/">
                               User Dashboard
                             </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.4">
+                            <NavDropdown.Item href="/">
                               Wishlist
                             </NavDropdown.Item>
                           </NavDropdown>
@@ -530,7 +530,7 @@ function Section3() {
                             alt=""
                           />
 
-                          <a href="" className="text-decoration-none ">
+                          <a href="/" className="text-decoration-none ">
                             <h5 className="text-dania">
                               Blended Instant Coffee 50 g Buy 1 Get 1 Free
                             </h5>
@@ -549,7 +549,7 @@ function Section3() {
                             alt=""
                           />
 
-                          <a href="" className="text-decoration-none ">
+                          <a href="/" className="text-decoration-none ">
                             <h5 className="text-dania">
                               Blended Instant Coffee 50 g Buy 1 Get 1 Free
                             </h5>

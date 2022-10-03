@@ -1,6 +1,5 @@
 import { Row, Col } from "react-bootstrap";
 import svgg from '../../../images/arrowright.svg';
-
 import Container from "../../../../../components/Container";
 
 function Fiftypercentoffer() {
@@ -43,7 +42,7 @@ function Fiftypercentoffer() {
                     Testy Mushrooms
                   </h4>
                   <button className="btn  mt-xxl-4 mb-1 text-overflow-1 bg-dd text-white ">
-                    Shop Now <img src={svgg} className="   text-overflow-1 " />
+                    Shop Now 
                   </button>
                 </div>
               </div>

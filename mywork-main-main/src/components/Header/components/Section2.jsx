@@ -20,7 +20,7 @@ function Section2() {
   }
   React.useLayoutEffect(() => {
     window.addEventListener("scroll", setFixed);
-  }, []);
+  });//,[]
   //////////-----------------End of the function-----------------------------/////////////
   return (
     <div
@@ -109,7 +109,7 @@ function Section2() {
                 <ul className="unstiled-list  p-0 d-flex  align-items-center justify-content-end w-100">
                   <Col xxl={1}xl={1}>
                     
-                    <li className="m-0 d-xl-none d-block"><a href="">
+                    <li className="m-0 d-xl-none d-block"><a href="/">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -133,7 +133,7 @@ function Section2() {
                   <Col xxl={2} xl={2}>
                     <li className="m-0 phoneli ">
                       <div className="d-flex align-items-center justify-content-center gap-2 ">
-                        <div><a href="">
+                        <div><a href="/">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -160,7 +160,7 @@ function Section2() {
                     <span>|</span>
                   </li>
                   <Col xxl={1} xl={1}>
-                    <li className="m-0"><a href="">
+                    <li className="m-0"><a href="/">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -181,7 +181,7 @@ function Section2() {
                     <span>|</span>
                   </li>
                   <Col xxl={1} xl={1}>
-                    <li className="m-0"><a href="">
+                    <li className="m-0"><a href="/">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="24"
@@ -206,7 +206,7 @@ function Section2() {
                   <Col xxl={2} xl={2}>
                     <li className="m-0 ">
                       <div className="d-flex align-items-center justify-content-center gap-1 ">
-                        <div><a href="">
+                        <div><a href="/">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"

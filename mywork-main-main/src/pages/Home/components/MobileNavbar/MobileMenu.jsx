@@ -16,36 +16,36 @@ function MobileMenu() {
               <div className=" mobile-cart w-100">
                 <ul>
                   <li className="mobile-category active">
-                    <a href="index.html">
-<img src={homeicon} className="iconsizemobile"/>
+                    <a href="/">
+<img src={homeicon} className="iconsizemobile" alt="imghome"/>
                   <span>Home</span>
                     </a>
                   </li>
 
                   <li className="mobile-category">
-                    <a href="javascript:void(0)">
-                    <img src={catigoriesicon} className="iconsizemobile"/>
+                    <a href="/">
+                    <img src={catigoriesicon} className="iconsizemobile" alt="imgcat"/>
                       <span>Category</span>
                     </a>
                   </li>
 
                   <li>
-                    <a href="search.html" className="search-box">
-                    <img src={search} className="iconsizemobile"/>
+                    <a href="/" className="search-box">
+                    <img src={search} className="iconsizemobile" alt="imgsearch"/>
                       <span>Search</span>
                     </a>
                   </li>
 
                   <li>
-                    <a href="wishlist.html" className="notifi-wishlist">
-                    <img src={favorite} className="iconsizemobile"/>
+                    <a href="/" className="notifi-wishlist">
+                    <img src={favorite} className="iconsizemobile" alt="imgfav"/>
                       <span>My Wish</span>
                     </a>
                   </li>
 
                   <li>
-                    <a href="cart.html">
-                    <img src={cart} className="iconsizemobile"/>
+                    <a href="/">
+                    <img src={cart} className="iconsizemobile" alt="imgcart"/>
                       <span>Cart</span>
                     </a>
                   </li>

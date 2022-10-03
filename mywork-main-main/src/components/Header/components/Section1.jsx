@@ -35,7 +35,7 @@ function Section1() {
             <Carousel controls={false} indicators={false}>
               <Carousel.Item interval={4000}>
                 <span className="text-white text-overflow-1 align-items-center">
-                  Something you love is now on sale!<a href="">
+                  Something you love is now on sale!<a href="/">
                   <span className="fw-bold text-decoration-underline mx-1 text-badge">
                 
                     Buy Now !
@@ -53,20 +53,20 @@ function Section1() {
           </Col>
           <Col  className="	d-block d-flex justify-content-end ">
             <div className="d-flex  ">
-            <img src="https://themes.pixelstrap.com/fastkart/assets/images/country/united-states.png" className="img-fluid blur-up lazyloaded flag" alt=""/>
+            <img src="https://themes.pixelstrap.com/fastkart/assets/images/country/united-states.png" className="img-fluid blur-up lazyloaded flag" alt="img"/>
             <NavDropdown
               id="nav-dropdown-dark-example"
               title="English "
               className="fontweight text-badge fw-normal  mx-2"
               menuVariant="light" 
             >
-              <NavDropdown.Item href="#action/3.1">            <img src="https://themes.pixelstrap.com/fastkart/assets/images/country/united-kingdom.png" className="img-fluid blur-up lazyloaded flag" alt=""/>
+              <NavDropdown.Item href="/">            <img src="https://themes.pixelstrap.com/fastkart/assets/images/country/united-kingdom.png" className="img-fluid blur-up lazyloaded flag" alt="img"/>
 <span className="fontweight  mx-2 ">English</span></NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-              <img src="https://themes.pixelstrap.com/fastkart/assets/images/country/germany.png" className="img-fluid blur-up lazyloaded flag" alt=""/>
+              <NavDropdown.Item href="/">
+              <img src="https://themes.pixelstrap.com/fastkart/assets/images/country/germany.png" className="img-fluid blur-up lazyloaded flag" alt="img"/>
 <span className="fontweight  mx-2">Germany</span>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">         <img src="https://themes.pixelstrap.com/fastkart/assets/images/country/turkish.png" className="img-fluid blur-up lazyloaded flag" alt=""/>
+              <NavDropdown.Item href="/">         <img src="https://themes.pixelstrap.com/fastkart/assets/images/country/turkish.png" className="img-fluid blur-up lazyloaded flag" alt="img"/>
 <span className="fontweight  mx-2">Turki</span></NavDropdown.Item>
             
             </NavDropdown>
@@ -77,13 +77,13 @@ function Section1() {
               className="fontweight text-badge fw-normal"
               menuVariant="light" 
             >
-              <NavDropdown.Item href="#action/3.1">    
+              <NavDropdown.Item href="/">    
 <span className="fontweight">AUD</span></NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/">
          
 <span className="fontweight ">EUR</span>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">    
+              <NavDropdown.Item href="/">    
 <span className="fontweight">CNY</span></NavDropdown.Item>
             
             </NavDropdown>

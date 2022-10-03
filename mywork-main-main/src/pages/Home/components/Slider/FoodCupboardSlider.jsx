@@ -1,4 +1,4 @@
-import { Autoplay, Thumbs, Pagination, Navigation, Lazy } from "swiper";
+import { Autoplay,  Pagination, Navigation, Lazy } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Container } from "../../../../components";
@@ -22,7 +22,7 @@ export default function FoodCupboardSlider() {
                       <span className="title-leaf">
                         <img
                           src="https://themes.pixelstrap.com/fastkart/assets/svg/1/grocery.svg"
-                          className=" icon-width"
+                          className=" icon-width" alt="foodcupboard"
                         />
                       </span>
                       <p>
@@ -76,7 +76,7 @@ export default function FoodCupboardSlider() {
                                 alt=""
                               />
 
-                              <a href="product-left.html" tabindex="0">
+                              <a href="/" tabindex="0">
                                 <h6 className="name">
                                   Fantasy Crunchy Choco Chip Cookies
                                 </h6>
@@ -103,7 +103,7 @@ export default function FoodCupboardSlider() {
                                 alt=""
                               />
 
-                              <a href="product-left.html" tabindex="0">
+                              <a href="/" tabindex="0">
                                 <h6 className="name">
                                 Peanut Butter Bite Premium Butter Cookies 600 g
                                 </h6>
@@ -131,7 +131,7 @@ export default function FoodCupboardSlider() {
                                 alt=""
                               />
 
-                              <a href="product-left.html" tabindex="0">
+                              <a href="/" tabindex="0">
                                 <h6 className="name">
                                 Yumitos Chilli Sprinkled Potato Chips 100 g
                                                         
@@ -159,7 +159,7 @@ export default function FoodCupboardSlider() {
                                 alt=""
                               />
 
-                              <a href="product-left.html" tabindex="0">
+                              <a href="/" tabindex="0">
                                 <h6 className="name">
                                 Neu Farm Unpolished Desi Toor Dal 1 kg
                                 </h6>
@@ -186,7 +186,7 @@ export default function FoodCupboardSlider() {
                                 alt=""
                               />
 
-                              <a href="product-left.html" tabindex="0">
+                              <a href="/" tabindex="0">
                                 <h6 className="name">
                                   
                                 </h6>
