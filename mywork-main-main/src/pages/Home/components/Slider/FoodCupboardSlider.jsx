@@ -188,7 +188,7 @@ export default function FoodCupboardSlider() {
 
                               <a href="/" tabindex="0">
                                 <h6 className="name">
-                                  
+                                Dark Chocalate
                                 </h6>
                               </a>
 
