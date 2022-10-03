@@ -7,7 +7,7 @@ function TopSaveToday() {
   return (
     <div >
       <Container>
-        <Row className=" row-cols-xxl-5 row-cols-xl-4 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-2">
+        <Row className=" row-cols-xxl-4 row-cols-xl-3 row-cols-lg-3 row-cols-md-3 row-cols-sm-3 row-cols-2">
           {/* react gutters */}
           <Col className="p-3 border cardhovering  ">
             <img
