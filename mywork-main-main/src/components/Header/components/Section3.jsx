@@ -14,7 +14,7 @@ function Section3() {
     <div className="bg-white">
       <div className="d-none d-lg-block ">
         <Container>
-          <Row className="align-items-center justify-content-between  py-2 ">
+          <Row className="align-items-center justify-content-between  pt-3 ">
             <Col xl={2} md={3}><div className="d-flex justify-content-start">
               <Dropdown>
                 <Dropdown.Toggle

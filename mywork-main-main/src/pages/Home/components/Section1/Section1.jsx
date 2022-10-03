@@ -6,7 +6,7 @@ function Section1() {
   return (
     <div className=" align-items-center   ">
       <Container>
-        <div >
+        <div className="pt-1">
         <Row>
           <Col xl={8} md={12} lg={12}>
             <div className=" position-relative   imgonesectionone mt-4 gfg">
