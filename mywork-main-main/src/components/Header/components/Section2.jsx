@@ -6,6 +6,7 @@ import React, { useState } from "react";
 import LocationBar from "./LocationBar";
 import OffcanvasNavbar from "./OffcanvasNavbar"; //this is my navbar that will appeare when the page size is reduce
 import Container from "../../Container";
+import SearchBar from "./SearchBar";
 
 function Section2() {
   /////////////----------------This is function for fixed the navbar when the user scrolled---------------------------/////////////////
@@ -109,22 +110,8 @@ function Section2() {
                 <ul className="unstiled-list  p-0 d-flex  align-items-center justify-content-end w-100">
                   <Col xxl={1}xl={1}>
                     
-                    <li className="m-0 d-xl-none d-block"><a href="/">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        className="text-aa"
-                      >
-                        <circle cx="11" cy="11" r="8"></circle>
-                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                      </svg></a>
+                    <li className="m-0 d-xl-none d-block">
+                      <SearchBar/>
                     </li>
                   </Col>
                   <li className="m-0 d-xl-none d-block px-3">
