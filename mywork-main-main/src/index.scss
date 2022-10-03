@@ -71,6 +71,9 @@ $theme-colors: (
 }
 
 
+button:hover  {
+  transform: scale(0.9); 
+}
 
 .title-leaf {
   content: "";

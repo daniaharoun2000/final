@@ -21,7 +21,18 @@
     font-weight: 600;
     color: #0da487;
    
-  }
+   }
+  
+   .dropdown-item:hover  {
+    color: #0da487;
+   
+    background-color: #ffffff;
+    
+}
+
+.imghovering:hover  {
+  transform: scale(0.8); 
+}
 .sectuin3allcatogtext{
   font-size: 15px;
     font-weight: 500;
@@ -118,6 +129,9 @@
     height: 100%;
    
     font-size: 120%;
+  }
+  .AllCategories:hover{
+    color: #e7f6f3;
   }
   .AllCategories::after {
     display: none !important; 

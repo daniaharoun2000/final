@@ -36,14 +36,10 @@ export default function FeaturedBlogSlider() {
                     autoplay={{ delay: 2000 }}
                     lazy={true}
                     pagination={{
-                      el: ".swiper-pagination",
-                      type: "bullets",
+                      el: '.slider__pagination',
                       clickable: true,
                     }}
-                    navigation={{
-                      nextEl: ".swiper-button-next",
-                      prevEl: ".swiper-button-prev",
-                    }}
+                    
                     loop={true}
                     breakpoints={{
                        320: {
@@ -70,7 +66,7 @@ export default function FeaturedBlogSlider() {
                     <SwiperSlide  >
                     <a
                               href="blog-detail.html"
-                              className="category-box imgblog "
+                              className="category-box imgblog imghoveringin"
                               tabindex="-1"
                             ></a>
 
@@ -86,7 +82,7 @@ export default function FeaturedBlogSlider() {
                     <SwiperSlide >
                     <a
                               href="blog-detail.html"
-                              className="category-box imgblog2"
+                              className="category-box imgblog2 imghoveringin"
                               tabindex="-1"
                             ></a>
                             <a
@@ -101,7 +97,7 @@ export default function FeaturedBlogSlider() {
                     <SwiperSlide >
                     <a
                               href="blog-detail.html"
-                              className="category-box imgblog3"
+                              className="category-box imgblog3 imghoveringin"
                               tabindex="-1"
                             ></a>
                             <a
@@ -113,7 +109,12 @@ export default function FeaturedBlogSlider() {
                               <h5>Nuts to Eat for Better Health</h5>
                             </a>
                     </SwiperSlide>
-                 
+                    <div className="slider__controls">
+
+<div className="slider__pagination"></div>
+
+
+</div>
                   </Swiper>
                 </Col>
               </Row>

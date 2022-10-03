@@ -21,7 +21,7 @@ function CashBack() {
                     Get $3 Cashback! Min Order of $30
                   </h3>
                   <div className="d-flex justify-content-center align-items-center">
-                    <h6 className="coupon-code py-2 m-auto text-badge ">
+                    <h6 className="coupon-code py-2 px-2 text-badge ">
                       Use Code : GROCERY1920
                     </h6>
                   </div>

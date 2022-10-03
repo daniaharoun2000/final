@@ -95,9 +95,9 @@ function Section3() {
                                   <img
                                     src="	https://themes.pixelstrap.com/fastkart/assets/images/theme/1.jpg"
                                     alt="logo"
-                                    className="imgg"
+                                    className="imgg imghovering"
                                   />
-                                  <span className="text-dania fw-light">
+                                  <span className="text-dania fw-light ">
                                     KartShop
                                   </span>
                                 </a>
@@ -107,9 +107,9 @@ function Section3() {
                                   <img
                                     src="  https://themes.pixelstrap.com/fastkart/assets/images/theme/2.jpg"
                                     alt="logo"
-                                    className="imgg"
+                                    className="imgg imghovering"
                                   />
-                                  <span className="text-dania fw-light">
+                                  <span className="text-dania fw-light ">
                                     SweetShop
                                   </span>
                                 </a>
@@ -119,9 +119,9 @@ function Section3() {
                                   <img
                                     src="  	https://themes.pixelstrap.com/fastkart/assets/images/theme/3.jpg"
                                     alt="logo"
-                                    className="imgg"
+                                    className="imgg imghovering"
                                   />
-                                  <span className="text-dania fw-light">
+                                  <span className="text-dania fw-light ">
                                     Organic
                                   </span>
                                 </a>
@@ -131,21 +131,21 @@ function Section3() {
                                   <img
                                     src=" 	https://themes.pixelstrap.com/fastkart/assets/images/theme/3.jpg"
                                     alt="logo"
-                                    className="imgg"
+                                    className="imgg imghovering"
                                   />
-                                  <span className="text-dania fw-light">
+                                  <span className="text-dania fw-light ">
                                     SuperShop
                                   </span>
                                 </a>
                               </li>
-                              <li>
-                                <a href="#">
+                              <li >
+                                <a href="#" >
                                   <img
                                     src=" https://themes.pixelstrap.com/fastkart/assets/images/theme/5.jpg"
                                     alt="logo"
-                                    className="imgg"
-                                  />
-                                  <span className="text-dania fw-light">
+                                    className="imgg  imghovering"
+                                  /> 
+                                  <span className="text-dania fw-light ">
                                     Slicktech
                                   </span>
                                 </a>

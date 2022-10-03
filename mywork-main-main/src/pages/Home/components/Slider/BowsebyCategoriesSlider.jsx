@@ -33,15 +33,12 @@ export default function BowsebyCategoriesSlider() {
         modules={[Autoplay, Pagination, Navigation, Lazy]}
         autoplay={{ delay: 2000 }}
         lazy={true}
+    
         pagination={{
-          el: ".swiper-pagination",
-          type: "bullets",
+          el: '.slider__pagination',
           clickable: true,
         }}
-        navigation={{
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        }}
+        
         loop={true}
         breakpoints={{
           320: {
@@ -150,6 +147,13 @@ export default function BowsebyCategoriesSlider() {
                               <h5 className="align-items-center justify-content-center d-flex">Meats &amp; Seafood</h5>
                             </a></SwiperSlide>
 
+
+                            <div className="slider__controls">
+
+<div className="slider__pagination"></div>
+
+
+</div>
       </Swiper></Col></Row>
       </div></Container></div></div>
     </>

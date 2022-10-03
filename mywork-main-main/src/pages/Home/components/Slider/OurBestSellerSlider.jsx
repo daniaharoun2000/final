@@ -40,8 +40,11 @@ export default function OurBestSellerSlider() {
                       modules={[Autoplay, Pagination, Navigation, Lazy]}
                       autoplay={{ delay: 2000 }}
                       lazy={true}
-            
-                      pagination={{ clickable: true }}
+                      pagination={{
+                        el: '.slider__pagination',
+                        clickable: true,
+                      }}
+                      
                       loop={true}
                       breakpoints={{
                         320: {
@@ -481,7 +484,12 @@ export default function OurBestSellerSlider() {
                           </ul>
                         </div>
                       </SwiperSlide>
-                    
+                      <div className="slider__controls">
+
+<div className="slider__pagination"></div>
+
+
+</div>  
                     </Swiper>
                     
                   </div>
