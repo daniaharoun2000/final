@@ -300,7 +300,7 @@ function Section3LeftPart() {
                             </h6>
                           </a>
                           <span className="text-aa">450 G</span>
-                          <h6 className="price text-primary   pb-1">
+                          <h6 className="price text-primary  mb-2">
                             $ 70.00
                           </h6>
                         </div>
@@ -326,7 +326,7 @@ function Section3LeftPart() {
                             </h6>
                           </a>
                           <span className="text-aa">450 G</span>
-                          <h6 className="price text-primary  pb-1">
+                          <h6 className="price text-primary mb-2  pb-1">
                             $ 40.00
                           </h6>
                         </div>
@@ -352,7 +352,7 @@ function Section3LeftPart() {
                             </h6>
                           </a>
                           <span className="text-aa">200 G</span>
-                          <h6 className="price text-primary  pb-1">
+                          <h6 className="price text-primary mb-2  pb-1">
                             $ 52.00
                           </h6>
                         </div>
@@ -378,7 +378,7 @@ function Section3LeftPart() {
                             </h6>
                           </a>
                           <span className="text-aa">1 KG</span>
-                          <h6 className="price text-primary  pb-1">
+                          <h6 className="price text-primary mb-2  pb-1">
                             $ 80.00
                           </h6>
                         </div>
@@ -413,7 +413,7 @@ function Section3LeftPart() {
                   <div className="review-image px-1">
                       <img
                         src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/review/1.jpg"
-                        className="img-fluid "
+                        className="img-fluid imghovering"
                         alt=""
                       />
                     </div> </div>
