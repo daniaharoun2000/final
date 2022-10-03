@@ -14,7 +14,7 @@ export default function BowsebyCategoriesSlider() {
           <Row><Col xl={12}>
          <div className="title title-flex">
               <div>
-                <h2>Bowse by Categories</h2>
+                <h2>Browse By Categories</h2>
 
                 <span className="title-leaf">
               <img

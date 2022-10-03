@@ -281,7 +281,7 @@ function Section3LeftPart() {
               <div className="category-menu ">
                 <h3>Treanding Products</h3>
 
-                <ul className="product-list border-0 p-0 d-block ">
+                <ul className="trendinglist border-0 p-0 d-block ">
                   <li>
                     <div className="offer-product ">
                       <a href="/" className="offer-image">

@@ -4,12 +4,12 @@ import { Col, Row } from "react-bootstrap";
 import Container from "../../../../components/Container";
 function Section1() {
   return (
-    <div className=" align-items-center  ">
+    <div className=" align-items-center   ">
       <Container>
         <div >
         <Row>
           <Col xl={8} md={12} lg={12}>
-            <div className=" position-relative   imgonesectionone   mt-4 gfg">
+            <div className=" position-relative   imgonesectionone mt-4 gfg">
               <div className="textforimage2 position-absolute  ">
                 <div className="textforimage">
                   <h6>
