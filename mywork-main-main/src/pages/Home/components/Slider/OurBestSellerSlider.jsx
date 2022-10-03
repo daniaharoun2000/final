@@ -1,3 +1,5 @@
+//Our Best Seller Section from Right Part on Home Page by Dania Haroun !!!
+
 import { Autoplay, Pagination, Navigation, Lazy } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";

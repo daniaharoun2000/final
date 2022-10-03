@@ -1,3 +1,5 @@
+//Fiftypercentoffer Section from Right Part on Home Page by Dania Haroun !!!
+
 import { Row, Col } from "react-bootstrap";
 import Container from "../../../../../components/Container";
 

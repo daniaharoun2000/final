@@ -1,3 +1,5 @@
+//Section 3 Left Part from Home Page by Dania Haroun !!!
+
 import Container from "../../../../components/Container";
 import { Col, Row } from "react-bootstrap";
 function Section3LeftPart() {

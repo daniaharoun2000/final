@@ -1,5 +1,6 @@
-import Container from "../../../../../components/Container";
+//CashBack Section from Right Part on Home Page by Dania Haroun !!!
 
+import Container from "../../../../../components/Container";
 import { Col, Row } from "react-bootstrap";
 
 function CashBack() {

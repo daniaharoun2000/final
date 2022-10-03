@@ -1,5 +1,5 @@
-//LocationBar by Dania Haroun !!!
-//LocationBar in navbar
+//SearchBar by Dania Haroun !!!
+//SearchBar LocationBar in navbar
 
 import React, { useState } from "react";
 import {Button,Form,Modal,InputGroup} from "react-bootstrap";

@@ -1,7 +1,7 @@
+// Section4  on Home Page by Dania Haroun !!!
+
 import { Container } from "../../../../components";
 import { Col, Row } from "react-bootstrap";
-
-
 function Newsletter() {
   return (
     <div >

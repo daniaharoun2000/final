@@ -1,8 +1,9 @@
+//Section 3 Right Part from Home Page by Dania Haroun !!!
+
 import CountdownTimer from "../CountdownTimer";
 import TopSaveToday from './RightPart/TopSaveToday';
 import Container from "../../../../components/Container";
 import { Row, Col } from "react-bootstrap";
-
 import BowsebyCategoriesSlider from "../Slider/BowsebyCategoriesSlider";
 import Fiftypercentoffer from "./RightPart/Fiftypercentoffer";
 import FoodCupboardSlider from "../Slider/FoodCupboardSlider";

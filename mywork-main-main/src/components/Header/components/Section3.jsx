@@ -4,6 +4,7 @@ import {Row,Col,Navbar,NavDropdown,Dropdown,Button,Modal} from "react-bootstrap"
 import React, { useState } from "react";
 import Container from "../../Container";
 
+//Section 3 by Dania Haroun !!!
 
 function Section3() {
   const [show, setShow] = useState(false);

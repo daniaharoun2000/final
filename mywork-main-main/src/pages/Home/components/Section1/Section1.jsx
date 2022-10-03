@@ -1,6 +1,6 @@
+//Section 1 from Home Page by Dania Haroun !!!
+
 import { Col, Row } from "react-bootstrap";
-
-
 import Container from "../../../../components/Container";
 function Section1() {
   return (

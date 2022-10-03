@@ -38,7 +38,6 @@ function Section1() {
                     <div >
                       <img
                         src="https://themes.pixelstrap.com/fastkart/assets/svg/delivery.svg"
-                      className="mx-0"
                         alt=""
                       />
                     </div>
@@ -66,7 +65,7 @@ function Section1() {
                   </div>
                 </Col>
                 <Col xxl={3} xl={3}>
-                  <div className="service-box justify-content-end d-flex">
+                  <div className="service-box justify-content-start d-flex">
                     <div >
                       <img
                         src="https://themes.pixelstrap.com/fastkart/assets/svg/market.svg"
