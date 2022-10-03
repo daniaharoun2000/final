@@ -1,5 +1,4 @@
 import { Row, Col } from "react-bootstrap";
-import svgg from '../../../images/arrowright.svg';
 import Container from "../../../../../components/Container";
 
 function Fiftypercentoffer() {

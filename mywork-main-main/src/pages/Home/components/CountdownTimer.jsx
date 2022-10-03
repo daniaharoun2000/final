@@ -15,7 +15,7 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
   return (
 
       <a
-       
+      href="/"
         target="_blank"
         rel="noopener noreferrer"
         className=" text-badge countdown "

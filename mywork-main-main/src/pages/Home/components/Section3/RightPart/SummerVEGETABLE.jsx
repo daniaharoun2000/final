@@ -1,7 +1,6 @@
 import { Container } from "../../../../../components";
 import { Col, Row } from "react-bootstrap";
 
-import svgg from '../../../images/arrowright.svg';
 
 function SummerProducts() {
   return (
