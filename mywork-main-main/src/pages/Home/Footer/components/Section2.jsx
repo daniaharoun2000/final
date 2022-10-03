@@ -157,12 +157,12 @@ function Section2() {
                                     <ul className="d-flex justify-content-center align-items-center">
                                         <li >
                                             <a href="/" target="_blank">
-                                                <img src="	https://themes.pixelstrap.com/fastkart/assets/images/playstore.svg" className="blur-up lazyloaded" alt=""/>
+                                                <img src="	https://themes.pixelstrap.com/fastkart/assets/images/playstore.svg" className="imghovering" alt=""/>
                                             </a>
                                         </li>
                                         <li className="mx-2">
                                             <a href="/" target="_blank">
-                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/appstore.svg" className="blur-up lazyloaded" alt=""/>
+                                                <img src="https://themes.pixelstrap.com/fastkart/assets/images/appstore.svg" className=" imghovering" alt=""/>
                                             </a>
                                         </li>
                                     </ul>

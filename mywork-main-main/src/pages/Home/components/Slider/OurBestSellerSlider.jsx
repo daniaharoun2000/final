@@ -523,9 +523,9 @@ export default function OurBestSellerSlider() {
                                         >
                                           <span className="cardname">
                                             Tuffets Whole Wheat Bread
-                                          </span>
+                                          </span><br/>
                                         </a>
-                                        <span>500 G</span><br/>
+                                        <span className="mt-1">500 G</span><br/>
                                         <span className="price text-primary mb-4 ">
                                           $ 10.00
                                         </span>
@@ -556,8 +556,8 @@ export default function OurBestSellerSlider() {
                                           tabindex="0"
                                         >
                                           <span className="cardname">Potato</span>
-                                        </a>
-                                        <span >500 G</span><br/>
+                                        </a><br/>
+                                        <span className="mt-1" >500 G</span><br/>
                                         <span className="price text-primary mb-4">
                                           $ 10.00
                                         </span>
@@ -590,8 +590,8 @@ export default function OurBestSellerSlider() {
                                           <span className="cardname">
                                             Green Chilli
                                           </span>
-                                        </a>
-                                        <span >200 G</span><br/>
+                                        </a><br/>
+                                        <span className="mt-1">200 G</span><br/>
                                         <span className="price text-primary mb-4">
                                           $ 10.00
                                         </span>
@@ -624,8 +624,8 @@ export default function OurBestSellerSlider() {
                                           <span className="cardname">
                                             Muffets Burger Bun
                                           </span>
-                                        </a>
-                                        <span >150 G</span><br/>
+                                        </a><br/>
+                                        <span className="mt-1">150 G</span><br/>
                                         <span className="price text-primary mb-4">
                                           $ 10.00
                                         </span>
@@ -661,8 +661,8 @@ export default function OurBestSellerSlider() {
                                           <span className="cardname">
                                             Tuffets Britannia Cheezza
                                           </span>
-                                        </a>
-                                        <span >500 G</span><br/>
+                                        </a><br/>
+                                        <span className="mt-1">500 G</span><br/>
                                         <span className="price text-primary mb-4">
                                           $ 10.00
                                         </span>
@@ -695,8 +695,8 @@ export default function OurBestSellerSlider() {
                                           <span className="cardname">
                                             Long Life Toned Milk
                                           </span>
-                                        </a>
-                                        <span >1 L</span><br/>
+                                        </a><br/>
+                                        <span className="mt-1">1 L</span><br/>
                                         <span className="price text-primary mb-4">
                                           $ 10.00
                                         </span>
@@ -729,8 +729,8 @@ export default function OurBestSellerSlider() {
                                           <span className="cardname">
                                             Organic Tomato
                                           </span>
-                                        </a>
-                                        <span >1 KG</span><br/>
+                                        </a><br/>
+                                        <span className="mt-1">1 KG</span><br/>
                                         <span className="price text-primary mb-4">
                                           $ 10.00
                                         </span>
@@ -763,8 +763,8 @@ export default function OurBestSellerSlider() {
                                           <span className="cardname">
                                             Organic Jam
                                           </span>
-                                        </a>
-                                        <span >150 G</span><br/>
+                                        </a><br/>
+                                        <span className="mt-1">150 G</span><br/>
                                         <span className="price text-primary mb-4">
                                           $ 10.00
                                         </span>
@@ -800,8 +800,8 @@ export default function OurBestSellerSlider() {
                                           <span className="cardname">
                                             Good Life Refined Sunflower Oil
                                           </span>
-                                        </a>
-                                        <span >1 L</span><br/>
+                                        </a><br/>
+                                        <span className="mt-1">1 L</span><br/>
                                         <span className="price text-primary mb-4">
                                           $ 10.00
                                         </span>
@@ -835,8 +835,8 @@ export default function OurBestSellerSlider() {
                                           <span className="cardname">
                                             Good Life Raw Peanuts
                                           </span>
-                                        </a>
-                                        <span >500 G</span><br/>
+                                        </a><br/>
+                                        <span className="mt-1">500 G</span><br/>
                                         <span className="price text-primary mb-4">
                                           $ 10.00
                                         </span>
@@ -870,8 +870,8 @@ export default function OurBestSellerSlider() {
                                           <span className="cardname">
                                             TufBest Farms Moong Dal
                                           </span>
-                                        </a>
-                                        <span >1 KG</span><br/>
+                                        </a><br/>
+                                        <span className="mt-1">1 KG</span><br/>
                                         <span className="price text-primary mb-4">
                                           $ 10.00
                                         </span>
@@ -904,8 +904,8 @@ export default function OurBestSellerSlider() {
                                           <span className="cardname">
                                             Frooti Mango Drink
                                           </span>
-                                        </a>
-                                        <span >160 ML</span><br/>
+                                        </a><br/>
+                                        <span className="mt-1">160 ML</span><br/>
                                         <span className="price text-primary mb-4">
                                           $ 10.00
                                         </span>

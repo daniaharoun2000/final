@@ -20,7 +20,7 @@ function Section3() {
             <div className=" align-items-center d-flex justify-content-center">
               <img
                 src="https://themes.pixelstrap.com/fastkart/assets/images/payment/1.png"
-             
+
                 alt=""
               />
             </div>
