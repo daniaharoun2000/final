@@ -1,5 +1,5 @@
-//Section 1 by Dania Haroun !!!
-//Footer
+///Section 3 from Footer by Dania Haroun !!!
+
 import Container from "../../../../components/Container";
 import {Row,Col} from "react-bootstrap";
 
@@ -12,7 +12,7 @@ function Section3() {
           <Col xs={4}>
             <div className="reserve">
               <h6 className="text-content">
-                ©2022 Fastkart All rights reserved
+                ©2022 Fastkart All Rights Reserved
               </h6>
             </div>
           </Col>

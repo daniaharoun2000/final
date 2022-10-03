@@ -1,21 +1,25 @@
 //LocationBar by Dania Haroun !!!
-//LocationBar in navbar
+//LocationBar in section 2 from header
 
 import React, { useState } from "react";
 import {Button,Badge,Form,Modal,InputGroup,ListGroup} from "react-bootstrap";
-import svgg from "../images/angledownicon.svg";
+import svgg from "../images/angledownicon.svg"; //this is angle down icon
 
-
+////start of LocationBar function///
 function LocationBar() {
-  const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  //I use these hooks to control the location modal (show & close)
+  const [show, setShow] = useState(false); //  show = false at the begining and it will change when I click in the location button
+  const handleClose = () => setShow(false); //to close modal
+  const handleShow = () => setShow(true); //to show modal
 
   return (
-    <div className="  text-white align-items-center locationbox p-1  ">
-      <Button onClick={handleShow} className="d-xl-none w-100 justify-content-center   " variant="badge">
-        <span className=" pg-gg ">
+    // here I used 2 buttons , each one of them work in specific d size , so the user will just see one of them according to display size
+   <div className="  text-white align-items-center locationbox p-1  ">
+       <Button onClick={handleShow} className="d-xl-none w-100 justify-content-center   " variant="badge">
+                {/* location svg (icon): */}
+
+<span className=" pg-gg ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="23"
@@ -31,13 +35,17 @@ function LocationBar() {
             <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
             <circle cx="12" cy="10" r="3"></circle>
           </svg>
-        </span>
+        </span> 
       </Button>
+
+
       <Button
         onClick={handleShow}
         className="d-none d-xl-block w-100  h-100 px-0 text-center"
         variant="badge"
       >
+                {/* location svg (icon): */}
+
         <span className=" py-2  pg-gg ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -63,6 +71,7 @@ function LocationBar() {
         </span>
       </Button>
 
+{/* start of Modal */}
       <Modal show={show} onHide={handleClose}  >
  
         <Modal.Header closeButton>
@@ -74,7 +83,8 @@ function LocationBar() {
             </span>
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body> 
+          {/* here in the Modal body I used a Form & Listgroup from bootstrap*/}
           <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <InputGroup className="mb-3">
@@ -97,13 +107,13 @@ function LocationBar() {
                 </InputGroup.Text>
                 <Form.Control
                   placeholder="Search Your Area"
-                  aria-describedby="basic-addon1"
+               
                 />
               </InputGroup>
             </Form.Group>
             <Form.Group
               className="mb-3"
-              controlId="exampleForm.ControlTextarea1"
+             
             >
               <Form.Label className="text-aa fw-normal fs-6">
                 Select a Location
@@ -122,7 +132,7 @@ function LocationBar() {
                   action
                   className="d-flex justify-content-between align-items-start"
                 >
-                  Arizona Min:
+                  Arizona 
                   <Badge bg="primary" pill>
                     Min: $150
                   </Badge>
@@ -160,10 +170,11 @@ function LocationBar() {
         </Modal.Body>
       
       </Modal>
+      {/* End of Modal  */}
     </div>
   );
 }
 
-export default LocationBar;
+export default LocationBar;//export the LocationBar function to use it when It needed
 
-///End of  (LocationBar)
+////End of the LocationBar function///

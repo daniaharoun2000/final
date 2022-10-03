@@ -1,5 +1,5 @@
-//Section 1 by Dania Haroun !!!
-//Footer
+//Section 1 from Footer by Dania Haroun !!!
+
 import Container from "../../../../components/Container";
 
 import {Row,Col} from "react-bootstrap";

@@ -1,19 +1,23 @@
 //SearchBar by Dania Haroun !!!
-//SearchBar LocationBar in navbar
+//SearchBar in section 2 from header
 
 import React, { useState } from "react";
 import {Button,Form,Modal,InputGroup} from "react-bootstrap";
 
+////start of SearchBar function///
 
 function SearchBar() {
-  const [Showsearch, setShowsearch] = useState(false);
+      //I use these hooks to control the Search modal (show & close)
 
-  const handleClose = () => setShowsearch(false);
-  const handleShow = () => setShowsearch(true);
+  const [Showsearch, setShowsearch] = useState(false);//  show = false at the begining and it will change when I click in the search icon
+  const handleClose = () => setShowsearch(false);//to close modal
+  const handleShow = () => setShowsearch(true);//to show modal
 
   return (
     <div >
+        {/* when you click on search svg(icon) , the modal will appeare */}
       <Button onClick={handleShow}  variant="badge" className="p-0 m-0">
+        {/* search svg (icon): */}
         <span className=" pg-gg ">
    
                       <svg
@@ -35,6 +39,7 @@ function SearchBar() {
         </span>
       </Button>
     
+{/* start of Modal */}
 
       <Modal show={Showsearch} onHide={handleClose}  >
  
@@ -53,6 +58,8 @@ function SearchBar() {
                         aria-describedby="basic-addon2"
                       />
                       <Button id="button-addon2" className="searchicon">
+                                {/* search svg (icon): */}
+
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -74,9 +81,12 @@ function SearchBar() {
         </Modal.Body>
       
       </Modal>
+      {/* End of Modal */}
+
     </div>
   );
 }
 
-export default SearchBar;
+export default SearchBar;//export the SearchBar function to use it when It needed
 
+////End of the SearchBar function///
