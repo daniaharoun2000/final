@@ -221,7 +221,7 @@ function Section3LeftPart() {
               </ul>
             </div></Col></Row>
         
-            <Row><Col xl={12}>   <div className="ratio_156 section-t-space">
+            <Row><Col xl={12}>   <div className="ratio_156 mt-5">
               <div className="home-contain  bg-size ">
                 <img
                   src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/8.jpg"
@@ -248,7 +248,7 @@ function Section3LeftPart() {
             </div></Col></Row>
 
          
-            <Row><Col xl={12}> <div className=" section-t-space">
+            <Row><Col xl={12}> <div className=" mt-5">
               <div className="home-contain ">
                 <img
                   src="https://themes.pixelstrap.com/fastkart/assets/images/vegetable/banner/11.jpg"
@@ -277,7 +277,7 @@ function Section3LeftPart() {
             </div></Col></Row>
 
            
-            <Row><Col xl={12}> <div className="section-t-space">
+            <Row><Col xl={12}> <div className="mt-5">
               <div className="category-menu ">
                 <h3>Treanding Products</h3>
 
@@ -300,7 +300,7 @@ function Section3LeftPart() {
                             </h6>
                           </a>
                           <span className="text-aa">450 G</span>
-                          <h6 className="price text-primary  lineundersection pb-1">
+                          <h6 className="price text-primary   pb-1">
                             $ 70.00
                           </h6>
                         </div>
@@ -326,7 +326,7 @@ function Section3LeftPart() {
                             </h6>
                           </a>
                           <span className="text-aa">450 G</span>
-                          <h6 className="price text-primary lineundersection pb-1">
+                          <h6 className="price text-primary  pb-1">
                             $ 40.00
                           </h6>
                         </div>
@@ -352,7 +352,7 @@ function Section3LeftPart() {
                             </h6>
                           </a>
                           <span className="text-aa">200 G</span>
-                          <h6 className="price text-primary lineundersection pb-1">
+                          <h6 className="price text-primary  pb-1">
                             $ 52.00
                           </h6>
                         </div>
@@ -378,7 +378,7 @@ function Section3LeftPart() {
                             </h6>
                           </a>
                           <span className="text-aa">1 KG</span>
-                          <h6 className="price text-primary lineundersection pb-1">
+                          <h6 className="price text-primary  pb-1">
                             $ 80.00
                           </h6>
                         </div>
@@ -390,7 +390,7 @@ function Section3LeftPart() {
             </div></Col></Row>
 
            
-<Row><Col xl={12}>   <div className="section-t-space">
+<Row><Col xl={12}>   <div className="mt-5">
               <div className="category-menu">
                 <h3>Customer Comment</h3>
 

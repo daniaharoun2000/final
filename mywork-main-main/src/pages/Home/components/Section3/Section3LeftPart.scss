@@ -38,9 +38,7 @@
         position: relative;
         border-radius: 10px;
     }
-    .section-t-space {
-        padding-top: calc(30px + (50 - 30) * ((100vw - 320px) / (1920 - 320)));
-    }
+   
   
   
     .category-menu {
@@ -48,15 +46,7 @@
         padding: calc(12px + (33 - 12) * ((100vw - 320px) / (1920 - 320)));
         border-radius: 5px;
     }
-    .ss {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        gap: 23px;
-        border-bottom: 1px dashed rgba(74,85,104,0.5);
-    }
+
     .category-menu ul li {
         display: block;
         width: 100%;

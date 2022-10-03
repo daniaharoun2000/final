@@ -54,7 +54,7 @@ function Section3() {
                       alt=""
                       className="section3lesicon me-2 me-2"
                     />
-                   <span className="sectuin3allcatogtext text-aa"> Vegetables & Fruit</span> 
+                   <span className="sectuin3allcatogtext "> Vegetables & Fruit</span> 
                   </Dropdown.Item>
                   <Dropdown.Item href="#/action-1">
                     <img
@@ -62,7 +62,7 @@ function Section3() {
                       alt=""
                       className="section3lesicon me-2"
                     />
-                      <span className="sectuin3allcatogtext text-aa">Beverages</span>  
+                      <span className="sectuin3allcatogtext ">Beverages</span>  
                    
                   </Dropdown.Item>
                   <Dropdown.Item href="#/action-1">
@@ -71,7 +71,7 @@ function Section3() {
                       alt=""
                       className="section3lesicon me-2"
                     />
-                      <span className="sectuin3allcatogtext text-aa">Meats &amp; Seafood</span>  
+                      <span className="sectuin3allcatogtext ">Meats &amp; Seafood</span>  
                    
                   </Dropdown.Item>
                                   </Dropdown.Menu>
